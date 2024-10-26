@@ -1,2 +1,7 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1,
+  "signals": [
+    {"id": "I3_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+  ]}
+]
 }
