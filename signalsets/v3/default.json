@@ -17,6 +17,12 @@
     {"id": "I3_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (maximum)"},
     {"id": "I3_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (minimum)"}
   ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "420C"}, "freq": 5,
+  "signals": [
+    {"id": "I3_RANGE_ECO",  "path": "Trips", "fmt": {           "len": 16, "max": 65535, "unit": "miles" }, "name": "Estimated range remaining in economy mode", "suggestedMetric": "electricRange"},
+    {"id": "I3_RANGE_COMF", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "miles" }, "name": "Estimated range remaining in comfort mode", "suggestedMetric": "electricRange"},
+    {"id": "I3_RANGE",      "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "miles" }, "name": "Estimated range remaining",                 "suggestedMetric": "electricRange"}
+  ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25,
   "signals": [
     {"id": "I3_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
