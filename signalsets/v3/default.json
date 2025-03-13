@@ -59,7 +59,7 @@
     {"id": "I3_HVBAT_CHG_CON_EXT",  "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Is charging",             "suggestedMetric": "isCharging"},
     {"id": "I3_HVBAT_CHG_RDY",      "path": "Battery", "fmt": {"bix": 40, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Ready to drive"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 30,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25,
   "signals": [
     {"id": "I3_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "I3_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
