@@ -22,6 +22,13 @@
     {"id": "I3_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (min)"},
     {"id": "I3_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (max)"}
   ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 0.25,
+  "signals": [
+    {"id": "I3_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "I3_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "I3_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "I3_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "420C"}, "freq": 5,
   "signals": [
     {"id": "I3_RANGE_ECO",  "path": "Trips", "fmt": {           "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated range remaining in economy mode", "suggestedMetric": "electricRange"},
