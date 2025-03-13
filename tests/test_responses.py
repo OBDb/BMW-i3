@@ -41,6 +41,12 @@ TEST_CASES = [
     "I3_HVBAT_CHG_CON_EXT": 0,
     "I3_HVBAT_CHG_RDY": 1,
     }),
+
+            # State of health
+            ("""
+607F110076263350000
+607F1210058FFFFFFFF
+""", {"I3_HVBAT_SOH": 88}),
         ],
     },
     {
