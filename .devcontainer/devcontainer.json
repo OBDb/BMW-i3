@@ -1,6 +1,6 @@
 {
     "name": "Python Development",
-    "image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
+    "image": "mcr.microsoft.com/devcontainers/python:3-slim",
     "customizations": {
         "vscode": {
             "extensions": [
