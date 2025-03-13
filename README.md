@@ -2,6 +2,10 @@
 
 This repository contains signal set configurations for the BMW i3, organized by model year and version. The files are structured to allow for easy differentiation between model generations and other vehicle parameters, ensuring accurate signal mapping for each version of the BMW i3.
 
+## References
+
+- [https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/tree/master/vehicle/OVMS.V3/components/vehicle_bmwi3)
+
 ## Generations
 
 The BMW i3 has had one generation with several updates throughout its production run:
