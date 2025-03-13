@@ -163,6 +163,27 @@ TEST_CASES = [
     "I3_CENTRAL_LOCK": 1,
     }),
 
+            # Ranges
+            ("""
+660F1100F62D111008C
+660F121067C0000FFFF
+660F12239E7006EFFFF
+""", {
+    "I3_RANGE_E_CUR": 14,
+    "I3_RANGE_E_MAX": 166,
+    "I3_RANGE_F_CUR": 0,
+    "I3_RANGE_F_MAX": 6553.5,
+    "I3_RANGE_E_USE": 14.823,
+    "I3_AUX_PWR": 1.1,
+    }),
+
+            # Ambient air temperature
+            ("660F10562D1125C5D", {"I3_AAT": 6}),
+            ("660F10562D1125D5E", {"I3_AAT": 6.5}),
+
+            # Gear
+            ("663F10562D0310100", {"I3_GEAR": 1}),
+            ("663F10562D0310200", {"I3_GEAR": 2}),
         ],
     },
     {
