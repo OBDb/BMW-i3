@@ -66,9 +66,16 @@
     {"id": "I3_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "I3_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "dbg": true, "cmd": {"22": "DCDD"}, "freq": 30,
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 30,
   "signals": [
-    {"id": "I3_DOORS", "path": "Doors", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Door status"}
+    {"id": "I3_DOOR_DRIVER",         "path": "Doors", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
+    {"id": "I3_DOOR_PASSENGER",      "path": "Doors", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},
+    {"id": "I3_DOOR_DRIVER_REAR",    "path": "Doors", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear driver door open"},
+    {"id": "I3_DOOR_PASSENGER_REAR", "path": "Doors", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear passenger door open"},
+    {"id": "I3_HOOD",                "path": "Doors", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Hood open"},
+    {"id": "I3_TRUNK",               "path": "Doors", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "scalar" }, "name": "Trunk open"},
+    {"id": "I3_REAR_WINDOW",         "path": "Doors", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear window open"},
+    {"id": "I3_CENTRAL_LOCK",        "path": "Doors", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Locked",                   "description": "Overall lock state of the vehicle"}
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "420C"}, "freq": 5,
   "signals": [

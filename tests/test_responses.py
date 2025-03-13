@@ -133,6 +133,36 @@ TEST_CASES = [
     "I3_RR_SPD": 57.85,
     }),
 
+            # Doors
+            ("""
+656F1100F62DCDD0000
+656F121000000000201
+656F12200000000FFFF
+""", {
+    "I3_DOOR_DRIVER": 0,
+    "I3_DOOR_PASSENGER": 0,
+    "I3_DOOR_DRIVER_REAR": 0,
+    "I3_DOOR_PASSENGER_REAR": 0,
+    "I3_HOOD": 0,
+    "I3_TRUNK": 0,
+    "I3_REAR_WINDOW": 2,
+    "I3_CENTRAL_LOCK": 1,
+    }),
+            ("""
+656F1100F62DCDD0100
+656F121000000000201
+656F12200000000FFFF
+""", {
+    "I3_DOOR_DRIVER": 1,
+    "I3_DOOR_PASSENGER": 0,
+    "I3_DOOR_DRIVER_REAR": 0,
+    "I3_DOOR_PASSENGER_REAR": 0,
+    "I3_HOOD": 0,
+    "I3_TRUNK": 0,
+    "I3_REAR_WINDOW": 2,
+    "I3_CENTRAL_LOCK": 1,
+    }),
+
         ],
     },
     {
