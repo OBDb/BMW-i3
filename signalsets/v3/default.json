@@ -26,6 +26,10 @@
   "signals": [
     {"id": "I3_HVBAT_CELLS", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV cell data"}
   ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DF71"}, "freq": 6400,
+  "signals": [
+    {"id": "I3_HVBAT_CELL_INFO", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV cell info"}
+  ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 0.25,
   "signals": [
     {"id": "I3_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
