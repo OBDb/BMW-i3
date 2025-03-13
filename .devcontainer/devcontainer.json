@@ -1,6 +1,6 @@
 {
     "name": "Python Development",
-    "image": "python:3-alpine",
+    "image": "mcr.microsoft.com/devcontainers/python:3",
     "customizations": {
         "vscode": {
             "extensions": [
