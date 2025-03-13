@@ -66,6 +66,17 @@ TEST_CASES = [
     "I3_HVBAT_CT_MIN": 11.95,
     "I3_HVBAT_CT_MAX": 14.94,
     }),
+
+            # Battery details
+            ("""
+607F1100862DF710060
+607F1210C0804FFFFFF
+""", {
+    "I3_HVBAT_C_CNT": 96,
+    "I3_HVBAT_C_CNT_MOD": 12,
+    "I3_HVBAT_MOD_CNT": 8,
+    "I3_HVBAT_MOD_T_CNT": 4,
+    }),
         ],
     },
     {
