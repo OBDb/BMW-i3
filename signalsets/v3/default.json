@@ -22,7 +22,7 @@
     {"id": "I3_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (min)"},
     {"id": "I3_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (max)"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DF71"}, "freq": 6400,
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DF71"}, "freq": 3600,
   "signals": [
     {"id": "I3_HVBAT_CELL_INFO", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV cell info"}
   ]},
@@ -32,9 +32,13 @@
   ]},
 { "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "dbg": true, "cmd": {"22": "DE00"}, "freq": 30,
   "signals": [
-    {"id": "I3_CHARGE_STATE", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charge state"}
+    {"id": "I3_HVBAT_HVPM_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge (hvpm)",  "description": "Battery level reading from the high voltage power module"},
+    {"id": "I3_HVBAT_HVPM_MIN_SOC", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 100, "div": 2,  "unit": "percent" }, "name": "Minimum state of charge"},
+    {"id": "I3_HVBAT_CHG_CON",      "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Is charger connected",    "suggestedMetric": "pluggedIn"},
+    {"id": "I3_HVBAT_CHG_CON_EXT",  "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Is charging",             "suggestedMetric": "isCharging"},
+    {"id": "I3_HVBAT_CHG_RDY",      "path": "Battery", "fmt": {"bix": 40, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Ready to drive"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 0.25,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 30,
   "signals": [
     {"id": "I3_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "I3_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
