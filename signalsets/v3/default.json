@@ -94,7 +94,12 @@
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D111"}, "freq": 30,
   "signals": [
-    {"id": "I3_RANGE_DATA", "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Range data"}
+    {"id": "I3_RANGE_E_CUR",  "path": "Trips", "fmt": {           "len": 16, "max": 6553.5, "div": 10,                    "unit": "kilometers"            }, "name": "Current electric range",      "suggestedMetric": "electricRange",        "description": "Current estimated electric range"},
+    {"id": "I3_RANGE_E_MAX",  "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553.5, "div": 10,                    "unit": "kilometers"            }, "name": "Maximum electric range"},
+    {"id": "I3_RANGE_F_CUR",  "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 6553.5, "div": 10,   "nullmax": 6553, "unit": "kilometers"            }, "name": "Current fuel range",          "description": "Requires range extender."},
+    {"id": "I3_RANGE_F_MAX",  "path": "Trips", "fmt": {"bix": 48, "len": 16, "max": 6553.5, "div": 10,   "nullmax": 6553, "unit": "kilometers"            }, "name": "Maximum fuel range",          "description": "Requires range extender."},
+    {"id": "I3_RANGE_E_CONS", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65.535, "div": 1000, "nullmax": 65,   "unit": "kilowattHoursPer100km" }, "name": "Electric consumption"},
+    {"id": "I3_AUX_PWR",      "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 655.35, "div": 100,  "nullmax": 655,  "unit": "kilowatts"             }, "name": "Auxiliary power consumption"}
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D112"}, "freq": 30,
   "signals": [
