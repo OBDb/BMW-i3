@@ -12,6 +12,38 @@ REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
     {
+        "model_year": 2018,
+        "tests": [
+            # Charger state
+            ("""
+61AF1101C62DE0000B8
+61AF121160000000000
+61AF122000A2407D005
+61AF12300000000000D
+61AF1244B001A050EFF
+""", {
+    "I3_HVBAT_HVPM_SOC": 18.4,
+    "I3_HVBAT_HVPM_MIN_SOC": 11,
+    "I3_HVBAT_CHG_CON": 0,
+    "I3_HVBAT_CHG_CON_EXT": 0,
+    "I3_HVBAT_CHG_RDY": 0,
+    }),
+            ("""
+61AF1101C62DE0000C5
+61AF121160000010100
+61AF1225E0A2B07D005
+61AF123D2012A00120D
+61AF1242E018F05D2FF
+""", {
+    "I3_HVBAT_HVPM_SOC": 19.7,
+    "I3_HVBAT_HVPM_MIN_SOC": 11,
+    "I3_HVBAT_CHG_CON": 0,
+    "I3_HVBAT_CHG_CON_EXT": 0,
+    "I3_HVBAT_CHG_RDY": 1,
+    }),
+        ],
+    },
+    {
         "model_year": 2019,
         "tests": [
             # Range remaining
