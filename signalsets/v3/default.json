@@ -17,6 +17,11 @@
     {"id": "I3_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (maximum)"},
     {"id": "I3_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (minimum)"}
   ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DDC0"}, "freq": 30,
+  "signals": [
+    {"id": "I3_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (min)"},
+    {"id": "I3_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (max)"}
+  ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "420C"}, "freq": 5,
   "signals": [
     {"id": "I3_RANGE_ECO",  "path": "Trips", "fmt": {           "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated range remaining in economy mode", "suggestedMetric": "electricRange"},
