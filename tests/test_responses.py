@@ -4,36 +4,51 @@ import pytest
 from pathlib import Path
 from typing import Dict, Any
 
-# These will be imported from the schemas repository
 from schemas.python.can_frame import CANIDFormat
 from schemas.python.json_formatter import format_file
-from schemas.python.signals_testing import obd_testrunner
+from schemas.python.signals_testing import obd_testrunner_by_year
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
-    # TODO: Implement real tests below with vehicle data.
-    # 2019 model year
     {
-        "model_year": "2019",
-        "signalset": "default.json",
+        "model_year": 2019,
         "tests": [
-            # # Tire pressures
-            # ("72E05622813028C", {"F150_TP_FL": 32.6}),
-            # ("72E056228140273", {"F150_TP_FR": 31.35}),
-            # ("72E056228150291", {"F150_TP_RRO": 32.85}),
-            # ("72E05622816026E", {"F150_TP_RLO": 31.1}),
-            # ("72E056228170000", {"F150_TP_RRI": 0.0}),
-            # ("72E056228180000", {"F150_TP_RLI": 0.0}),
+            # Range remaining
+            ("""
+660F1100B62420C00B8
+660F121008B00B200C4
+""", {
+    "I3_RANGE": 178,
+    "I3_RANGE_ECO": 184,
+    "I3_RANGE_COMF": 139,
+    }),
+
+            # Odometer
+            ("""
+660F1100B62D10D0002
+660F1218A1200028A12
+""", {
+    "I3_ODO1": 166418.0,
+    "I3_ODO2": 166418.0,
+    }),
+
+            # Speed
+            ("660F10562D1070000", {"I3_VSS": 0}),
+            ("660F10562D1070123", {"I3_VSS": 29.1}),
+
+            # State of charge
+            ("""
+607F1100962DDBC0372
+607F121036D006EFFFF
+""", {
+    "I3_HVBAT_SOC": 88.2,
+    "I3_HVBAT_SOC_MAX": 87.7,
+    "I3_HVBAT_SOC_MIN": 11,
+    }),
         ]
     },
 ]
-
-def load_signalset(filename: str) -> str:
-    """Load a signalset JSON file from the standard location."""
-    signalset_path = REPO_ROOT / "signalsets" / "v3" / filename
-    with open(signalset_path) as f:
-        return f.read()
 
 @pytest.mark.parametrize(
     "test_group",
@@ -42,22 +57,20 @@ def load_signalset(filename: str) -> str:
 )
 def test_signals(test_group: Dict[str, Any]):
     """Test signal decoding against known responses."""
-    signalset_json = load_signalset(test_group["signalset"])
-
     # Run each test case in the group
     for response_hex, expected_values in test_group["tests"]:
         try:
-            obd_testrunner(
-                signalset_json,
+            obd_testrunner_by_year(
+                test_group['model_year'],
                 response_hex,
                 expected_values,
-                can_id_format=CANIDFormat.ELEVEN_BIT
+                can_id_format=CANIDFormat.ELEVEN_BIT,
+                extended_addressing_enabled=True
             )
         except Exception as e:
             pytest.fail(
                 f"Failed on response {response_hex} "
-                f"(Model Year: {test_group['model_year']}, "
-                f"Signalset: {test_group['signalset']}): {e}"
+                f"(Model Year: {test_group['model_year']}: {e}"
             )
 
 def get_json_files():
