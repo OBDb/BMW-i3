@@ -47,6 +47,10 @@ TEST_CASES = [
 607F110076263350000
 607F1210058FFFFFFFF
 """, {"I3_HVBAT_SOH": 88}),
+
+            # Battery voltage
+            ("607F10562DD688004", {"I3_HVBAT_V": 327.72}),
+            ("607F10562DD688624", {"I3_HVBAT_V": 343.4}),
         ],
     },
     {
