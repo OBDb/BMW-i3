@@ -30,12 +30,20 @@
   "signals": [
     {"id": "I3_HVBAT_CELLS", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV cell data"}
   ]},
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "dbg": true, "cmd": {"22": "DE00"}, "freq": 30,
+  "signals": [
+    {"id": "I3_CHARGE_STATE", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charge state"}
+  ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DBE4"}, "freq": 0.25,
   "signals": [
     {"id": "I3_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "I3_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "I3_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "I3_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "dbg": true, "cmd": {"22": "DCDD"}, "freq": 30,
+  "signals": [
+    {"id": "I3_DOORS", "path": "Doors", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Door status"}
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "420C"}, "freq": 5,
   "signals": [
@@ -59,6 +67,10 @@
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D112"}, "freq": 30,
   "signals": [
     {"id": "I3_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "dbg": true, "cmd": {"22": "D031"}, "freq": 30,
+  "signals": [
+    {"id": "I3_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]}
 ]
 }
