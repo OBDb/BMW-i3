@@ -171,10 +171,10 @@ TEST_CASES = [
 """, {
     "I3_RANGE_E_CUR": 14,
     "I3_RANGE_E_MAX": 166,
-    "I3_RANGE_F_CUR": 6553.5,
-    "I3_RANGE_F_MAX": 0,
-    "I3_RANGE_E_USE": 0,
-    "I3_AUX_PWR": 0,
+    "I3_RANGE_F_CUR": 0,
+    "I3_RANGE_F_MAX": 6553.5,
+    "I3_RANGE_E_USE": 14.823,
+    "I3_AUX_PWR": 1.1,
     }),
 
             # Ambient air temperature
