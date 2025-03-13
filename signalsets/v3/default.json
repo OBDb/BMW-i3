@@ -29,9 +29,27 @@
     {"id": "I3_HVBAT_MOD_CNT",   "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of modules"},
     {"id": "I3_HVBAT_MOD_T_CNT", "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of temperature sensors per module"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DFA0"}, "freq": 30,
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DFA0"}, "freq": 1,
   "signals": [
-    {"id": "I3_HVBAT_CELLS", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV cell data"}
+    {"id": "I3_HVBAT_C_CAP_MIN",        "path": "Battery", "fmt": {            "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity (min)"},
+    {"id": "I3_HVBAT_C_CAP_MAX",        "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity (max)"},
+    {"id": "I3_HVBAT_C_CAP_AVG",        "path": "Battery", "fmt": {"bix": 32,  "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity (average)"},
+    {"id": "I3_HVBAT_C_V_MIN",          "path": "Battery", "fmt": {"bix": 48,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage (min))"},
+    {"id": "I3_HVBAT_C_V_MAX",          "path": "Battery", "fmt": {"bix": 64,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage (max)"},
+    {"id": "I3_HVBAT_C_V_AVG",          "path": "Battery", "fmt": {"bix": 80,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage (avg)"},
+    {"id": "I3_HVBAT_C_TEMP_MIN",       "path": "Battery", "fmt": {"bix": 96,  "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature (min)"},
+    {"id": "I3_HVBAT_C_TEMP_MAX",       "path": "Battery", "fmt": {"bix": 112, "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature (max)"},
+    {"id": "I3_HVBAT_C_TEMP_AVG",       "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature (avg)"},
+    {"id": "I3_HVBAT_C_RES_FACTOR_MIN", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor (min)"},
+    {"id": "I3_HVBAT_C_RES_FACTOR_MAX", "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor (max)"},
+    {"id": "I3_HVBAT_C_RES_FACTOR_AVG", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor (avg)"},
+    {"id": "I3_HVBAT_C_SOC_MIN",        "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell SoC (min)"},
+    {"id": "I3_HVBAT_C_SOC_MAX",        "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell SoC (max)"},
+    {"id": "I3_HVBAT_C_SOC_AVG",        "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell SoC (avg)"},
+    {"id": "I3_HVBAT_C_OCV_MIN",        "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (min)"},
+    {"id": "I3_HVBAT_C_OCV_MAX",        "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (max)"},
+    {"id": "I3_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (avg)"},
+    {"id": "I3_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
   ]},
 { "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DE00"}, "freq": 5,
   "signals": [
