@@ -57,6 +57,15 @@ TEST_CASES = [
 607F1100762DD69FFFF
 607F121F632FFFFFFFF
 """, {"I3_HVBAT_C": -25.1}),
+
+            # Battery temperature
+            ("""
+607F1100962DDC004AB
+607F12105D6054AFFFF
+""", {
+    "I3_HVBAT_CT_MIN": 11.95,
+    "I3_HVBAT_CT_MAX": 14.94,
+    }),
         ],
     },
     {
