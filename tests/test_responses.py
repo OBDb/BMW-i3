@@ -46,6 +46,12 @@ TEST_CASES = [
     "I3_HVBAT_SOC_MAX": 87.7,
     "I3_HVBAT_SOC_MIN": 11,
     }),
+
+            # State of health
+            ("""
+607F110076263350000
+607F1210059FFFFFFFF
+""", {"I3_HVBAT_SOH": 89}),
         ]
     },
 ]
