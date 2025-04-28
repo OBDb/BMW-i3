@@ -1,0 +1,15 @@
+command_id: 6F1.607.226335
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: |-
+    607F1037F2278
+    607F110076263350000
+    607F1210058FFFFFFFF
+  expected_values:
+    I3_HVBAT_SOH: 88
+- response: |-
+    607F110076263350000
+    607F1210058FFFFFFFF
+  expected_values:
+    I3_HVBAT_SOH: 88

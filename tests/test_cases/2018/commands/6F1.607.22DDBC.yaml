@@ -1,0 +1,19 @@
+command_id: 6F1.607.22DDBC
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: |-
+    607F1037F2278
+    607F1100962DDBC01E4
+    607F1210366006EFFFF
+  expected_values:
+    I3_HVBAT_SOC: 48.4
+    I3_HVBAT_SOC_MAX: 87
+    I3_HVBAT_SOC_MIN: 11
+- response: |-
+    607F1100962DDBC020B
+    607F1210364006EFFFF
+  expected_values:
+    I3_HVBAT_SOC: 52.3
+    I3_HVBAT_SOC_MAX: 86.8
+    I3_HVBAT_SOC_MIN: 11
