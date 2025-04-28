@@ -1,0 +1,595 @@
+command_id: 6F1.660.22D107
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: "660 F1 05 62 D1 07 03 E4 \nSTOPPED"
+  expected_values:
+    I3_VSS: 99.6
+- response: |-
+    660F10562D1070000
+    STOPPED
+  expected_values:
+    I3_VSS: 0
+- response: |-
+    660F10562D1070001
+    STOPPED
+  expected_values:
+    I3_VSS: 0.1
+- response: |-
+    660F10562D1070047
+    STOPPED
+  expected_values:
+    I3_VSS: 7.1
+- response: |-
+    660F10562D107006E
+    STOPPED
+  expected_values:
+    I3_VSS: 11
+- response: |-
+    660F10562D1070084
+    STOPPED
+  expected_values:
+    I3_VSS: 13.2
+- response: |-
+    660F10562D10700D1
+    STOPPED
+  expected_values:
+    I3_VSS: 20.9
+- response: |-
+    660F10562D10700FD
+    STOPPED
+  expected_values:
+    I3_VSS: 25.3
+- response: |-
+    660F10562D107011B
+    STOPPED
+  expected_values:
+    I3_VSS: 28.3
+- response: |-
+    660F10562D107012F
+    STOPPED
+  expected_values:
+    I3_VSS: 30.3
+- response: |-
+    660F10562D1070154
+    STOPPED
+  expected_values:
+    I3_VSS: 34
+- response: |-
+    660F10562D107015A
+    STOPPED
+  expected_values:
+    I3_VSS: 34.6
+- response: |-
+    660F10562D1070175
+    STOPPED
+  expected_values:
+    I3_VSS: 37.3
+- response: |-
+    660F10562D1070180
+    STOPPED
+  expected_values:
+    I3_VSS: 38.4
+- response: |-
+    660F10562D1070186
+    STOPPED
+  expected_values:
+    I3_VSS: 39
+- response: |-
+    660F10562D107018C
+    STOPPED
+  expected_values:
+    I3_VSS: 39.6
+- response: |-
+    660F10562D10701AA
+    STOPPED
+  expected_values:
+    I3_VSS: 42.6
+- response: |-
+    660F10562D10702BC
+    STOPPED
+  expected_values:
+    I3_VSS: 70
+- response: |-
+    660F10562D10702CC
+    STOPPED
+  expected_values:
+    I3_VSS: 71.6
+- response: |-
+    660F10562D10702EE
+    STOPPED
+  expected_values:
+    I3_VSS: 75
+- response: |-
+    660F10562D10702FE
+    STOPPED
+  expected_values:
+    I3_VSS: 76.6
+- response: |-
+    660F10562D10702FF
+    STOPPED
+  expected_values:
+    I3_VSS: 76.7
+- response: |-
+    660F10562D1070307
+    STOPPED
+  expected_values:
+    I3_VSS: 77.5
+- response: |-
+    660F10562D1070308
+    STOPPED
+  expected_values:
+    I3_VSS: 77.6
+- response: |-
+    660F10562D107030A
+    STOPPED
+  expected_values:
+    I3_VSS: 77.8
+- response: |-
+    660F10562D1070314
+    STOPPED
+  expected_values:
+    I3_VSS: 78.8
+- response: |-
+    660F10562D1070321
+    STOPPED
+  expected_values:
+    I3_VSS: 80.1
+- response: |-
+    660F10562D1070322
+    STOPPED
+  expected_values:
+    I3_VSS: 80.2
+- response: |-
+    660F10562D107032F
+    STOPPED
+  expected_values:
+    I3_VSS: 81.5
+- response: |-
+    660F10562D1070332
+    STOPPED
+  expected_values:
+    I3_VSS: 81.8
+- response: |-
+    660F10562D107033E
+    STOPPED
+  expected_values:
+    I3_VSS: 83
+- response: |-
+    660F10562D1070352
+    STOPPED
+  expected_values:
+    I3_VSS: 85
+- response: |-
+    660F10562D1070357
+    STOPPED
+  expected_values:
+    I3_VSS: 85.5
+- response: 660F10562D107035A
+  expected_values:
+    I3_VSS: 85.8
+- response: |-
+    660F10562D107035C
+    STOPPED
+  expected_values:
+    I3_VSS: 86
+- response: |-
+    660F10562D1070367
+    STOPPED
+  expected_values:
+    I3_VSS: 87.1
+- response: |-
+    660F10562D107036E
+    STOPPED
+  expected_values:
+    I3_VSS: 87.8
+- response: |-
+    660F10562D1070371
+    STOPPED
+  expected_values:
+    I3_VSS: 88.1
+- response: |-
+    660F10562D1070372
+    STOPPED
+  expected_values:
+    I3_VSS: 88.2
+- response: |-
+    660F10562D1070373
+    STOPPED
+  expected_values:
+    I3_VSS: 88.3
+- response: |-
+    660F10562D1070378
+    STOPPED
+  expected_values:
+    I3_VSS: 88.8
+- response: |-
+    660F10562D107037A
+    STOPPED
+  expected_values:
+    I3_VSS: 89
+- response: |-
+    660F10562D107037B
+    STOPPED
+  expected_values:
+    I3_VSS: 89.1
+- response: |-
+    660F10562D107037C
+    STOPPED
+  expected_values:
+    I3_VSS: 89.2
+- response: |-
+    660F10562D107037F
+    STOPPED
+  expected_values:
+    I3_VSS: 89.5
+- response: |-
+    660F10562D1070383
+    STOPPED
+  expected_values:
+    I3_VSS: 89.9
+- response: |-
+    660F10562D1070384
+    STOPPED
+  expected_values:
+    I3_VSS: 90
+- response: |-
+    660F10562D1070390
+    STOPPED
+  expected_values:
+    I3_VSS: 91.2
+- response: |-
+    660F10562D1070396
+    STOPPED
+  expected_values:
+    I3_VSS: 91.8
+- response: |-
+    660F10562D1070398
+    STOPPED
+  expected_values:
+    I3_VSS: 92
+- response: |-
+    660F10562D1070399
+    STOPPED
+  expected_values:
+    I3_VSS: 92.1
+- response: |-
+    660F10562D107039F
+    STOPPED
+  expected_values:
+    I3_VSS: 92.7
+- response: |-
+    660F10562D10703A0
+    STOPPED
+  expected_values:
+    I3_VSS: 92.8
+- response: |-
+    660F10562D10703A1
+    STOPPED
+  expected_values:
+    I3_VSS: 92.9
+- response: |-
+    660F10562D10703A6
+    STOPPED
+  expected_values:
+    I3_VSS: 93.4
+- response: |-
+    660F10562D10703A7
+    STOPPED
+  expected_values:
+    I3_VSS: 93.5
+- response: |-
+    660F10562D10703A8
+    STOPPED
+  expected_values:
+    I3_VSS: 93.6
+- response: |-
+    660F10562D10703AB
+    STOPPED
+  expected_values:
+    I3_VSS: 93.9
+- response: |-
+    660F10562D10703AD
+    STOPPED
+  expected_values:
+    I3_VSS: 94.1
+- response: |-
+    660F10562D10703AE
+    STOPPED
+  expected_values:
+    I3_VSS: 94.2
+- response: |-
+    660F10562D10703B1
+    STOPPED
+  expected_values:
+    I3_VSS: 94.5
+- response: |-
+    660F10562D10703B9
+    STOPPED
+  expected_values:
+    I3_VSS: 95.3
+- response: |-
+    660F10562D10703BE
+    STOPPED
+  expected_values:
+    I3_VSS: 95.8
+- response: |-
+    660F10562D10703C1
+    STOPPED
+  expected_values:
+    I3_VSS: 96.1
+- response: |-
+    660F10562D10703C6
+    STOPPED
+  expected_values:
+    I3_VSS: 96.6
+- response: |-
+    660F10562D10703DE
+    STOPPED
+  expected_values:
+    I3_VSS: 99
+- response: |-
+    660F10562D10703DF
+    STOPPED
+  expected_values:
+    I3_VSS: 99.1
+- response: |-
+    660F10562D10703E1
+    STOPPED
+  expected_values:
+    I3_VSS: 99.3
+- response: |-
+    660F10562D10703E2
+    STOPPED
+  expected_values:
+    I3_VSS: 99.4
+- response: |-
+    660F10562D10703E3
+    STOPPED
+  expected_values:
+    I3_VSS: 99.5
+- response: |-
+    660F10562D10703E7
+    STOPPED
+  expected_values:
+    I3_VSS: 99.9
+- response: |-
+    660F10562D10703E8
+    STOPPED
+  expected_values:
+    I3_VSS: 100
+- response: |-
+    660F10562D10703E9
+    STOPPED
+  expected_values:
+    I3_VSS: 100.1
+- response: |-
+    660F10562D10703EA
+    STOPPED
+  expected_values:
+    I3_VSS: 100.2
+- response: |-
+    660F10562D107040D
+    STOPPED
+  expected_values:
+    I3_VSS: 103.7
+- response: |-
+    660F10562D107041F
+    STOPPED
+  expected_values:
+    I3_VSS: 105.5
+- response: |-
+    660F10562D107042E
+    STOPPED
+  expected_values:
+    I3_VSS: 107
+- response: |-
+    660F10562D1070433
+    STOPPED
+  expected_values:
+    I3_VSS: 107.5
+- response: |-
+    660F10562D107043B
+    STOPPED
+  expected_values:
+    I3_VSS: 108.3
+- response: |-
+    660F10562D107043F
+    STOPPED
+  expected_values:
+    I3_VSS: 108.7
+- response: |-
+    660F10562D1070440
+    STOPPED
+  expected_values:
+    I3_VSS: 108.8
+- response: |-
+    660F10562D1070445
+    STOPPED
+  expected_values:
+    I3_VSS: 109.3
+- response: |-
+    660F10562D1070446
+    STOPPED
+  expected_values:
+    I3_VSS: 109.4
+- response: |-
+    660F10562D107044A
+    STOPPED
+  expected_values:
+    I3_VSS: 109.8
+- response: |-
+    660F10562D1070451
+    STOPPED
+  expected_values:
+    I3_VSS: 110.5
+- response: |-
+    660F10562D1070458
+    STOPPED
+  expected_values:
+    I3_VSS: 111.2
+- response: |-
+    660F10562D107045C
+    STOPPED
+  expected_values:
+    I3_VSS: 111.6
+- response: |-
+    660F10562D107045D
+    STOPPED
+  expected_values:
+    I3_VSS: 111.7
+- response: |-
+    660F10562D107045E
+    STOPPED
+  expected_values:
+    I3_VSS: 111.8
+- response: |-
+    660F10562D107045F
+    STOPPED
+  expected_values:
+    I3_VSS: 111.9
+- response: |-
+    660F10562D107046F
+    STOPPED
+  expected_values:
+    I3_VSS: 113.5
+- response: |-
+    660F10562D1070482
+    STOPPED
+  expected_values:
+    I3_VSS: 115.4
+- response: |-
+    660F10562D1070489
+    STOPPED
+  expected_values:
+    I3_VSS: 116.1
+- response: |-
+    660F10562D10704BC
+    STOPPED
+  expected_values:
+    I3_VSS: 121.2
+- response: |-
+    660F10562D10704C0
+    STOPPED
+  expected_values:
+    I3_VSS: 121.6
+- response: |-
+    660F10562D10704C2
+    STOPPED
+  expected_values:
+    I3_VSS: 121.8
+- response: |-
+    660F10562D10704C3
+    STOPPED
+  expected_values:
+    I3_VSS: 121.9
+- response: |-
+    660F10562D10704C4
+    STOPPED
+  expected_values:
+    I3_VSS: 122
+- response: |-
+    660F10562D10704C7
+    STOPPED
+  expected_values:
+    I3_VSS: 122.3
+- response: |-
+    660F10562D10704CD
+    STOPPED
+  expected_values:
+    I3_VSS: 122.9
+- response: |-
+    660F10562D10704CE
+    STOPPED
+  expected_values:
+    I3_VSS: 123
+- response: |-
+    660F10562D10704D0
+    STOPPED
+  expected_values:
+    I3_VSS: 123.2
+- response: |-
+    660F10562D10704D3
+    STOPPED
+  expected_values:
+    I3_VSS: 123.5
+- response: |-
+    660F10562D10704D6
+    STOPPED
+  expected_values:
+    I3_VSS: 123.8
+- response: |-
+    660F10562D10704E1
+    STOPPED
+  expected_values:
+    I3_VSS: 124.9
+- response: |-
+    660F10562D10704E3
+    STOPPED
+  expected_values:
+    I3_VSS: 125.1
+- response: |-
+    660F10562D10704F2
+    STOPPED
+  expected_values:
+    I3_VSS: 126.6
+- response: |-
+    660F10562D10704F3
+    STOPPED
+  expected_values:
+    I3_VSS: 126.7
+- response: |-
+    660F10562D1070501
+    STOPPED
+  expected_values:
+    I3_VSS: 128.1
+- response: |-
+    660F10562D1070502
+    STOPPED
+  expected_values:
+    I3_VSS: 128.2
+- response: |-
+    660F10562D1070503
+    STOPPED
+  expected_values:
+    I3_VSS: 128.3
+- response: |-
+    660F10562D1070504
+    STOPPED
+  expected_values:
+    I3_VSS: 128.4
+- response: |-
+    660F10562D107050C
+    STOPPED
+  expected_values:
+    I3_VSS: 129.2
+- response: |-
+    660F10562D1070510
+    STOPPED
+  expected_values:
+    I3_VSS: 129.6
+- response: |-
+    660F10562D1070512
+    STOPPED
+  expected_values:
+    I3_VSS: 129.8
+- response: |-
+    660F10562D107052C
+    STOPPED
+  expected_values:
+    I3_VSS: 132.4
+- response: |-
+    660F10562D107053D
+    STOPPED
+  expected_values:
+    I3_VSS: 134.1
+- response: |-
+    660F10562D107057E
+    STOPPED
+  expected_values:
+    I3_VSS: 140.6
+- response: |-
+    660F10562D10705A0
+    STOPPED
+  expected_values:
+    I3_VSS: 144
