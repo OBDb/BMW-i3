@@ -22983,9 +22983,6 @@ test_cases:
 - response: 607F10562DD688DCC
   expected_values:
     I3_HVBAT_V: 363
-- response: 607F10562DD688DCC
-  expected_values:
-    I3_HVBAT_V: 363
 - response: 607F10562DD688DD0
   expected_values:
     I3_HVBAT_V: 363.04
