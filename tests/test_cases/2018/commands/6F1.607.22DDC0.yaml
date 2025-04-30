@@ -11776,6 +11776,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 16.99
 - response: |-
     607F1037F2278
+    607F1100962DDC006A3
+    607F12107CF077CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.99
+    I3_HVBAT_CT_MIN: 16.99
+- response: |-
+    607F1037F2278
     607F1100962DDC006A4
     607F12106FE06AAFFFF
   expected_values:
@@ -12246,6 +12253,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC006A4
+    607F12107CF077DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.99
+    I3_HVBAT_CT_MIN: 17
+- response: |-
+    607F1037F2278
+    607F1100962DDC006A4
     607F12107D0074DFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20
@@ -12603,6 +12617,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC006A7
+    607F12107D20780FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.02
+    I3_HVBAT_CT_MIN: 17.03
+- response: |-
+    607F1037F2278
+    607F1100962DDC006A7
     607F12107D3074AFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.03
@@ -12756,6 +12777,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.06
 - response: |-
     607F1037F2278
+    607F1100962DDC006AA
+    607F12107CE077EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.98
+    I3_HVBAT_CT_MIN: 17.06
+- response: |-
+    607F1037F2278
     607F1100962DDC006AB
     607F121070F06DCFFFF
   expected_values:
@@ -12883,6 +12911,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC006AD
+    607F12107D8075AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.08
+    I3_HVBAT_CT_MIN: 17.09
+- response: |-
+    607F1037F2278
+    607F1100962DDC006AD
     607F12107DA0794FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.1
@@ -12952,6 +12987,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.12
 - response: |-
     607F1037F2278
+    607F1100962DDC006B0
+    607F12107DC0765FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.12
+    I3_HVBAT_CT_MIN: 17.12
+- response: |-
+    607F1037F2278
     607F1100962DDC006B1
     607F12107080702FFFF
   expected_values:
@@ -12991,6 +13033,13 @@ test_cases:
     607F12107AD0743FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 19.65
+    I3_HVBAT_CT_MIN: 17.14
+- response: |-
+    607F1037F2278
+    607F1100962DDC006B2
+    607F12107CE077EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.98
     I3_HVBAT_CT_MIN: 17.14
 - response: |-
     607F1037F2278
@@ -13141,6 +13190,20 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.35
 - response: |-
     607F1037F2278
+    607F1100962DDC006C8
+    607F12107D20785FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.02
+    I3_HVBAT_CT_MIN: 17.36
+- response: |-
+    607F1037F2278
+    607F1100962DDC006C9
+    607F12107CB077FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.95
+    I3_HVBAT_CT_MIN: 17.37
+- response: |-
+    607F1037F2278
     607F1100962DDC006CD
     607F12107680726FFFF
   expected_values:
@@ -13260,6 +13323,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.67
 - response: |-
     607F1037F2278
+    607F1100962DDC006E7
+    607F12107CB0783FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.95
+    I3_HVBAT_CT_MIN: 17.67
+- response: |-
+    607F1037F2278
     607F1100962DDC006E9
     607F121076A0730FFFF
   expected_values:
@@ -13288,6 +13358,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.7
 - response: |-
     607F1037F2278
+    607F1100962DDC006EB
+    607F12107D5078EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.05
+    I3_HVBAT_CT_MIN: 17.71
+- response: |-
+    607F1037F2278
     607F1100962DDC006EC
     607F12107DC0760FFFF
   expected_values:
@@ -13311,6 +13388,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC006EE
     607F12107D20773FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.02
+    I3_HVBAT_CT_MIN: 17.74
+- response: |-
+    607F1037F2278
+    607F1100962DDC006EE
+    607F12107D2078AFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.02
     I3_HVBAT_CT_MIN: 17.74
@@ -13355,6 +13439,13 @@ test_cases:
     607F121076A0732FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 18.98
+    I3_HVBAT_CT_MIN: 17.8
+- response: |-
+    607F1037F2278
+    607F1100962DDC006F4
+    607F121081107A1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.65
     I3_HVBAT_CT_MIN: 17.8
 - response: |-
     607F1037F2278
@@ -13513,6 +13604,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00701
+    607F12107CF078CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.99
+    I3_HVBAT_CT_MIN: 17.93
+- response: |-
+    607F1037F2278
+    607F1100962DDC00701
     607F12107D3077FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.03
@@ -13587,6 +13685,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 20.94
     I3_HVBAT_CT_MIN: 17.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00703
+    607F12107CD078AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.97
+    I3_HVBAT_CT_MIN: 17.95
 - response: |-
     607F1037F2278
     607F1100962DDC00703
@@ -13834,6 +13939,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.97
 - response: |-
     607F1037F2278
+    607F1100962DDC00705
+    607F121083107A5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.97
+    I3_HVBAT_CT_MIN: 17.97
+- response: |-
+    607F1037F2278
     607F1100962DDC00706
     607F121076A0727FFFF
   expected_values:
@@ -13989,6 +14101,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00706
+    607F12107CF078BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.99
+    I3_HVBAT_CT_MIN: 17.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00706
     607F12107D3077BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.03
@@ -14018,6 +14137,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00706
     607F121083107A3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.97
+    I3_HVBAT_CT_MIN: 17.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00706
+    607F121083107A5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.97
     I3_HVBAT_CT_MIN: 17.98
@@ -14368,6 +14494,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00707
     607F121083307A4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.99
+    I3_HVBAT_CT_MIN: 17.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00707
+    607F121083307A9FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.99
     I3_HVBAT_CT_MIN: 17.99
@@ -14808,6 +14941,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00709
+    607F121082707AAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.87
+    I3_HVBAT_CT_MIN: 18.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00709
     607F121082F07B5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.95
@@ -14935,6 +15075,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC0070A
     607F12107D2078AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.02
+    I3_HVBAT_CT_MIN: 18.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC0070A
+    607F12107D2078EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.02
     I3_HVBAT_CT_MIN: 18.02
@@ -15378,6 +15525,13 @@ test_cases:
     607F12107D7078CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.07
+    I3_HVBAT_CT_MIN: 18.07
+- response: |-
+    607F1037F2278
+    607F1100962DDC0070F
+    607F121080907A1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.57
     I3_HVBAT_CT_MIN: 18.07
 - response: |-
     607F1037F2278
@@ -16186,6 +16340,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 18.87
 - response: |-
     607F1037F2278
+    607F1100962DDC0075F
+    607F121087307F8FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.63
+    I3_HVBAT_CT_MIN: 18.87
+- response: |-
+    607F1037F2278
     607F1100962DDC00760
     607F121078C076DFFFF
   expected_values:
@@ -16391,6 +16552,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00765
     607F121089107E5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.93
+    I3_HVBAT_CT_MIN: 18.93
+- response: |-
+    607F1037F2278
+    607F1100962DDC00765
+    607F12108910800FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 21.93
     I3_HVBAT_CT_MIN: 18.93
@@ -17629,6 +17797,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC0076B
+    607F121085607F9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.34
+    I3_HVBAT_CT_MIN: 18.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC0076B
     607F121088007F3FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 21.76
@@ -17763,6 +17938,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC0076B
     607F12108970823FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.99
+    I3_HVBAT_CT_MIN: 18.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC0076B
+    607F12108970828FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 21.99
     I3_HVBAT_CT_MIN: 18.99
@@ -18045,6 +18227,13 @@ test_cases:
     607F12108950811FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 21.97
+    I3_HVBAT_CT_MIN: 19
+- response: |-
+    607F1037F2278
+    607F1100962DDC0076C
+    607F1210896080DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.98
     I3_HVBAT_CT_MIN: 19
 - response: |-
     607F1037F2278
@@ -18846,6 +19035,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 19.05
 - response: |-
     607F1037F2278
+    607F1100962DDC00771
+    607F121089D0829FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.05
+    I3_HVBAT_CT_MIN: 19.05
+- response: |-
+    607F1037F2278
     607F1100962DDC00772
     607F12107CD07B6FFFF
   expected_values:
@@ -18918,6 +19114,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00772
     607F121089E080DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.06
+    I3_HVBAT_CT_MIN: 19.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC00772
+    607F121089E0823FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.06
     I3_HVBAT_CT_MIN: 19.06
@@ -19273,6 +19476,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 19.21
 - response: |-
     607F1037F2278
+    607F1100962DDC00782
+    607F12108990834FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.01
+    I3_HVBAT_CT_MIN: 19.22
+- response: |-
+    607F1037F2278
     607F1100962DDC00783
     607F12108920826FFFF
   expected_values:
@@ -19466,6 +19676,13 @@ test_cases:
     607F121083807FEFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 21.04
+    I3_HVBAT_CT_MIN: 19.47
+- response: |-
+    607F1037F2278
+    607F1100962DDC0079B
+    607F121089A0838FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.02
     I3_HVBAT_CT_MIN: 19.47
 - response: |-
     607F1037F2278
@@ -19942,6 +20159,13 @@ test_cases:
     607F12108990839FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.01
+    I3_HVBAT_CT_MIN: 19.93
+- response: |-
+    607F1037F2278
+    607F1100962DDC007C9
+    607F121089B083EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.03
     I3_HVBAT_CT_MIN: 19.93
 - response: |-
     607F1037F2278
@@ -21871,6 +22095,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC007D6
+    607F12108B90861FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.33
+    I3_HVBAT_CT_MIN: 20.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC007D6
     607F12108D80869FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.64
@@ -22000,6 +22231,13 @@ test_cases:
     607F12108F2086CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.9
+    I3_HVBAT_CT_MIN: 20.11
+- response: |-
+    607F1037F2278
+    607F1100962DDC007DB
+    607F12108F80873FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.96
     I3_HVBAT_CT_MIN: 20.11
 - response: |-
     607F1037F2278
@@ -22248,6 +22486,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 20.5
 - response: |-
     607F1037F2278
+    607F1100962DDC00804
+    607F121090808A9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.12
+    I3_HVBAT_CT_MIN: 20.52
+- response: |-
+    607F1037F2278
     607F1100962DDC00805
     607F12108DD0878FFFF
   expected_values:
@@ -22479,6 +22724,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 20.89
 - response: |-
     607F1037F2278
+    607F1100962DDC00829
+    607F12108F308A9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.91
+    I3_HVBAT_CT_MIN: 20.89
+- response: |-
+    607F1037F2278
     607F1100962DDC0082A
     607F12108F20899FFFF
   expected_values:
@@ -22490,6 +22742,13 @@ test_cases:
     607F12108A40879FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.12
+    I3_HVBAT_CT_MIN: 20.92
+- response: |-
+    607F1037F2278
+    607F1100962DDC0082C
+    607F121090208BCFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.06
     I3_HVBAT_CT_MIN: 20.92
 - response: |-
     607F1037F2278
@@ -22532,6 +22791,13 @@ test_cases:
     607F12108F608A0FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.94
+    I3_HVBAT_CT_MIN: 20.93
+- response: |-
+    607F1037F2278
+    607F1100962DDC0082D
+    607F12108F9089DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.97
     I3_HVBAT_CT_MIN: 20.93
 - response: |-
     607F1037F2278
@@ -22641,6 +22907,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC0082F
+    607F12108F708A2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.95
+    I3_HVBAT_CT_MIN: 20.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC0082F
     607F121090408AAFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.08
@@ -22651,6 +22924,13 @@ test_cases:
     607F121090508C5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.09
+    I3_HVBAT_CT_MIN: 20.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC0082F
+    607F121095A08E4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.94
     I3_HVBAT_CT_MIN: 20.95
 - response: |-
     607F1037F2278
@@ -22670,6 +22950,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC0082F
     607F121095B08CAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.95
+    I3_HVBAT_CT_MIN: 20.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC0082F
+    607F121095B08D6FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.95
     I3_HVBAT_CT_MIN: 20.95
@@ -22782,6 +23069,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00830
     607F121095C08DDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.96
+    I3_HVBAT_CT_MIN: 20.96
+- response: |-
+    607F1037F2278
+    607F1100962DDC00830
+    607F121095C08E3FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.96
     I3_HVBAT_CT_MIN: 20.96
@@ -23075,6 +23369,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00832
+    607F121090608BCFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.1
+    I3_HVBAT_CT_MIN: 20.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00832
     607F121090708BDFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.11
@@ -23103,6 +23404,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00832
+    607F121092608BFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.42
+    I3_HVBAT_CT_MIN: 20.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00832
     607F121095608E1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.9
@@ -23113,6 +23421,13 @@ test_cases:
     607F121095A08BDFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.94
+    I3_HVBAT_CT_MIN: 20.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00832
+    607F121095D08E1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.97
     I3_HVBAT_CT_MIN: 20.98
 - response: |-
     607F1037F2278
@@ -23908,6 +24223,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00834
+    607F121096008EEFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24
+    I3_HVBAT_CT_MIN: 21
+- response: |-
+    607F1037F2278
+    607F1100962DDC00834
     607F121096008EFFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24
@@ -24021,6 +24343,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00835
     607F12108FD08A1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.01
+    I3_HVBAT_CT_MIN: 21.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00835
+    607F12108FD08A5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.01
     I3_HVBAT_CT_MIN: 21.01
@@ -24475,6 +24804,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00839
+    607F121095D08EFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.97
+    I3_HVBAT_CT_MIN: 21.05
+- response: |-
+    607F1037F2278
+    607F1100962DDC00839
     607F121096408EDFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.04
@@ -24520,6 +24856,13 @@ test_cases:
     607F121090208B4FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.06
+    I3_HVBAT_CT_MIN: 21.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC0083A
+    607F121096608EDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.06
     I3_HVBAT_CT_MIN: 21.06
 - response: |-
     607F1037F2278
@@ -24646,6 +24989,13 @@ test_cases:
     607F121092C08D2FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.48
+    I3_HVBAT_CT_MIN: 21.09
+- response: |-
+    607F1037F2278
+    607F1100962DDC0083D
+    607F121095E08F1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.98
     I3_HVBAT_CT_MIN: 21.09
 - response: |-
     607F1037F2278
@@ -24964,6 +25314,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 21.38
 - response: |-
     607F1037F2278
+    607F1100962DDC0085C
+    607F121095808F4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.92
+    I3_HVBAT_CT_MIN: 21.4
+- response: |-
+    607F1037F2278
     607F1100962DDC0085E
     607F121092808DBFFFF
   expected_values:
@@ -24976,6 +25333,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 23.8
     I3_HVBAT_CT_MIN: 21.42
+- response: |-
+    607F1037F2278
+    607F1100962DDC0085F
+    607F121093A08D9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.62
+    I3_HVBAT_CT_MIN: 21.43
 - response: |-
     607F1037F2278
     607F1100962DDC0085F
@@ -25171,6 +25535,13 @@ test_cases:
     607F12108F408CDFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.92
+    I3_HVBAT_CT_MIN: 21.76
+- response: |-
+    607F1037F2278
+    607F1100962DDC00880
+    607F121099D092BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.61
     I3_HVBAT_CT_MIN: 21.76
 - response: |-
     607F1037F2278
@@ -25399,6 +25770,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC0088E
+    607F12109B20926FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.82
+    I3_HVBAT_CT_MIN: 21.9
+- response: |-
+    607F1037F2278
+    607F1100962DDC0088E
     607F12109BA0932FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.9
@@ -25437,6 +25815,13 @@ test_cases:
     607F12109620916FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.02
+    I3_HVBAT_CT_MIN: 21.92
+- response: |-
+    607F1037F2278
+    607F1100962DDC00890
+    607F121096F0913FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.15
     I3_HVBAT_CT_MIN: 21.92
 - response: |-
     607F1037F2278
@@ -25766,6 +26151,13 @@ test_cases:
     607F12109A9091EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.73
+    I3_HVBAT_CT_MIN: 21.96
+- response: |-
+    607F1037F2278
+    607F1100962DDC00894
+    607F12109BC0940FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.92
     I3_HVBAT_CT_MIN: 21.96
 - response: |-
     607F1037F2278
@@ -26144,6 +26536,13 @@ test_cases:
     607F121095F0922FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.99
+    I3_HVBAT_CT_MIN: 21.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00896
+    607F1210969091BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.09
     I3_HVBAT_CT_MIN: 21.98
 - response: |-
     607F1037F2278
@@ -27491,6 +27890,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 22.06
 - response: |-
     607F1037F2278
+    607F1100962DDC0089E
+    607F12109C00955FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.96
+    I3_HVBAT_CT_MIN: 22.06
+- response: |-
+    607F1037F2278
     607F1100962DDC0089F
     607F12109660929FFFF
   expected_values:
@@ -27814,6 +28220,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC008C6
+    607F12109BD095BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.93
+    I3_HVBAT_CT_MIN: 22.46
+- response: |-
+    607F1037F2278
+    607F1100962DDC008C6
     607F12109CB0957FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.07
@@ -27954,6 +28367,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC008DB
+    607F12109C40966FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25
+    I3_HVBAT_CT_MIN: 22.67
+- response: |-
+    607F1037F2278
+    607F1100962DDC008DB
     607F12109C6095EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.02
@@ -27972,6 +28392,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 24.01
     I3_HVBAT_CT_MIN: 22.72
+- response: |-
+    607F1037F2278
+    607F1100962DDC008E1
+    607F1210A020991FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.62
+    I3_HVBAT_CT_MIN: 22.73
 - response: |-
     607F1037F2278
     607F1100962DDC008E4
@@ -28055,6 +28482,13 @@ test_cases:
     607F12109BE0946FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.94
+    I3_HVBAT_CT_MIN: 22.85
+- response: |-
+    607F1037F2278
+    607F1100962DDC008ED
+    607F12109F3098AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.47
     I3_HVBAT_CT_MIN: 22.85
 - response: |-
     607F1037F2278
@@ -28552,6 +28986,13 @@ test_cases:
     607F1210A0B0994FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.71
+    I3_HVBAT_CT_MIN: 22.96
+- response: |-
+    607F1037F2278
+    607F1100962DDC008F8
+    607F1210A23099DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.95
     I3_HVBAT_CT_MIN: 22.96
 - response: |-
     607F1037F2278
@@ -29094,6 +29535,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 22.99
 - response: |-
     607F1037F2278
+    607F1100962DDC008FB
+    607F1210A2709B4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.99
+    I3_HVBAT_CT_MIN: 22.99
+- response: |-
+    607F1037F2278
     607F1100962DDC008FC
     607F1210960093AFFFF
   expected_values:
@@ -29252,6 +29700,13 @@ test_cases:
     607F1210A110985FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.77
+    I3_HVBAT_CT_MIN: 23
+- response: |-
+    607F1037F2278
+    607F1100962DDC008FC
+    607F1210A2509A4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.97
     I3_HVBAT_CT_MIN: 23
 - response: |-
     607F1037F2278
@@ -29633,6 +30088,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 23.05
 - response: |-
     607F1037F2278
+    607F1100962DDC00901
+    607F1210A1909A4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.85
+    I3_HVBAT_CT_MIN: 23.05
+- response: |-
+    607F1037F2278
     607F1100962DDC00902
     607F1210981094BFFFF
   expected_values:
@@ -29658,6 +30120,13 @@ test_cases:
     607F12109D60998FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.18
+    I3_HVBAT_CT_MIN: 23.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC00902
+    607F1210A1F099DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.91
     I3_HVBAT_CT_MIN: 23.06
 - response: |-
     607F1037F2278
@@ -29836,6 +30305,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 23.16
 - response: |-
     607F1037F2278
+    607F1100962DDC0090C
+    607F1210A2709BDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.99
+    I3_HVBAT_CT_MIN: 23.16
+- response: |-
+    607F1037F2278
     607F1100962DDC0090D
     607F1210A1F099EFFFF
   expected_values:
@@ -29869,6 +30345,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 25
     I3_HVBAT_CT_MIN: 23.22
+- response: |-
+    607F1037F2278
+    607F1100962DDC00913
+    607F1210A2309B8FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.95
+    I3_HVBAT_CT_MIN: 23.23
 - response: |-
     607F1037F2278
     607F1100962DDC00917
@@ -30032,6 +30515,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 23.57
 - response: |-
     607F1037F2278
+    607F1100962DDC00935
+    607F1210A2009C3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.92
+    I3_HVBAT_CT_MIN: 23.57
+- response: |-
+    607F1037F2278
     607F1100962DDC00937
     607F12109F509AAFFFF
   expected_values:
@@ -30081,6 +30571,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 23.72
 - response: |-
     607F1037F2278
+    607F1100962DDC00945
+    607F1210A3509D5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.13
+    I3_HVBAT_CT_MIN: 23.73
+- response: |-
+    607F1037F2278
     607F1100962DDC00946
     607F1210A2109C5FFFF
   expected_values:
@@ -30113,6 +30610,13 @@ test_cases:
     607F1210A2509AEFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.97
+    I3_HVBAT_CT_MIN: 23.79
+- response: |-
+    607F1037F2278
+    607F1100962DDC0094B
+    607F1210A3909DAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.17
     I3_HVBAT_CT_MIN: 23.79
 - response: |-
     607F1037F2278
@@ -30369,6 +30873,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC0095A
+    607F1210A2909DBFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.01
+    I3_HVBAT_CT_MIN: 23.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC0095A
     607F1210A8D09EEFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27.01
@@ -30442,6 +30953,13 @@ test_cases:
     607F1210A2309E5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.95
+    I3_HVBAT_CT_MIN: 23.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC0095B
+    607F1210A4909EAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.33
     I3_HVBAT_CT_MIN: 23.95
 - response: |-
     607F1037F2278
@@ -30705,6 +31223,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC0095D
+    607F1210A890A08FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.97
+    I3_HVBAT_CT_MIN: 23.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC0095D
     607F1210A890A28FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.97
@@ -30834,6 +31359,13 @@ test_cases:
     607F1210A2809E3FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26
+    I3_HVBAT_CT_MIN: 23.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC0095E
+    607F1210A2C09E2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.04
     I3_HVBAT_CT_MIN: 23.98
 - response: |-
     607F1037F2278
@@ -31188,6 +31720,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC0095F
+    607F1210A880A09FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.96
+    I3_HVBAT_CT_MIN: 23.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC0095F
     607F1210A890A24FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.97
@@ -31475,6 +32014,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00960
+    607F1210A8C0A01FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27
+    I3_HVBAT_CT_MIN: 24
+- response: |-
+    607F1037F2278
+    607F1100962DDC00960
     607F1210A8C0A08FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27
@@ -31637,6 +32183,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00961
     607F1210A8D0A0AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.01
+    I3_HVBAT_CT_MIN: 24.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00961
+    607F1210A8D0A0EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27.01
     I3_HVBAT_CT_MIN: 24.01
@@ -32188,6 +32741,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 24.14
 - response: |-
     607F1037F2278
+    607F1100962DDC0096E
+    607F1210A820A11FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.9
+    I3_HVBAT_CT_MIN: 24.14
+- response: |-
+    607F1037F2278
     607F1100962DDC00971
     607F1210A2709F0FFFF
   expected_values:
@@ -32454,6 +33014,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 24.48
 - response: |-
     607F1037F2278
+    607F1100962DDC00991
+    607F1210A860A26FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.94
+    I3_HVBAT_CT_MIN: 24.49
+- response: |-
+    607F1037F2278
     607F1100962DDC00992
     607F1210A3009F8FFFF
   expected_values:
@@ -32480,6 +33047,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 27
     I3_HVBAT_CT_MIN: 24.51
+- response: |-
+    607F1037F2278
+    607F1100962DDC00995
+    607F1210A8B0A2AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.99
+    I3_HVBAT_CT_MIN: 24.53
 - response: |-
     607F1037F2278
     607F1100962DDC00996
@@ -32622,6 +33196,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 24.66
 - response: |-
     607F1037F2278
+    607F1100962DDC009A2
+    607F1210A880A30FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.96
+    I3_HVBAT_CT_MIN: 24.66
+- response: |-
+    607F1037F2278
     607F1100962DDC009A3
     607F1210A880A11FFFF
   expected_values:
@@ -32683,6 +33264,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 26.13
     I3_HVBAT_CT_MIN: 24.82
+- response: |-
+    607F1037F2278
+    607F1100962DDC009B3
+    607F1210A850A35FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.93
+    I3_HVBAT_CT_MIN: 24.83
 - response: |-
     607F1037F2278
     607F1100962DDC009B4
@@ -33449,6 +34037,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC009C3
+    607F1210A380A22FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.16
+    I3_HVBAT_CT_MIN: 24.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC009C3
     607F1210A8B0A0EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.99
@@ -33670,6 +34265,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 27.99
     I3_HVBAT_CT_MIN: 24.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC009C4
+    607F1210A280A1BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26
+    I3_HVBAT_CT_MIN: 25
 - response: |-
     607F1037F2278
     607F1100962DDC009C4
@@ -34121,6 +34723,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC009CA
+    607F1210A700A2FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.72
+    I3_HVBAT_CT_MIN: 25.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC009CA
     607F1210A920A42FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27.06
@@ -34414,6 +35023,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 25.48
 - response: |-
     607F1037F2278
+    607F1100962DDC009FC
+    607F1210AB40A65FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.4
+    I3_HVBAT_CT_MIN: 25.56
+- response: |-
+    607F1037F2278
     607F1100962DDC009FF
     607F1210B020A8BFFFF
   expected_values:
@@ -34568,6 +35184,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 25.93
 - response: |-
     607F1037F2278
+    607F1100962DDC00A21
+    607F1210B4D0AE5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.93
+    I3_HVBAT_CT_MIN: 25.93
+- response: |-
+    607F1037F2278
     607F1100962DDC00A22
     607F1210AE90A98FFFF
   expected_values:
@@ -34667,6 +35290,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A24
+    607F1210B4F0AF3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.95
+    I3_HVBAT_CT_MIN: 25.96
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A24
     607F1210B500AEAFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.96
@@ -34726,6 +35356,20 @@ test_cases:
     607F1210B500ADAFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.96
+    I3_HVBAT_CT_MIN: 25.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A25
+    607F1210B510AF0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.97
+    I3_HVBAT_CT_MIN: 25.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A25
+    607F1210B510AF7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.97
     I3_HVBAT_CT_MIN: 25.97
 - response: |-
     607F1037F2278
@@ -34790,6 +35434,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 28.98
     I3_HVBAT_CT_MIN: 25.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A27
+    607F1210AEE0A93FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.98
+    I3_HVBAT_CT_MIN: 25.99
 - response: |-
     607F1037F2278
     607F1100962DDC00A27
@@ -34905,6 +35556,20 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A27
+    607F1210B530AE9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 25.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A27
+    607F1210B530AFCFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 25.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A27
     607F1210B530B01FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.99
@@ -34982,7 +35647,28 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A28
+    607F1210B520AFEFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 26
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A28
     607F1210B530AC4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A28
+    607F1210B530AEFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A28
+    607F1210B530AFCFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.99
     I3_HVBAT_CT_MIN: 26
@@ -35007,6 +35693,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 29
     I3_HVBAT_CT_MIN: 26
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A29
+    607F1210AED0AA6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.97
+    I3_HVBAT_CT_MIN: 26.01
 - response: |-
     607F1037F2278
     607F1100962DDC00A29
@@ -35066,6 +35759,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A2A
+    607F1210AF20A9CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.02
+    I3_HVBAT_CT_MIN: 26.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A2A
     607F1210AFC0ABAFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.12
@@ -35076,6 +35776,13 @@ test_cases:
     607F1210B200ABCFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.48
+    I3_HVBAT_CT_MIN: 26.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A2A
+    607F1210B520AFDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
     I3_HVBAT_CT_MIN: 26.02
 - response: |-
     607F1037F2278
@@ -35123,6 +35830,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00A2D
     607F1210AF50AA8FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.05
+    I3_HVBAT_CT_MIN: 26.05
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A2D
+    607F1210AF50AB0FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.05
     I3_HVBAT_CT_MIN: 26.05
@@ -35177,6 +35891,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.09
 - response: |-
     607F1037F2278
+    607F1100962DDC00A33
+    607F1210B5F0AFDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.11
+    I3_HVBAT_CT_MIN: 26.11
+- response: |-
+    607F1037F2278
     607F1100962DDC00A34
     607F1210B190AB9FFFF
   expected_values:
@@ -35196,6 +35917,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 28.97
     I3_HVBAT_CT_MIN: 26.14
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A37
+    607F1210AE70AA7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.91
+    I3_HVBAT_CT_MIN: 26.15
 - response: |-
     607F1037F2278
     607F1100962DDC00A37
@@ -35219,6 +35947,20 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.16
 - response: |-
     607F1037F2278
+    607F1100962DDC00A3A
+    607F1210B590B03FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.05
+    I3_HVBAT_CT_MIN: 26.18
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A3D
+    607F1210AE40AA7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.88
+    I3_HVBAT_CT_MIN: 26.21
+- response: |-
+    607F1037F2278
     607F1100962DDC00A3E
     607F1210B5B0AD8FFFF
   expected_values:
@@ -35226,10 +35968,24 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.22
 - response: |-
     607F1037F2278
+    607F1100962DDC00A40
+    607F1210AE90AA5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.93
+    I3_HVBAT_CT_MIN: 26.24
+- response: |-
+    607F1037F2278
     607F1100962DDC00A44
     607F1210B270AC3FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.55
+    I3_HVBAT_CT_MIN: 26.28
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A44
+    607F1210B5C0B04FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.08
     I3_HVBAT_CT_MIN: 26.28
 - response: |-
     607F1037F2278
@@ -35259,6 +36015,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 28.91
     I3_HVBAT_CT_MIN: 26.37
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A4E
+    607F1210B510AF6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.97
+    I3_HVBAT_CT_MIN: 26.38
 - response: |-
     607F1037F2278
     607F1100962DDC00A4E
@@ -35324,11 +36087,25 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.73
 - response: |-
     607F1037F2278
+    607F1100962DDC00A72
+    607F1210B9D0B34FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.73
+    I3_HVBAT_CT_MIN: 26.74
+- response: |-
+    607F1037F2278
     607F1100962DDC00A74
     607F1210B480ADEFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.88
     I3_HVBAT_CT_MIN: 26.76
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A76
+    607F1210AF80AC4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.08
+    I3_HVBAT_CT_MIN: 26.78
 - response: |-
     607F1037F2278
     607F1100962DDC00A7A
@@ -35352,10 +36129,38 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.82
 - response: |-
     607F1037F2278
+    607F1100962DDC00A7B
+    607F1210BA80B3EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.84
+    I3_HVBAT_CT_MIN: 26.83
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A7C
+    607F1210B830B0AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.47
+    I3_HVBAT_CT_MIN: 26.84
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A7D
+    607F1210BA90B29FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.85
+    I3_HVBAT_CT_MIN: 26.85
+- response: |-
+    607F1037F2278
     607F1100962DDC00A7E
     607F1210B760B0CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.34
+    I3_HVBAT_CT_MIN: 26.86
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A7E
+    607F1210BAB0B34FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.87
     I3_HVBAT_CT_MIN: 26.86
 - response: |-
     607F1037F2278
@@ -35364,6 +36169,27 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 28.89
     I3_HVBAT_CT_MIN: 26.87
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A7F
+    607F1210BAB0B23FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.87
+    I3_HVBAT_CT_MIN: 26.87
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A7F
+    607F1210BAB0B30FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.87
+    I3_HVBAT_CT_MIN: 26.87
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A80
+    607F1210AE50AB7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.89
+    I3_HVBAT_CT_MIN: 26.88
 - response: |-
     607F1037F2278
     607F1100962DDC00A80
@@ -35392,6 +36218,34 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 28.9
     I3_HVBAT_CT_MIN: 26.9
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A82
+    607F1210B990B12FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.69
+    I3_HVBAT_CT_MIN: 26.9
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A83
+    607F1210BAF0B23FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.91
+    I3_HVBAT_CT_MIN: 26.91
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A83
+    607F1210BAF0B24FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.91
+    I3_HVBAT_CT_MIN: 26.91
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A83
+    607F1210BAF0B47FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.91
+    I3_HVBAT_CT_MIN: 26.91
 - response: |-
     607F1037F2278
     607F1100962DDC00A84
@@ -35451,10 +36305,45 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A86
+    607F1210B6E0B0AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.26
+    I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A86
+    607F1210BB20B16FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.94
+    I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A86
+    607F1210BB20B1CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.94
+    I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A86
     607F1210BB20B1DFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.94
     I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A86
+    607F1210BB20B37FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.94
+    I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A87
+    607F1210AF00AE3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28
+    I3_HVBAT_CT_MIN: 26.95
 - response: |-
     607F1037F2278
     607F1100962DDC00A87
@@ -35472,9 +36361,23 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A87
+    607F1210B820B0DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.46
+    I3_HVBAT_CT_MIN: 26.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A87
     607F1210B8A0B1DFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.54
+    I3_HVBAT_CT_MIN: 26.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A87
+    607F1210BB20B46FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.94
     I3_HVBAT_CT_MIN: 26.95
 - response: |-
     607F1037F2278
@@ -35483,6 +36386,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 29.95
     I3_HVBAT_CT_MIN: 26.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A88
+    607F1210AEC0AD7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.96
+    I3_HVBAT_CT_MIN: 26.96
 - response: |-
     607F1037F2278
     607F1100962DDC00A88
@@ -35584,6 +36494,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A89
+    607F1210B530AFCFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A89
     607F1210B650B09FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.17
@@ -35601,6 +36518,27 @@ test_cases:
     607F1210BAB0B20FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.87
+    I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A89
+    607F1210BB10B3CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.93
+    I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A89
+    607F1210BB40B18FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.96
+    I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A89
+    607F1210BB50B15FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
     I3_HVBAT_CT_MIN: 26.97
 - response: |-
     607F1037F2278
@@ -35626,6 +36564,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A89
+    607F1210BB50B35FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A89
     607F1210BB50B36FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
@@ -35637,6 +36582,34 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
     I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
+    607F1210AEE0AD3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.98
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
+    607F1210AF30AC8FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.03
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
+    607F1210B520B03FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
+    607F1210B520B09FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 26.98
 - response: |-
     607F1037F2278
     607F1100962DDC00A8A
@@ -35657,6 +36630,13 @@ test_cases:
     607F1210B520B11FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
+    607F1210B530B22FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
     I3_HVBAT_CT_MIN: 26.98
 - response: |-
     607F1037F2278
@@ -35703,6 +36683,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A8A
+    607F1210B7F0B29FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.43
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
     607F1210BA70B2BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.83
@@ -35717,6 +36704,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A8A
+    607F1210BB60B15FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.98
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
     607F1210BB60B21FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.98
@@ -35725,6 +36719,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00A8A
     607F1210BB60B28FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.98
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8A
+    607F1210BB60B2EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.98
     I3_HVBAT_CT_MIN: 26.98
@@ -35749,6 +36750,34 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 29.98
     I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210B530AFCFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210B530B01FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210B530B02FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210B530B08FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26.99
 - response: |-
     607F1037F2278
     607F1100962DDC00A8B
@@ -35794,6 +36823,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A8B
+    607F1210B540B02FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
     607F1210B540B0FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29
@@ -35808,9 +36844,44 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A8B
+    607F1210B550B25FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.01
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210B5E0B26FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.1
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210B670B27FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.19
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210B9B0B2CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.71
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
     607F1210BAB0B3FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.87
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210BAC0B2DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.88
     I3_HVBAT_CT_MIN: 26.99
 - response: |-
     607F1037F2278
@@ -35829,6 +36900,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A8B
+    607F1210BB70B1EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
     607F1210BB70B27FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.99
@@ -35837,6 +36915,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00A8B
     607F1210BB70B28FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210BB70B2DFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.99
     I3_HVBAT_CT_MIN: 26.99
@@ -35872,6 +36957,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00A8B
     607F1210BB80B28FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8B
+    607F1210BB80B2EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30
     I3_HVBAT_CT_MIN: 26.99
@@ -35927,6 +37019,27 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00A8D
+    607F1210B100AEAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.32
+    I3_HVBAT_CT_MIN: 27.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8D
+    607F1210B500B11FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.96
+    I3_HVBAT_CT_MIN: 27.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8D
+    607F1210B550B04FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.01
+    I3_HVBAT_CT_MIN: 27.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8D
     607F1210B590B15FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.05
@@ -35951,6 +37064,13 @@ test_cases:
     607F1210B560B07FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.02
+    I3_HVBAT_CT_MIN: 27.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A8E
+    607F1210BBA0B5AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.02
     I3_HVBAT_CT_MIN: 27.02
 - response: |-
     607F1037F2278
@@ -36005,6 +37125,13 @@ test_cases:
     607F1037F2278
     607F1100962DDC00A90
     607F1210B580B0EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.04
+    I3_HVBAT_CT_MIN: 27.04
+- response: |-
+    607F1037F2278
+    607F1100962DDC00A90
+    607F1210B580B1AFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.04
     I3_HVBAT_CT_MIN: 27.04
@@ -36087,6 +37214,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.1
 - response: |-
     607F1037F2278
+    607F1100962DDC00A96
+    607F1210BBB0B4DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.03
+    I3_HVBAT_CT_MIN: 27.1
+- response: |-
+    607F1037F2278
     607F1100962DDC00A9C
     607F1210B640B07FFFF
   expected_values:
@@ -36150,6 +37284,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.34
 - response: |-
     607F1037F2278
+    607F1100962DDC00AAE
+    607F1210BDC0B64FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.36
+    I3_HVBAT_CT_MIN: 27.34
+- response: |-
+    607F1037F2278
     607F1100962DDC00AB0
     607F1210B8E0B2DFFFF
   expected_values:
@@ -36162,6 +37303,20 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 29.92
     I3_HVBAT_CT_MIN: 27.39
+- response: |-
+    607F1037F2278
+    607F1100962DDC00ABC
+    607F1210BB40B46FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.96
+    I3_HVBAT_CT_MIN: 27.48
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AC0
+    607F1210B480B14FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.88
+    I3_HVBAT_CT_MIN: 27.52
 - response: |-
     607F1037F2278
     607F1100962DDC00AC4
@@ -36192,6 +37347,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.61
 - response: |-
     607F1037F2278
+    607F1100962DDC00AC9
+    607F1210BEE0B6FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.54
+    I3_HVBAT_CT_MIN: 27.61
+- response: |-
+    607F1037F2278
     607F1100962DDC00ACA
     607F1210B110AFCFFFF
   expected_values:
@@ -36199,11 +37361,32 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.62
 - response: |-
     607F1037F2278
+    607F1100962DDC00ACB
+    607F1210B570B26FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.03
+    I3_HVBAT_CT_MIN: 27.63
+- response: |-
+    607F1037F2278
     607F1100962DDC00ACD
     607F1210BAF0B57FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.91
     I3_HVBAT_CT_MIN: 27.65
+- response: |-
+    607F1037F2278
+    607F1100962DDC00ACF
+    607F1210BBB0B60FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.03
+    I3_HVBAT_CT_MIN: 27.67
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AD0
+    607F1210B430B1BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.83
+    I3_HVBAT_CT_MIN: 27.68
 - response: |-
     607F1037F2278
     607F1100962DDC00AD7
@@ -36217,6 +37400,20 @@ test_cases:
     607F1210BC90B72FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.17
+    I3_HVBAT_CT_MIN: 27.76
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AD8
+    607F1210BF90B6FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.65
+    I3_HVBAT_CT_MIN: 27.76
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AD8
+    607F1210C080B93FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.8
     I3_HVBAT_CT_MIN: 27.76
 - response: |-
     607F1037F2278
@@ -36241,6 +37438,20 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.84
 - response: |-
     607F1037F2278
+    607F1100962DDC00AE0
+    607F1210C0C0B88FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.84
+    I3_HVBAT_CT_MIN: 27.84
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AE1
+    607F1210B510B20FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.97
+    I3_HVBAT_CT_MIN: 27.85
+- response: |-
+    607F1037F2278
     607F1100962DDC00AE2
     607F1210BFB0B91FFFF
   expected_values:
@@ -36255,6 +37466,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.86
 - response: |-
     607F1037F2278
+    607F1100962DDC00AE3
+    607F1210B480B1BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.88
+    I3_HVBAT_CT_MIN: 27.87
+- response: |-
+    607F1037F2278
     607F1100962DDC00AE4
     607F1210BAC0B5FFFFF
   expected_values:
@@ -36266,6 +37484,13 @@ test_cases:
     607F1210BB00B41FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 27.88
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AE4
+    607F1210C110B8FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.89
     I3_HVBAT_CT_MIN: 27.88
 - response: |-
     607F1037F2278
@@ -36295,6 +37520,34 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.89
     I3_HVBAT_CT_MIN: 27.9
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AE6
+    607F1210C110BA7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.89
+    I3_HVBAT_CT_MIN: 27.9
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AE7
+    607F1210BCE0B6AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.22
+    I3_HVBAT_CT_MIN: 27.91
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AE8
+    607F1210B520B30FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 27.92
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AE8
+    607F1210B540B26FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29
+    I3_HVBAT_CT_MIN: 27.92
 - response: |-
     607F1037F2278
     607F1100962DDC00AE8
@@ -36382,7 +37635,21 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AEA
+    607F1210C150BA4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.93
+    I3_HVBAT_CT_MIN: 27.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEA
     607F1210C160B80FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.94
+    I3_HVBAT_CT_MIN: 27.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEA
+    607F1210C160B8BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.94
     I3_HVBAT_CT_MIN: 27.94
@@ -36393,6 +37660,34 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.94
     I3_HVBAT_CT_MIN: 27.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEB
+    607F1210B4F0B33FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.95
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEB
+    607F1210B530B32FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEB
+    607F1210B600B3BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.12
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEB
+    607F1210B9D0B46FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.73
+    I3_HVBAT_CT_MIN: 27.95
 - response: |-
     607F1037F2278
     607F1100962DDC00AEB
@@ -36434,6 +37729,13 @@ test_cases:
     607F1210BB50B61FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEB
+    607F1210BB70B4CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
     I3_HVBAT_CT_MIN: 27.95
 - response: |-
     607F1037F2278
@@ -36494,6 +37796,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AED
+    607F1210B510B29FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.97
+    I3_HVBAT_CT_MIN: 27.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AED
     607F1210B530B36FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.99
@@ -36501,9 +37810,23 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AED
+    607F1210BB00B63FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 27.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AED
     607F1210BB20B71FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.94
+    I3_HVBAT_CT_MIN: 27.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AED
+    607F1210BB50B53FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
     I3_HVBAT_CT_MIN: 27.97
 - response: |-
     607F1037F2278
@@ -36543,6 +37866,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AED
+    607F1210BBA0B66FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.02
+    I3_HVBAT_CT_MIN: 27.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AED
     607F1210BE50B7BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.45
@@ -36571,7 +37901,35 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AEE
+    607F1210B710B4EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.29
+    I3_HVBAT_CT_MIN: 27.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEE
+    607F1210BB40B54FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.96
+    I3_HVBAT_CT_MIN: 27.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEE
+    607F1210BB50B59FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 27.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEE
     607F1210BB60B41FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.98
+    I3_HVBAT_CT_MIN: 27.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEE
+    607F1210BB60B4EFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.98
     I3_HVBAT_CT_MIN: 27.98
@@ -36606,6 +37964,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AEE
+    607F1210BB70B65FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 27.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEE
     607F1210BB80B73FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30
@@ -36634,7 +37999,21 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AEF
+    607F1210BB70B59FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 27.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEF
     607F1210BB70B5AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 27.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEF
+    607F1210BB70B6CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.99
     I3_HVBAT_CT_MIN: 27.99
@@ -36676,6 +38055,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AEF
+    607F1210BBE0B7FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.06
+    I3_HVBAT_CT_MIN: 27.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AEF
     607F1210BC60B79FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.14
@@ -36701,6 +38087,27 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.99
     I3_HVBAT_CT_MIN: 27.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF0
+    607F1210B520B2DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 28
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF0
+    607F1210BB60B4DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.98
+    I3_HVBAT_CT_MIN: 28
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF0
+    607F1210BB70B4DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 28
 - response: |-
     607F1037F2278
     607F1100962DDC00AF0
@@ -36739,9 +38146,23 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AF0
+    607F1210BB80B7FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 28
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF0
     607F1210BB90B56FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.01
+    I3_HVBAT_CT_MIN: 28
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF0
+    607F1210BBC0B80FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.04
     I3_HVBAT_CT_MIN: 28
 - response: |-
     607F1037F2278
@@ -36774,6 +38195,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AF1
+    607F1210BB90B7FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.01
+    I3_HVBAT_CT_MIN: 28.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF1
     607F1210BBA0B7BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.02
@@ -36795,6 +38223,27 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AF2
+    607F1210B520B2EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 28.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF2
+    607F1210BB00B4DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 28.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF2
+    607F1210BB90B6CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.01
+    I3_HVBAT_CT_MIN: 28.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF2
     607F1210BBE0B7FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.06
@@ -36809,9 +38258,23 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AF3
+    607F1210B570B2CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.03
+    I3_HVBAT_CT_MIN: 28.03
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF3
     607F1210BB50B73FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 28.03
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF3
+    607F1210BB70B68FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
     I3_HVBAT_CT_MIN: 28.03
 - response: |-
     607F1037F2278
@@ -36851,6 +38314,13 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AF4
+    607F1210B580B37FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.04
+    I3_HVBAT_CT_MIN: 28.04
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF4
     607F1210C170BA1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.95
@@ -36879,6 +38349,20 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00AF6
+    607F1210B710B36FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.29
+    I3_HVBAT_CT_MIN: 28.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF6
+    607F1210BB30B72FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.95
+    I3_HVBAT_CT_MIN: 28.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF6
     607F1210C180BB2FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.96
@@ -36889,6 +38373,13 @@ test_cases:
     607F1210BB50B7FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 28.07
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF7
+    607F1210BC00B7FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.08
     I3_HVBAT_CT_MIN: 28.07
 - response: |-
     607F1037F2278
@@ -36904,6 +38395,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.14
     I3_HVBAT_CT_MIN: 28.08
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AF9
+    607F1210BB70B73FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 28.09
 - response: |-
     607F1037F2278
     607F1100962DDC00AF9
@@ -36934,11 +38432,39 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.11
 - response: |-
     607F1037F2278
+    607F1100962DDC00AFC
+    607F1210B870B60FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.51
+    I3_HVBAT_CT_MIN: 28.12
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AFC
+    607F1210B8E0B49FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.58
+    I3_HVBAT_CT_MIN: 28.12
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AFD
+    607F1210BC20B78FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.1
+    I3_HVBAT_CT_MIN: 28.13
+- response: |-
+    607F1037F2278
     607F1100962DDC00AFD
     607F1210BF60B92FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.62
     I3_HVBAT_CT_MIN: 28.13
+- response: |-
+    607F1037F2278
+    607F1100962DDC00AFE
+    607F1210BE80B86FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.48
+    I3_HVBAT_CT_MIN: 28.14
 - response: |-
     607F1037F2278
     607F1100962DDC00B00
@@ -36948,11 +38474,67 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.16
 - response: |-
     607F1037F2278
+    607F1100962DDC00B01
+    607F1210B490B2EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.89
+    I3_HVBAT_CT_MIN: 28.17
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B02
+    607F1210B660B3BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.18
+    I3_HVBAT_CT_MIN: 28.18
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B02
+    607F1210BA00B6BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.76
+    I3_HVBAT_CT_MIN: 28.18
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B02
+    607F1210BB80B5DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 28.18
+- response: |-
+    607F1037F2278
     607F1100962DDC00B02
     607F1210C030B95FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.75
     I3_HVBAT_CT_MIN: 28.18
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B02
+    607F1210C100B95FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.88
+    I3_HVBAT_CT_MIN: 28.18
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B03
+    607F1210BB20B6BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.94
+    I3_HVBAT_CT_MIN: 28.19
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B06
+    607F1210BA10B6BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.77
+    I3_HVBAT_CT_MIN: 28.22
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B07
+    607F1210BB80B75FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 28.23
 - response: |-
     607F1037F2278
     607F1100962DDC00B07
@@ -36967,6 +38549,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 31.11
     I3_HVBAT_CT_MIN: 28.24
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B09
+    607F1210BC20B7EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.1
+    I3_HVBAT_CT_MIN: 28.25
 - response: |-
     607F1037F2278
     607F1100962DDC00B0A
@@ -37012,10 +38601,31 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00B1D
+    607F1210BE70B82FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.47
+    I3_HVBAT_CT_MIN: 28.45
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B1D
+    607F1210C0E0B8BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.86
+    I3_HVBAT_CT_MIN: 28.45
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B1D
     607F1210C1D0BC1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.01
     I3_HVBAT_CT_MIN: 28.45
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B1F
+    607F1210BCB0B85FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.19
+    I3_HVBAT_CT_MIN: 28.47
 - response: |-
     607F1037F2278
     607F1100962DDC00B20
@@ -37030,6 +38640,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.93
     I3_HVBAT_CT_MIN: 28.49
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B22
+    607F1210B350B2EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.69
+    I3_HVBAT_CT_MIN: 28.5
 - response: |-
     607F1037F2278
     607F1100962DDC00B24
@@ -37053,6 +38670,13 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.55
 - response: |-
     607F1037F2278
+    607F1100962DDC00B31
+    607F1210C040B90FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.76
+    I3_HVBAT_CT_MIN: 28.65
+- response: |-
+    607F1037F2278
     607F1100962DDC00B3B
     607F1210BB70B93FFFF
   expected_values:
@@ -37067,11 +38691,46 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.76
 - response: |-
     607F1037F2278
+    607F1100962DDC00B3D
+    607F1210BB00B74FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 28.77
+- response: |-
+    607F1037F2278
     607F1100962DDC00B3E
     607F1210C2D0BD1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.17
     I3_HVBAT_CT_MIN: 28.78
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B3F
+    607F1210BC20B96FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.1
+    I3_HVBAT_CT_MIN: 28.79
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B40
+    607F1210BAB0B77FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.87
+    I3_HVBAT_CT_MIN: 28.8
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B40
+    607F1210BBC0B7FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.04
+    I3_HVBAT_CT_MIN: 28.8
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B41
+    607F1210C6D0BF7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.81
+    I3_HVBAT_CT_MIN: 28.81
 - response: |-
     607F1037F2278
     607F1100962DDC00B43
@@ -37116,6 +38775,20 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.87
 - response: |-
     607F1037F2278
+    607F1100962DDC00B48
+    607F1210BFE0BB5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.7
+    I3_HVBAT_CT_MIN: 28.88
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B48
+    607F1210C120BC6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.9
+    I3_HVBAT_CT_MIN: 28.88
+- response: |-
+    607F1037F2278
     607F1100962DDC00B49
     607F1210C730BF5FFFF
   expected_values:
@@ -37123,11 +38796,39 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.89
 - response: |-
     607F1037F2278
+    607F1100962DDC00B4A
+    607F1210BC60B86FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.14
+    I3_HVBAT_CT_MIN: 28.9
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B4A
+    607F1210C120B9AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.9
+    I3_HVBAT_CT_MIN: 28.9
+- response: |-
+    607F1037F2278
     607F1100962DDC00B4B
     607F1210C360BDEFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.26
     I3_HVBAT_CT_MIN: 28.91
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B4C
+    607F1210BB00B8EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 28.92
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B4C
+    607F1210BF00BB2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.56
+    I3_HVBAT_CT_MIN: 28.92
 - response: |-
     607F1037F2278
     607F1100962DDC00B4C
@@ -37165,6 +38866,34 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.93
 - response: |-
     607F1037F2278
+    607F1100962DDC00B4D
+    607F1210C220BD8FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.06
+    I3_HVBAT_CT_MIN: 28.93
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B4E
+    607F1210BB40BA2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.96
+    I3_HVBAT_CT_MIN: 28.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B4E
+    607F1210BB80BA6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 28.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B4E
+    607F1210BD30BADFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.27
+    I3_HVBAT_CT_MIN: 28.94
+- response: |-
+    607F1037F2278
     607F1100962DDC00B4E
     607F1210C6B0BF7FFFF
   expected_values:
@@ -37193,6 +38922,27 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.95
 - response: |-
     607F1037F2278
+    607F1100962DDC00B4F
+    607F1210C7D0C13FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.97
+    I3_HVBAT_CT_MIN: 28.95
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B50
+    607F1210BB40B80FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.96
+    I3_HVBAT_CT_MIN: 28.96
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B50
+    607F1210C190BD4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.97
+    I3_HVBAT_CT_MIN: 28.96
+- response: |-
+    607F1037F2278
     607F1100962DDC00B50
     607F1210C190BD8FFFF
   expected_values:
@@ -37201,10 +38951,52 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00B51
+    607F1210BB50B89FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 28.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B51
+    607F1210BB50B8EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 28.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B51
+    607F1210BB60B8AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.98
+    I3_HVBAT_CT_MIN: 28.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B51
+    607F1210BC50BADFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.13
+    I3_HVBAT_CT_MIN: 28.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B51
     607F1210C6D0BFFFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.81
     I3_HVBAT_CT_MIN: 28.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B52
+    607F1210BB90BA9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.01
+    I3_HVBAT_CT_MIN: 28.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B52
+    607F1210BBC0BABFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.04
+    I3_HVBAT_CT_MIN: 28.98
 - response: |-
     607F1037F2278
     607F1100962DDC00B52
@@ -37236,10 +39028,45 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00B53
+    607F1210BB80BABFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 28.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B53
+    607F1210BDA0BB1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.34
+    I3_HVBAT_CT_MIN: 28.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B53
     607F1210C1C0BDDFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31
     I3_HVBAT_CT_MIN: 28.99
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B54
+    607F1210BB80B8EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 29
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B54
+    607F1210BB80BAAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 29
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B54
+    607F1210BB90BABFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.01
+    I3_HVBAT_CT_MIN: 29
 - response: |-
     607F1037F2278
     607F1100962DDC00B54
@@ -37250,10 +39077,59 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00B54
+    607F1210C1C0BCFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31
+    I3_HVBAT_CT_MIN: 29
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B54
     607F1210C1D0BC2FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.01
     I3_HVBAT_CT_MIN: 29
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B55
+    607F1210BBD0BABFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.05
+    I3_HVBAT_CT_MIN: 29.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B55
+    607F1210C0B0BC0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.83
+    I3_HVBAT_CT_MIN: 29.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B55
+    607F1210C140BCCFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.92
+    I3_HVBAT_CT_MIN: 29.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B55
+    607F1210C1D0BE1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.01
+    I3_HVBAT_CT_MIN: 29.01
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B56
+    607F1210C1E0BD0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.02
+    I3_HVBAT_CT_MIN: 29.02
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B56
+    607F1210C210BD7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.05
+    I3_HVBAT_CT_MIN: 29.02
 - response: |-
     607F1037F2278
     607F1100962DDC00B57
@@ -37277,6 +39153,20 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.03
 - response: |-
     607F1037F2278
+    607F1100962DDC00B57
+    607F1210C1F0BDBFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.03
+    I3_HVBAT_CT_MIN: 29.03
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B58
+    607F1210BD40BB3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.28
+    I3_HVBAT_CT_MIN: 29.04
+- response: |-
+    607F1037F2278
     607F1100962DDC00B58
     607F1210C200BD6FFFF
   expected_values:
@@ -37298,11 +39188,46 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.05
 - response: |-
     607F1037F2278
+    607F1100962DDC00B59
+    607F1210C260BD4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.1
+    I3_HVBAT_CT_MIN: 29.05
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B5A
+    607F1210C0C0BC0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.84
+    I3_HVBAT_CT_MIN: 29.06
+- response: |-
+    607F1037F2278
     607F1100962DDC00B5A
     607F1210C220BD5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.06
     I3_HVBAT_CT_MIN: 29.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B5A
+    607F1210C3A0BDAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.3
+    I3_HVBAT_CT_MIN: 29.06
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B5B
+    607F1210BFB0BC0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.67
+    I3_HVBAT_CT_MIN: 29.07
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B5B
+    607F1210C1C0BCFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31
+    I3_HVBAT_CT_MIN: 29.07
 - response: |-
     607F1037F2278
     607F1100962DDC00B5C
@@ -37312,11 +39237,32 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.08
 - response: |-
     607F1037F2278
+    607F1100962DDC00B5D
+    607F1210C550BE6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.57
+    I3_HVBAT_CT_MIN: 29.09
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B5F
+    607F1210BC30B9BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.11
+    I3_HVBAT_CT_MIN: 29.11
+- response: |-
+    607F1037F2278
     607F1100962DDC00B60
     607F1210C300BE2FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.2
     I3_HVBAT_CT_MIN: 29.12
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B64
+    607F1210C060BC4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.78
+    I3_HVBAT_CT_MIN: 29.16
 - response: |-
     607F1037F2278
     607F1100962DDC00B66
@@ -37327,10 +39273,31 @@ test_cases:
 - response: |-
     607F1037F2278
     607F1100962DDC00B69
+    607F1210C110BD3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.89
+    I3_HVBAT_CT_MIN: 29.21
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B69
     607F1210C820C18FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 32.02
     I3_HVBAT_CT_MIN: 29.21
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B70
+    607F1210C110BD7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.89
+    I3_HVBAT_CT_MIN: 29.28
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B71
+    607F1210C5D0BF1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.65
+    I3_HVBAT_CT_MIN: 29.29
 - response: |-
     607F1037F2278
     607F1100962DDC00B72
@@ -37345,6 +39312,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 32.04
     I3_HVBAT_CT_MIN: 29.34
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B7F
+    607F1210C080BD6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.8
+    I3_HVBAT_CT_MIN: 29.43
 - response: |-
     607F1037F2278
     607F1100962DDC00B80
@@ -37368,6 +39342,62 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.55
 - response: |-
     607F1037F2278
+    607F1100962DDC00B8C
+    607F1210C190BE2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.97
+    I3_HVBAT_CT_MIN: 29.56
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B90
+    607F1210C680BFAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.76
+    I3_HVBAT_CT_MIN: 29.6
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B96
+    607F1210C510C0DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.53
+    I3_HVBAT_CT_MIN: 29.66
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B96
+    607F1210C650C1CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.73
+    I3_HVBAT_CT_MIN: 29.66
+- response: |-
+    607F1037F2278
+    607F1100962DDC00B9E
+    607F1210C200BF2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.04
+    I3_HVBAT_CT_MIN: 29.74
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BA1
+    607F1210CD00C54FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.8
+    I3_HVBAT_CT_MIN: 29.77
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BA5
+    607F1210C400C02FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.36
+    I3_HVBAT_CT_MIN: 29.81
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BA5
+    607F1210C810C1CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.01
+    I3_HVBAT_CT_MIN: 29.81
+- response: |-
+    607F1037F2278
     607F1100962DDC00BA7
     607F1210C6A0C16FFFF
   expected_values:
@@ -37380,6 +39410,13 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 32.28
     I3_HVBAT_CT_MIN: 29.85
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BAA
+    607F1210C100C04FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.88
+    I3_HVBAT_CT_MIN: 29.86
 - response: |-
     607F1037F2278
     607F1100962DDC00BAA
@@ -37396,11 +39433,39 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.87
 - response: |-
     607F1037F2278
+    607F1100962DDC00BAC
+    607F1210C240C04FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.08
+    I3_HVBAT_CT_MIN: 29.88
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BAC
+    607F1210C4B0C16FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.47
+    I3_HVBAT_CT_MIN: 29.88
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BAF
+    607F1210C160BF8FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.94
+    I3_HVBAT_CT_MIN: 29.91
+- response: |-
+    607F1037F2278
     607F1100962DDC00BAF
     607F1210CCD0C50FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 32.77
     I3_HVBAT_CT_MIN: 29.91
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BB1
+    607F1210C290C0CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.13
+    I3_HVBAT_CT_MIN: 29.93
 - response: |-
     607F1037F2278
     607F1100962DDC00BB1
@@ -37410,11 +39475,46 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.93
 - response: |-
     607F1037F2278
+    607F1100962DDC00BB2
+    607F1210CA00C44FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.32
+    I3_HVBAT_CT_MIN: 29.94
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BB5
+    607F1210C890C3CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.09
+    I3_HVBAT_CT_MIN: 29.97
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BB6
+    607F1210C250C13FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.09
+    I3_HVBAT_CT_MIN: 29.98
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BB6
+    607F1210C7D0C32FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.97
+    I3_HVBAT_CT_MIN: 29.98
+- response: |-
+    607F1037F2278
     607F1100962DDC00BB8
     607F1210C830C3CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 32.03
     I3_HVBAT_CT_MIN: 30
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BB9
+    607F1210C7D0C30FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.97
+    I3_HVBAT_CT_MIN: 30.01
 - response: |-
     607F1037F2278
     607F1100962DDC00BB9
@@ -37438,11 +39538,102 @@ test_cases:
     I3_HVBAT_CT_MIN: 30.02
 - response: |-
     607F1037F2278
+    607F1100962DDC00BBC
+    607F1210C300C1AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.2
+    I3_HVBAT_CT_MIN: 30.04
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC0
+    607F1210C780C32FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.92
+    I3_HVBAT_CT_MIN: 30.08
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC0
+    607F1210C790C3AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.93
+    I3_HVBAT_CT_MIN: 30.08
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC0
+    607F1210C880C41FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.08
+    I3_HVBAT_CT_MIN: 30.08
+- response: |-
+    607F1037F2278
     607F1100962DDC00BC1
     607F1210C890C24FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 32.09
     I3_HVBAT_CT_MIN: 30.09
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC2
+    607F1210CBE0C53FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.62
+    I3_HVBAT_CT_MIN: 30.1
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC3
+    607F1210C870C44FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.07
+    I3_HVBAT_CT_MIN: 30.11
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC4
+    607F1210C350C11FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.25
+    I3_HVBAT_CT_MIN: 30.12
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC6
+    607F1210CC80C52FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.72
+    I3_HVBAT_CT_MIN: 30.14
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC9
+    607F1210C770C33FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.91
+    I3_HVBAT_CT_MIN: 30.17
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BC9
+    607F1210C7A0C3CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.94
+    I3_HVBAT_CT_MIN: 30.17
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BCA
+    607F1210C900C39FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.16
+    I3_HVBAT_CT_MIN: 30.18
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BCC
+    607F1210C5E0C30FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.66
+    I3_HVBAT_CT_MIN: 30.2
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BD1
+    607F1210CDB0C65FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.91
+    I3_HVBAT_CT_MIN: 30.25
 - response: |-
     607F1037F2278
     607F1100962DDC00BD6
@@ -37452,11 +39643,53 @@ test_cases:
     I3_HVBAT_CT_MIN: 30.3
 - response: |-
     607F1037F2278
+    607F1100962DDC00BD7
+    607F1210CB80C57FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.56
+    I3_HVBAT_CT_MIN: 30.31
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BF8
+    607F1210C900C58FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.16
+    I3_HVBAT_CT_MIN: 30.64
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BF9
+    607F1210CBA0C6FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.58
+    I3_HVBAT_CT_MIN: 30.65
+- response: |-
+    607F1037F2278
     607F1100962DDC00BF9
     607F1210D030CA6FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 33.31
     I3_HVBAT_CT_MIN: 30.65
+- response: |-
+    607F1037F2278
+    607F1100962DDC00BFE
+    607F1210C7E0C4CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.98
+    I3_HVBAT_CT_MIN: 30.7
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C04
+    607F1210C7C0C4DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.96
+    I3_HVBAT_CT_MIN: 30.76
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C09
+    607F1210CB80C73FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.56
+    I3_HVBAT_CT_MIN: 30.81
 - response: |-
     607F1037F2278
     607F1100962DDC00C0D
@@ -37471,6 +39704,20 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 33.55
     I3_HVBAT_CT_MIN: 30.85
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C0F
+    607F1210C820C5BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.02
+    I3_HVBAT_CT_MIN: 30.87
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C10
+    607F1210CFF0C94FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 33.27
+    I3_HVBAT_CT_MIN: 30.88
 - response: |-
     607F1037F2278
     607F1100962DDC00C11
@@ -37501,11 +39748,32 @@ test_cases:
     I3_HVBAT_CT_MIN: 30.99
 - response: |-
     607F1037F2278
+    607F1100962DDC00C20
+    607F1210CE20C94FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.98
+    I3_HVBAT_CT_MIN: 31.04
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C21
+    607F1210CCB0C88FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.75
+    I3_HVBAT_CT_MIN: 31.05
+- response: |-
+    607F1037F2278
     607F1100962DDC00C25
     607F1210CED0C89FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 33.09
     I3_HVBAT_CT_MIN: 31.09
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C2B
+    607F1210CCC0C93FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.76
+    I3_HVBAT_CT_MIN: 31.15
 - response: |-
     607F1037F2278
     607F1100962DDC00C2F
@@ -37522,11 +39790,60 @@ test_cases:
     I3_HVBAT_CT_MIN: 31.26
 - response: |-
     607F1037F2278
+    607F1100962DDC00C3E
+    607F1210D3B0CCBFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 33.87
+    I3_HVBAT_CT_MIN: 31.34
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C5B
+    607F1210D5A0CFAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 34.18
+    I3_HVBAT_CT_MIN: 31.63
+- response: |-
+    607F1037F2278
     607F1100962DDC00C6A
     607F1210D7E0D14FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 34.54
     I3_HVBAT_CT_MIN: 31.78
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C74
+    607F1210D2C0CEAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 33.72
+    I3_HVBAT_CT_MIN: 31.88
+- response: |-
+    607F1037F2278
+    607F1100962DDC00C8A
+    607F1210D9A0D26FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 34.82
+    I3_HVBAT_CT_MIN: 32.1
+- response: |-
+    607F1037F2278
+    607F1100962DDC00CAC
+    607F1210D9C0D45FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 34.84
+    I3_HVBAT_CT_MIN: 32.44
+- response: |-
+    607F1037F2278
+    607F1100962DDC00CF8
+    607F1210E140DA0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 36.04
+    I3_HVBAT_CT_MIN: 33.2
+- response: |-
+    607F1037F2278
+    607F1100962DDC00D2B
+    607F1210E390DCDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 36.41
+    I3_HVBAT_CT_MIN: 33.71
 - response: |-
     607F1100962DDC001FC
     607F1210255023BFFFF
@@ -43288,6 +45605,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 20.1
     I3_HVBAT_CT_MIN: 17.1
 - response: |-
+    607F1100962DDC006AE
+    607F12107DA0779FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.1
+    I3_HVBAT_CT_MIN: 17.1
+- response: |-
     607F1100962DDC006AF
     607F121071306E9FFFF
   expected_values:
@@ -43346,6 +45669,12 @@ test_cases:
     607F121079D073FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 19.49
+    I3_HVBAT_CT_MIN: 17.17
+- response: |-
+    607F1100962DDC006B5
+    607F12107CE077FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 19.98
     I3_HVBAT_CT_MIN: 17.17
 - response: |-
     607F1100962DDC006B7
@@ -43630,6 +45959,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 20.07
     I3_HVBAT_CT_MIN: 17.93
 - response: |-
+    607F1100962DDC00701
+    607F12107E70795FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.23
+    I3_HVBAT_CT_MIN: 17.93
+- response: |-
     607F1100962DDC00702
     607F1210766074FFFFF
   expected_values:
@@ -43805,6 +46140,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.97
 - response: |-
     607F1100962DDC00705
+    607F12107D10790FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.01
+    I3_HVBAT_CT_MIN: 17.97
+- response: |-
+    607F1100962DDC00705
     607F12107D5077BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.05
@@ -43814,6 +46155,12 @@ test_cases:
     607F12107D70789FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.07
+    I3_HVBAT_CT_MIN: 17.97
+- response: |-
+    607F1100962DDC00705
+    607F121082E07A4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.94
     I3_HVBAT_CT_MIN: 17.97
 - response: |-
     607F1100962DDC00705
@@ -43928,6 +46275,18 @@ test_cases:
     607F12107D70791FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.07
+    I3_HVBAT_CT_MIN: 17.98
+- response: |-
+    607F1100962DDC00706
+    607F12107FF07A2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.47
+    I3_HVBAT_CT_MIN: 17.98
+- response: |-
+    607F1100962DDC00706
+    607F121083207ABFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.98
     I3_HVBAT_CT_MIN: 17.98
 - response: |-
     607F1100962DDC00706
@@ -44183,6 +46542,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 17.99
 - response: |-
     607F1100962DDC00707
+    607F121083307A4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.99
+    I3_HVBAT_CT_MIN: 17.99
+- response: |-
+    607F1100962DDC00707
     607F121083307B7FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.99
@@ -44423,6 +46788,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 18.01
 - response: |-
     607F1100962DDC00709
+    607F12107D10791FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.01
+    I3_HVBAT_CT_MIN: 18.01
+- response: |-
+    607F1100962DDC00709
     607F121083507A3FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 21.01
@@ -44513,6 +46884,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 18.03
 - response: |-
     607F1100962DDC0070B
+    607F121083707AFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.03
+    I3_HVBAT_CT_MIN: 18.03
+- response: |-
+    607F1100962DDC0070B
     607F121083707B8FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 21.03
@@ -44534,6 +46911,12 @@ test_cases:
     607F12107D30785FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 20.03
+    I3_HVBAT_CT_MIN: 18.04
+- response: |-
+    607F1100962DDC0070C
+    607F121082F07A9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 20.95
     I3_HVBAT_CT_MIN: 18.04
 - response: |-
     607F1100962DDC0070C
@@ -44751,6 +47134,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 19.97
     I3_HVBAT_CT_MIN: 18.36
+- response: |-
+    607F1100962DDC0072F
+    607F121085207DAFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.3
+    I3_HVBAT_CT_MIN: 18.39
 - response: |-
     607F1100962DDC00735
     607F12107480740FFFF
@@ -45833,6 +48222,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 19.01
 - response: |-
     607F1100962DDC0076D
+    607F1210899082FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.01
+    I3_HVBAT_CT_MIN: 19.01
+- response: |-
+    607F1100962DDC0076D
     607F12108990833FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.01
@@ -45965,6 +48360,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 19.03
 - response: |-
     607F1100962DDC0076F
+    607F121089B0812FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.03
+    I3_HVBAT_CT_MIN: 19.03
+- response: |-
+    607F1100962DDC0076F
     607F121089B0816FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.03
@@ -46037,9 +48438,21 @@ test_cases:
     I3_HVBAT_CT_MIN: 19.06
 - response: |-
     607F1100962DDC00772
+    607F1210890080CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 21.92
+    I3_HVBAT_CT_MIN: 19.06
+- response: |-
+    607F1100962DDC00772
     607F121089C0813FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.04
+    I3_HVBAT_CT_MIN: 19.06
+- response: |-
+    607F1100962DDC00772
+    607F121089E080EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.06
     I3_HVBAT_CT_MIN: 19.06
 - response: |-
     607F1100962DDC00773
@@ -47549,6 +49962,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 20.06
 - response: |-
     607F1100962DDC007D6
+    607F12108A00857FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.08
+    I3_HVBAT_CT_MIN: 20.06
+- response: |-
+    607F1100962DDC007D6
     607F12109030890FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.07
@@ -47823,6 +50242,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 23.06
     I3_HVBAT_CT_MIN: 20.63
+- response: |-
+    607F1100962DDC00811
+    607F121090508A1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.09
+    I3_HVBAT_CT_MIN: 20.65
 - response: |-
     607F1100962DDC00812
     607F12108A00870FFFF
@@ -48116,6 +50541,12 @@ test_cases:
     607F12108A00883FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 22.08
+    I3_HVBAT_CT_MIN: 20.96
+- response: |-
+    607F1100962DDC00830
+    607F12108F8089FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 22.96
     I3_HVBAT_CT_MIN: 20.96
 - response: |-
     607F1100962DDC00830
@@ -48630,6 +51061,12 @@ test_cases:
 - response: |-
     607F1100962DDC00833
     607F12108FD08A4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.01
+    I3_HVBAT_CT_MIN: 20.99
+- response: |-
+    607F1100962DDC00833
+    607F12108FD08A8FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.01
     I3_HVBAT_CT_MIN: 20.99
@@ -49312,6 +51749,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 22.72
     I3_HVBAT_CT_MIN: 21.13
 - response: |-
+    607F1100962DDC00841
+    607F121096A08F5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.1
+    I3_HVBAT_CT_MIN: 21.13
+- response: |-
     607F1100962DDC00842
     607F121090E08CEFFFF
   expected_values:
@@ -49522,6 +51965,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 24.14
     I3_HVBAT_CT_MIN: 21.49
 - response: |-
+    607F1100962DDC00866
+    607F121095808F4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.92
+    I3_HVBAT_CT_MIN: 21.5
+- response: |-
     607F1100962DDC0086A
     607F121090208C9FFFF
   expected_values:
@@ -49655,6 +52104,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 21.79
 - response: |-
     607F1100962DDC00884
+    607F12109640901FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.04
+    I3_HVBAT_CT_MIN: 21.8
+- response: |-
+    607F1100962DDC00884
     607F12109A5091CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.69
@@ -49748,6 +52203,12 @@ test_cases:
     607F121093708DBFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.59
+    I3_HVBAT_CT_MIN: 21.9
+- response: |-
+    607F1100962DDC0088E
+    607F12109560907FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.9
     I3_HVBAT_CT_MIN: 21.9
 - response: |-
     607F1100962DDC0088E
@@ -49871,6 +52332,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 21.95
 - response: |-
     607F1100962DDC00893
+    607F121095C0917FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.96
+    I3_HVBAT_CT_MIN: 21.95
+- response: |-
+    607F1100962DDC00893
     607F12109A0091DFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.64
@@ -49976,6 +52443,12 @@ test_cases:
     607F121090008B3FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 23.04
+    I3_HVBAT_CT_MIN: 21.97
+- response: |-
+    607F1100962DDC00895
+    607F121095D0902FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 23.97
     I3_HVBAT_CT_MIN: 21.97
 - response: |-
     607F1100962DDC00895
@@ -51100,6 +53573,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 23.53
     I3_HVBAT_CT_MIN: 22.16
 - response: |-
+    607F1100962DDC008AA
+    607F1210985092DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.37
+    I3_HVBAT_CT_MIN: 22.18
+- response: |-
     607F1100962DDC008AB
     607F12109BE0961FFFF
   expected_values:
@@ -51347,6 +53826,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 22.92
 - response: |-
     607F1100962DDC008F4
+    607F1210A08098EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.68
+    I3_HVBAT_CT_MIN: 22.92
+- response: |-
+    607F1100962DDC008F4
     607F1210A1A0992FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.86
@@ -51356,6 +53841,12 @@ test_cases:
     607F12109BC0955FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 24.92
+    I3_HVBAT_CT_MIN: 22.93
+- response: |-
+    607F1100962DDC008F5
+    607F12109C30966FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 24.99
     I3_HVBAT_CT_MIN: 22.93
 - response: |-
     607F1100962DDC008F5
@@ -51599,6 +54090,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 22.98
 - response: |-
     607F1100962DDC008FA
+    607F12109DA0989FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.22
+    I3_HVBAT_CT_MIN: 22.98
+- response: |-
+    607F1100962DDC008FA
     607F1210A2409A5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.96
@@ -51760,6 +54257,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 26
     I3_HVBAT_CT_MIN: 23
 - response: |-
+    607F1100962DDC008FC
+    607F1210A28099FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26
+    I3_HVBAT_CT_MIN: 23
+- response: |-
     607F1100962DDC008FD
     607F12109C40952FFFF
   expected_values:
@@ -51863,6 +54366,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 23.02
 - response: |-
     607F1100962DDC008FE
+    607F1210A2609B5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.98
+    I3_HVBAT_CT_MIN: 23.02
+- response: |-
+    607F1100962DDC008FE
     607F1210A2A09AEFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.02
@@ -51870,6 +54379,12 @@ test_cases:
 - response: |-
     607F1100962DDC008FE
     607F1210A2A09B3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.02
+    I3_HVBAT_CT_MIN: 23.02
+- response: |-
+    607F1100962DDC008FE
+    607F1210A2A09B7FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.02
     I3_HVBAT_CT_MIN: 23.02
@@ -51920,6 +54435,12 @@ test_cases:
     607F12109D10993FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.13
+    I3_HVBAT_CT_MIN: 23.04
+- response: |-
+    607F1100962DDC00900
+    607F1210A2A09A7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.02
     I3_HVBAT_CT_MIN: 23.04
 - response: |-
     607F1100962DDC00901
@@ -51975,6 +54496,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 25.07
     I3_HVBAT_CT_MIN: 23.07
+- response: |-
+    607F1100962DDC00904
+    607F12109DD0990FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.25
+    I3_HVBAT_CT_MIN: 23.08
 - response: |-
     607F1100962DDC00905
     607F121099D0950FFFF
@@ -52078,6 +54605,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 25.1
     I3_HVBAT_CT_MIN: 23.24
 - response: |-
+    607F1100962DDC00914
+    607F1210A3309BFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.11
+    I3_HVBAT_CT_MIN: 23.24
+- response: |-
     607F1100962DDC0091A
     607F1210A2909AFFFFF
   expected_values:
@@ -52089,6 +54622,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 25.27
     I3_HVBAT_CT_MIN: 23.34
+- response: |-
+    607F1100962DDC00922
+    607F1210A2909BFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.01
+    I3_HVBAT_CT_MIN: 23.38
 - response: |-
     607F1100962DDC00928
     607F12109D90999FFFF
@@ -52124,6 +54663,12 @@ test_cases:
     607F12109C50994FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 25.01
+    I3_HVBAT_CT_MIN: 23.61
+- response: |-
+    607F1100962DDC00939
+    607F1210A2909C5FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.01
     I3_HVBAT_CT_MIN: 23.61
 - response: |-
     607F1100962DDC0093B
@@ -52167,6 +54712,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 26.94
     I3_HVBAT_CT_MIN: 23.8
+- response: |-
+    607F1100962DDC00952
+    607F1210A2509C4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 25.97
+    I3_HVBAT_CT_MIN: 23.86
 - response: |-
     607F1100962DDC00952
     607F1210A2809B1FFFF
@@ -52262,6 +54813,12 @@ test_cases:
     607F1210A6F09F2FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.71
+    I3_HVBAT_CT_MIN: 23.94
+- response: |-
+    607F1100962DDC0095A
+    607F1210A8609F9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.94
     I3_HVBAT_CT_MIN: 23.94
 - response: |-
     607F1100962DDC0095B
@@ -52538,6 +55095,12 @@ test_cases:
     607F1210A870A11FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.95
+    I3_HVBAT_CT_MIN: 23.98
+- response: |-
+    607F1100962DDC0095E
+    607F1210A890A02FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.97
     I3_HVBAT_CT_MIN: 23.98
 - response: |-
     607F1100962DDC0095E
@@ -53225,6 +55788,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 24.09
 - response: |-
     607F1100962DDC00969
+    607F1210A870A0DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.95
+    I3_HVBAT_CT_MIN: 24.09
+- response: |-
+    607F1100962DDC00969
     607F1210A900A1BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27.04
@@ -53240,6 +55809,12 @@ test_cases:
     607F1210A3209E2FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.1
+    I3_HVBAT_CT_MIN: 24.1
+- response: |-
+    607F1100962DDC0096A
+    607F1210A6709FDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.63
     I3_HVBAT_CT_MIN: 24.1
 - response: |-
     607F1100962DDC0096A
@@ -53267,6 +55842,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 24.11
 - response: |-
     607F1100962DDC0096B
+    607F1210A800A10FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.88
+    I3_HVBAT_CT_MIN: 24.11
+- response: |-
+    607F1100962DDC0096B
     607F1210A8B0A28FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.99
@@ -53283,6 +55864,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 26.52
     I3_HVBAT_CT_MIN: 24.14
+- response: |-
+    607F1100962DDC00970
+    607F1210A5609FEFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.46
+    I3_HVBAT_CT_MIN: 24.16
 - response: |-
     607F1100962DDC00971
     607F1210A1209C8FFFF
@@ -53386,6 +55973,18 @@ test_cases:
     I3_HVBAT_CT_MAX: 26.93
     I3_HVBAT_CT_MIN: 24.48
 - response: |-
+    607F1100962DDC00996
+    607F1210A810A25FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.89
+    I3_HVBAT_CT_MIN: 24.54
+- response: |-
+    607F1100962DDC00997
+    607F1210A930A31FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.07
+    I3_HVBAT_CT_MIN: 24.55
+- response: |-
     607F1100962DDC0099B
     607F1210A4E0A06FFFF
   expected_values:
@@ -53415,6 +56014,18 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 26.72
     I3_HVBAT_CT_MIN: 24.74
+- response: |-
+    607F1100962DDC009AC
+    607F1210A9E0A3FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.18
+    I3_HVBAT_CT_MIN: 24.76
+- response: |-
+    607F1100962DDC009AE
+    607F1210A970A3DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.11
+    I3_HVBAT_CT_MIN: 24.78
 - response: |-
     607F1100962DDC009AF
     607F1210A8A0A3AFFFF
@@ -53468,6 +56079,12 @@ test_cases:
     607F1210A820A33FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.9
+    I3_HVBAT_CT_MIN: 24.9
+- response: |-
+    607F1100962DDC009BA
+    607F1210A8F0A3EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.03
     I3_HVBAT_CT_MIN: 24.9
 - response: |-
     607F1100962DDC009BB
@@ -54023,6 +56640,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 24.99
 - response: |-
     607F1100962DDC009C4
+    607F1210A280A1BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26
+    I3_HVBAT_CT_MIN: 25
+- response: |-
+    607F1100962DDC009C4
     607F1210A7E0A2BFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 26.86
@@ -54179,6 +56802,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 25.02
 - response: |-
     607F1100962DDC009C7
+    607F1210A7B0A29FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.83
+    I3_HVBAT_CT_MIN: 25.03
+- response: |-
+    607F1100962DDC009C7
     607F1210A8F0A2AFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27.03
@@ -54267,6 +56896,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 28.04
     I3_HVBAT_CT_MIN: 25.04
+- response: |-
+    607F1100962DDC009C9
+    607F1210A390A22FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 26.17
+    I3_HVBAT_CT_MIN: 25.05
 - response: |-
     607F1100962DDC009CA
     607F1210A920A44FFFF
@@ -54676,6 +57311,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 28.98
     I3_HVBAT_CT_MIN: 25.98
 - response: |-
+    607F1100962DDC00A26
+    607F1210B520AECFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 25.98
+- response: |-
     607F1100962DDC00A27
     607F1210AEF0A9DFFFF
   expected_values:
@@ -54755,6 +57396,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 25.99
 - response: |-
     607F1100962DDC00A28
+    607F1210AEA0A9BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 27.94
+    I3_HVBAT_CT_MIN: 26
+- response: |-
+    607F1100962DDC00A28
     607F1210AEF0AB1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27.99
@@ -54770,6 +57417,18 @@ test_cases:
     607F1210AF00AABFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28
+    I3_HVBAT_CT_MIN: 26
+- response: |-
+    607F1100962DDC00A28
+    607F1210B530AEFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26
+- response: |-
+    607F1100962DDC00A28
+    607F1210B530AF0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
     I3_HVBAT_CT_MIN: 26
 - response: |-
     607F1100962DDC00A28
@@ -54832,6 +57491,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 28.89
     I3_HVBAT_CT_MIN: 26.05
 - response: |-
+    607F1100962DDC00A2D
+    607F1210B510AF0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.97
+    I3_HVBAT_CT_MIN: 26.05
+- response: |-
     607F1100962DDC00A2E
     607F1210AF60AB5FFFF
   expected_values:
@@ -54848,6 +57513,12 @@ test_cases:
     607F1210B430AD0FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.83
+    I3_HVBAT_CT_MIN: 26.07
+- response: |-
+    607F1100962DDC00A2F
+    607F1210B500AF0FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.96
     I3_HVBAT_CT_MIN: 26.07
 - response: |-
     607F1100962DDC00A30
@@ -54892,6 +57563,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 27.91
     I3_HVBAT_CT_MIN: 26.17
 - response: |-
+    607F1100962DDC00A3E
+    607F1210B590B02FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.05
+    I3_HVBAT_CT_MIN: 26.22
+- response: |-
     607F1100962DDC00A3F
     607F1210B4B0AE7FFFF
   expected_values:
@@ -54903,6 +57580,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 28.65
     I3_HVBAT_CT_MIN: 26.44
+- response: |-
+    607F1100962DDC00A5C
+    607F1210B500AFBFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.96
+    I3_HVBAT_CT_MIN: 26.52
 - response: |-
     607F1100962DDC00A5D
     607F1210B370AD2FFFF
@@ -54934,11 +57617,23 @@ test_cases:
     I3_HVBAT_CT_MAX: 28.94
     I3_HVBAT_CT_MIN: 26.7
 - response: |-
+    607F1100962DDC00A71
+    607F1210B9C0B38FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.72
+    I3_HVBAT_CT_MIN: 26.73
+- response: |-
     607F1100962DDC00A76
     607F1210B460AE5FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.86
     I3_HVBAT_CT_MIN: 26.78
+- response: |-
+    607F1100962DDC00A79
+    607F1210AFF0ACDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.15
+    I3_HVBAT_CT_MIN: 26.81
 - response: |-
     607F1100962DDC00A79
     607F1210B570B0EFFFF
@@ -54977,6 +57672,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.9
 - response: |-
     607F1100962DDC00A84
+    607F1210B450B08FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.85
+    I3_HVBAT_CT_MIN: 26.92
+- response: |-
+    607F1100962DDC00A84
     607F1210B5D0B0DFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.09
@@ -54994,10 +57695,34 @@ test_cases:
     I3_HVBAT_CT_MAX: 29.91
     I3_HVBAT_CT_MIN: 26.92
 - response: |-
+    607F1100962DDC00A84
+    607F1210BAF0B33FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.91
+    I3_HVBAT_CT_MIN: 26.92
+- response: |-
+    607F1100962DDC00A84
+    607F1210BB00B1CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 26.92
+- response: |-
+    607F1100962DDC00A84
+    607F1210BB00B20FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 26.92
+- response: |-
     607F1100962DDC00A85
     607F1210B500AEBFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.96
+    I3_HVBAT_CT_MIN: 26.93
+- response: |-
+    607F1100962DDC00A85
+    607F1210B560B00FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.02
     I3_HVBAT_CT_MIN: 26.93
 - response: |-
     607F1100962DDC00A85
@@ -55022,6 +57747,24 @@ test_cases:
     607F1210B500B09FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.96
+    I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1100962DDC00A86
+    607F1210B530AFBFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1100962DDC00A86
+    607F1210BAF0B34FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.91
+    I3_HVBAT_CT_MIN: 26.94
+- response: |-
+    607F1100962DDC00A86
+    607F1210BB30B40FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.95
     I3_HVBAT_CT_MIN: 26.94
 - response: |-
     607F1100962DDC00A87
@@ -55055,9 +57798,33 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.96
 - response: |-
     607F1100962DDC00A88
+    607F1210B980B10FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.68
+    I3_HVBAT_CT_MIN: 26.96
+- response: |-
+    607F1100962DDC00A88
     607F1210BB00B23FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 26.96
+- response: |-
+    607F1100962DDC00A88
+    607F1210BB30B37FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.95
+    I3_HVBAT_CT_MIN: 26.96
+- response: |-
+    607F1100962DDC00A88
+    607F1210BB40B18FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.96
+    I3_HVBAT_CT_MIN: 26.96
+- response: |-
+    607F1100962DDC00A88
+    607F1210BB40B1CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.96
     I3_HVBAT_CT_MIN: 26.96
 - response: |-
     607F1100962DDC00A89
@@ -55073,7 +57840,19 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.97
 - response: |-
     607F1100962DDC00A89
+    607F1210BB30B45FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.95
+    I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1100962DDC00A89
     607F1210BB50B22FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 26.97
+- response: |-
+    607F1100962DDC00A89
+    607F1210BB50B2FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
     I3_HVBAT_CT_MIN: 26.97
@@ -55098,6 +57877,12 @@ test_cases:
 - response: |-
     607F1100962DDC00A8A
     607F1210B520B0FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 26.98
+- response: |-
+    607F1100962DDC00A8A
+    607F1210B520B12FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.98
     I3_HVBAT_CT_MIN: 26.98
@@ -55146,6 +57931,12 @@ test_cases:
 - response: |-
     607F1100962DDC00A8B
     607F1210B530AFCFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.99
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1100962DDC00A8B
+    607F1210B530B02FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 28.99
     I3_HVBAT_CT_MIN: 26.99
@@ -55247,10 +58038,22 @@ test_cases:
     I3_HVBAT_CT_MIN: 26.99
 - response: |-
     607F1100962DDC00A8B
+    607F1210BB80B2EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1100962DDC00A8B
     607F1210BB80B47FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30
     I3_HVBAT_CT_MIN: 26.99
+- response: |-
+    607F1100962DDC00A8C
+    607F1210B520B0EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.98
+    I3_HVBAT_CT_MIN: 27
 - response: |-
     607F1100962DDC00A8C
     607F1210B540B0BFFFF
@@ -55292,6 +58095,12 @@ test_cases:
     607F1210B550B03FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.01
+    I3_HVBAT_CT_MIN: 27.01
+- response: |-
+    607F1100962DDC00A8D
+    607F1210BB00B3EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
     I3_HVBAT_CT_MIN: 27.01
 - response: |-
     607F1100962DDC00A8D
@@ -55349,6 +58158,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.06
 - response: |-
     607F1100962DDC00A93
+    607F1210B5B0B12FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.07
+    I3_HVBAT_CT_MIN: 27.07
+- response: |-
+    607F1100962DDC00A93
     607F1210B7F0B19FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.43
@@ -55359,6 +58174,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 29.11
     I3_HVBAT_CT_MIN: 27.08
+- response: |-
+    607F1100962DDC00A95
+    607F1210B510B0FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.97
+    I3_HVBAT_CT_MIN: 27.09
 - response: |-
     607F1100962DDC00A95
     607F1210B910B35FFFF
@@ -55372,17 +58193,65 @@ test_cases:
     I3_HVBAT_CT_MAX: 28.98
     I3_HVBAT_CT_MIN: 27.1
 - response: |-
+    607F1100962DDC00A96
+    607F1210BAF0B43FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.91
+    I3_HVBAT_CT_MIN: 27.1
+- response: |-
+    607F1100962DDC00A9B
+    607F1210B130AE6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.35
+    I3_HVBAT_CT_MIN: 27.15
+- response: |-
+    607F1100962DDC00A9D
+    607F1210BB00B4DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.92
+    I3_HVBAT_CT_MIN: 27.17
+- response: |-
+    607F1100962DDC00AA2
+    607F1210B720B22FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.3
+    I3_HVBAT_CT_MIN: 27.22
+- response: |-
     607F1100962DDC00AAD
     607F1210AB30AB1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 27.39
     I3_HVBAT_CT_MIN: 27.33
 - response: |-
+    607F1100962DDC00AAE
+    607F1210B500B1CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 28.96
+    I3_HVBAT_CT_MIN: 27.34
+- response: |-
+    607F1100962DDC00AAF
+    607F1210BAC0B4FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.88
+    I3_HVBAT_CT_MIN: 27.35
+- response: |-
     607F1100962DDC00ABB
     607F1210BAF0B49FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.91
     I3_HVBAT_CT_MIN: 27.47
+- response: |-
+    607F1100962DDC00ABB
+    607F1210BEA0B5AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.5
+    I3_HVBAT_CT_MIN: 27.47
+- response: |-
+    607F1100962DDC00AC0
+    607F1210BC70B5BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.15
+    I3_HVBAT_CT_MIN: 27.52
 - response: |-
     607F1100962DDC00AC1
     607F1210B500B23FFFF
@@ -55395,6 +58264,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.04
     I3_HVBAT_CT_MIN: 27.54
+- response: |-
+    607F1100962DDC00AC4
+    607F1210BE50B65FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.45
+    I3_HVBAT_CT_MIN: 27.56
 - response: |-
     607F1100962DDC00AC5
     607F1210BB50B62FFFF
@@ -55420,6 +58295,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 28.61
     I3_HVBAT_CT_MIN: 27.64
 - response: |-
+    607F1100962DDC00ACE
+    607F1210B580B27FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.04
+    I3_HVBAT_CT_MIN: 27.66
+- response: |-
     607F1100962DDC00ACF
     607F1210BDD0B6FFFFF
   expected_values:
@@ -55438,11 +58319,35 @@ test_cases:
     I3_HVBAT_CT_MAX: 29.9
     I3_HVBAT_CT_MIN: 27.75
 - response: |-
+    607F1100962DDC00AD8
+    607F1210B590B38FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.05
+    I3_HVBAT_CT_MIN: 27.76
+- response: |-
+    607F1100962DDC00ADA
+    607F1210BD50B63FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.29
+    I3_HVBAT_CT_MIN: 27.78
+- response: |-
     607F1100962DDC00AE1
     607F1210BB50B67FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
     I3_HVBAT_CT_MIN: 27.85
+- response: |-
+    607F1100962DDC00AE3
+    607F1210C070B86FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.79
+    I3_HVBAT_CT_MIN: 27.87
+- response: |-
+    607F1100962DDC00AE4
+    607F1210B540B27FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29
+    I3_HVBAT_CT_MIN: 27.88
 - response: |-
     607F1100962DDC00AE4
     607F1210BAC0B5FFFFF
@@ -55475,6 +58380,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.91
 - response: |-
     607F1100962DDC00AE8
+    607F1210B590B2BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.05
+    I3_HVBAT_CT_MIN: 27.92
+- response: |-
+    607F1100962DDC00AE8
     607F1210BB00B46FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.92
@@ -55498,6 +58409,30 @@ test_cases:
     I3_HVBAT_CT_MAX: 30.68
     I3_HVBAT_CT_MIN: 27.92
 - response: |-
+    607F1100962DDC00AE8
+    607F1210C150BA1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.93
+    I3_HVBAT_CT_MIN: 27.92
+- response: |-
+    607F1100962DDC00AE9
+    607F1210BB10B60FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.93
+    I3_HVBAT_CT_MIN: 27.93
+- response: |-
+    607F1100962DDC00AE9
+    607F1210C150B83FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.93
+    I3_HVBAT_CT_MIN: 27.93
+- response: |-
+    607F1100962DDC00AEA
+    607F1210B720B3CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.3
+    I3_HVBAT_CT_MIN: 27.94
+- response: |-
     607F1100962DDC00AEA
     607F1210BB20B5FFFFF
   expected_values:
@@ -55516,6 +58451,18 @@ test_cases:
     I3_HVBAT_CT_MAX: 30.76
     I3_HVBAT_CT_MIN: 27.94
 - response: |-
+    607F1100962DDC00AEA
+    607F1210C110B7FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.89
+    I3_HVBAT_CT_MIN: 27.94
+- response: |-
+    607F1100962DDC00AEB
+    607F1210BAA0B5BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.86
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
     607F1100962DDC00AEB
     607F1210BB30B43FFFF
   expected_values:
@@ -55529,9 +58476,27 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.95
 - response: |-
     607F1100962DDC00AEB
+    607F1210BB50B75FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1100962DDC00AEB
     607F1210BB70B5AFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1100962DDC00AEB
+    607F1210C120B93FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.9
+    I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1100962DDC00AEB
+    607F1210C150B9EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.93
     I3_HVBAT_CT_MIN: 27.95
 - response: |-
     607F1100962DDC00AEB
@@ -55539,6 +58504,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.95
     I3_HVBAT_CT_MIN: 27.95
+- response: |-
+    607F1100962DDC00AEC
+    607F1210BAA0B4BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.86
+    I3_HVBAT_CT_MIN: 27.96
 - response: |-
     607F1100962DDC00AEC
     607F1210BB40B4CFFFF
@@ -55613,6 +58584,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.97
 - response: |-
     607F1100962DDC00AED
+    607F1210BB50B5AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.97
+    I3_HVBAT_CT_MIN: 27.97
+- response: |-
+    607F1100962DDC00AED
     607F1210BB50B5CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.97
@@ -55628,6 +58605,18 @@ test_cases:
     607F1210BB70B73FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 27.97
+- response: |-
+    607F1100962DDC00AED
+    607F1210BC20B7BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.1
+    I3_HVBAT_CT_MIN: 27.97
+- response: |-
+    607F1100962DDC00AED
+    607F1210C190B94FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.97
     I3_HVBAT_CT_MIN: 27.97
 - response: |-
     607F1100962DDC00AEE
@@ -55667,13 +58656,31 @@ test_cases:
     I3_HVBAT_CT_MIN: 27.98
 - response: |-
     607F1100962DDC00AEF
+    607F1210B550B2DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.01
+    I3_HVBAT_CT_MIN: 27.99
+- response: |-
+    607F1100962DDC00AEF
     607F1210BB60B6DFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.98
     I3_HVBAT_CT_MIN: 27.99
 - response: |-
     607F1100962DDC00AEF
+    607F1210BB70B4DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 27.99
+- response: |-
+    607F1100962DDC00AEF
     607F1210BB70B5AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 27.99
+- response: |-
+    607F1100962DDC00AEF
+    607F1210BB70B6CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 29.99
     I3_HVBAT_CT_MIN: 27.99
@@ -55720,6 +58727,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 30.98
     I3_HVBAT_CT_MIN: 27.99
 - response: |-
+    607F1100962DDC00AEF
+    607F1210C210BABFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.05
+    I3_HVBAT_CT_MIN: 27.99
+- response: |-
     607F1100962DDC00AF0
     607F1210BB80B59FFFF
   expected_values:
@@ -55754,6 +58767,12 @@ test_cases:
     607F1210BB90B7FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.01
+    I3_HVBAT_CT_MIN: 28
+- response: |-
+    607F1100962DDC00AF0
+    607F1210BBA0B80FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.02
     I3_HVBAT_CT_MIN: 28
 - response: |-
     607F1100962DDC00AF0
@@ -55797,6 +58816,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.78
     I3_HVBAT_CT_MIN: 28.04
+- response: |-
+    607F1100962DDC00AF5
+    607F1210BFB0B81FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.67
+    I3_HVBAT_CT_MIN: 28.05
 - response: |-
     607F1100962DDC00AF6
     607F1210C070B9BFFFF
@@ -55859,10 +58884,28 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.16
 - response: |-
     607F1100962DDC00B01
+    607F1210BB70B74FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.99
+    I3_HVBAT_CT_MIN: 28.17
+- response: |-
+    607F1100962DDC00B01
     607F1210BD30B8CFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.27
     I3_HVBAT_CT_MIN: 28.17
+- response: |-
+    607F1100962DDC00B06
+    607F1210C330BBDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.23
+    I3_HVBAT_CT_MIN: 28.22
+- response: |-
+    607F1100962DDC00B07
+    607F1210BB20B6EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 29.94
+    I3_HVBAT_CT_MIN: 28.23
 - response: |-
     607F1100962DDC00B07
     607F1210C050B97FFFF
@@ -55875,6 +58918,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 29.92
     I3_HVBAT_CT_MIN: 28.25
+- response: |-
+    607F1100962DDC00B0D
+    607F1210BB80B75FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 28.29
 - response: |-
     607F1100962DDC00B0E
     607F1210BC50B8FFFFF
@@ -55900,6 +58949,18 @@ test_cases:
     I3_HVBAT_CT_MAX: 31.13
     I3_HVBAT_CT_MIN: 28.42
 - response: |-
+    607F1100962DDC00B1C
+    607F1210BBB0B75FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.03
+    I3_HVBAT_CT_MIN: 28.44
+- response: |-
+    607F1100962DDC00B1D
+    607F1210BBD0B81FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.05
+    I3_HVBAT_CT_MIN: 28.45
+- response: |-
     607F1100962DDC00B1D
     607F1210BDC0B86FFFF
   expected_values:
@@ -55911,6 +58972,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.89
     I3_HVBAT_CT_MIN: 28.46
+- response: |-
+    607F1100962DDC00B1F
+    607F1210C490BD2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.45
+    I3_HVBAT_CT_MIN: 28.47
 - response: |-
     607F1100962DDC00B2A
     607F1210BF50BA2FFFF
@@ -55936,11 +59003,29 @@ test_cases:
     I3_HVBAT_CT_MAX: 30.98
     I3_HVBAT_CT_MIN: 28.75
 - response: |-
+    607F1100962DDC00B3C
+    607F1210C6D0BE1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.81
+    I3_HVBAT_CT_MIN: 28.76
+- response: |-
     607F1100962DDC00B40
     607F1210C0A0B9AFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.82
     I3_HVBAT_CT_MIN: 28.8
+- response: |-
+    607F1100962DDC00B41
+    607F1210C090BAFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.81
+    I3_HVBAT_CT_MIN: 28.81
+- response: |-
+    607F1100962DDC00B41
+    607F1210C0B0BA9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.83
+    I3_HVBAT_CT_MIN: 28.81
 - response: |-
     607F1100962DDC00B43
     607F1210C160BCCFFFF
@@ -55965,6 +59050,18 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 30.93
     I3_HVBAT_CT_MIN: 28.86
+- response: |-
+    607F1100962DDC00B48
+    607F1210C7E0C0BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.98
+    I3_HVBAT_CT_MIN: 28.88
+- response: |-
+    607F1100962DDC00B49
+    607F1210C280BC7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.12
+    I3_HVBAT_CT_MIN: 28.89
 - response: |-
     607F1100962DDC00B4A
     607F1210BE60B9DFFFF
@@ -55991,6 +59088,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.91
 - response: |-
     607F1100962DDC00B4B
+    607F1210C170BB3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.95
+    I3_HVBAT_CT_MIN: 28.91
+- response: |-
+    607F1100962DDC00B4B
     607F1210C3F0BE3FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.35
@@ -56002,10 +59105,28 @@ test_cases:
     I3_HVBAT_CT_MAX: 30.92
     I3_HVBAT_CT_MIN: 28.92
 - response: |-
+    607F1100962DDC00B4D
+    607F1210BD60BADFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.3
+    I3_HVBAT_CT_MIN: 28.93
+- response: |-
+    607F1100962DDC00B4E
+    607F1210C160BD3FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.94
+    I3_HVBAT_CT_MIN: 28.94
+- response: |-
     607F1100962DDC00B4E
     607F1210C170BB1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.95
+    I3_HVBAT_CT_MIN: 28.94
+- response: |-
+    607F1100962DDC00B4E
+    607F1210C220BD1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.06
     I3_HVBAT_CT_MIN: 28.94
 - response: |-
     607F1100962DDC00B4E
@@ -56014,11 +59135,29 @@ test_cases:
     I3_HVBAT_CT_MAX: 31.54
     I3_HVBAT_CT_MIN: 28.94
 - response: |-
+    607F1100962DDC00B4E
+    607F1210C7A0C15FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.94
+    I3_HVBAT_CT_MIN: 28.94
+- response: |-
+    607F1100962DDC00B4F
+    607F1210C160BC7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.94
+    I3_HVBAT_CT_MIN: 28.95
+- response: |-
     607F1100962DDC00B4F
     607F1210C170BC1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.95
     I3_HVBAT_CT_MIN: 28.95
+- response: |-
+    607F1100962DDC00B50
+    607F1210C180BD1FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.96
+    I3_HVBAT_CT_MIN: 28.96
 - response: |-
     607F1100962DDC00B51
     607F1210C190BD3FFFF
@@ -56031,6 +59170,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 31
     I3_HVBAT_CT_MIN: 28.97
+- response: |-
+    607F1100962DDC00B52
+    607F1210C1A0BC4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.98
+    I3_HVBAT_CT_MIN: 28.98
 - response: |-
     607F1100962DDC00B52
     607F1210C280BDDFFFF
@@ -56057,6 +59202,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 28.99
 - response: |-
     607F1100962DDC00B54
+    607F1210BB80B8BFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30
+    I3_HVBAT_CT_MIN: 29
+- response: |-
+    607F1100962DDC00B54
     607F1210C1B0BCAFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 30.99
@@ -56074,11 +59225,29 @@ test_cases:
     I3_HVBAT_CT_MAX: 31
     I3_HVBAT_CT_MIN: 29
 - response: |-
+    607F1100962DDC00B54
+    607F1210C670BE6FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.75
+    I3_HVBAT_CT_MIN: 29
+- response: |-
+    607F1100962DDC00B55
+    607F1210C120BC8FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.9
+    I3_HVBAT_CT_MIN: 29.01
+- response: |-
     607F1100962DDC00B55
     607F1210C6C0BF8FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.8
     I3_HVBAT_CT_MIN: 29.01
+- response: |-
+    607F1100962DDC00B56
+    607F1210BBD0B90FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.05
+    I3_HVBAT_CT_MIN: 29.02
 - response: |-
     607F1100962DDC00B56
     607F1210C0C0BB3FFFF
@@ -56105,6 +59274,12 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.03
 - response: |-
     607F1100962DDC00B58
+    607F1210C1F0BD7FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.03
+    I3_HVBAT_CT_MIN: 29.04
+- response: |-
+    607F1100962DDC00B58
     607F1210C2D0BE1FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.17
@@ -56122,6 +59297,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 31.22
     I3_HVBAT_CT_MIN: 29.06
 - response: |-
+    607F1100962DDC00B5C
+    607F1210BC50BA4FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 30.13
+    I3_HVBAT_CT_MIN: 29.08
+- response: |-
     607F1100962DDC00B5D
     607F1210C250BC7FFFF
   expected_values:
@@ -56133,6 +59314,12 @@ test_cases:
   expected_values:
     I3_HVBAT_CT_MAX: 32.03
     I3_HVBAT_CT_MIN: 29.09
+- response: |-
+    607F1100962DDC00B5F
+    607F1210C910C10FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.17
+    I3_HVBAT_CT_MIN: 29.11
 - response: |-
     607F1100962DDC00B64
     607F1210C0D0BBCFFFF
@@ -56147,10 +59334,22 @@ test_cases:
     I3_HVBAT_CT_MIN: 29.2
 - response: |-
     607F1100962DDC00B68
+    607F1210C350BEFFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.25
+    I3_HVBAT_CT_MIN: 29.2
+- response: |-
+    607F1100962DDC00B68
     607F1210C8D0C18FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 32.13
     I3_HVBAT_CT_MIN: 29.2
+- response: |-
+    607F1100962DDC00B6B
+    607F1210CB90C36FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.57
+    I3_HVBAT_CT_MIN: 29.23
 - response: |-
     607F1100962DDC00B6D
     607F1210C790C14FFFF
@@ -56164,6 +59363,12 @@ test_cases:
     I3_HVBAT_CT_MAX: 32.2
     I3_HVBAT_CT_MIN: 29.4
 - response: |-
+    607F1100962DDC00B7D
+    607F1210C720BF9FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.86
+    I3_HVBAT_CT_MIN: 29.41
+- response: |-
     607F1100962DDC00B80
     607F1210C870C24FFFF
   expected_values:
@@ -56176,11 +59381,23 @@ test_cases:
     I3_HVBAT_CT_MAX: 31.95
     I3_HVBAT_CT_MIN: 29.62
 - response: |-
+    607F1100962DDC00BA2
+    607F1210C710C1FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.85
+    I3_HVBAT_CT_MIN: 29.78
+- response: |-
     607F1100962DDC00BA5
     607F1210C940C35FFFF
   expected_values:
     I3_HVBAT_CT_MAX: 32.2
     I3_HVBAT_CT_MIN: 29.81
+- response: |-
+    607F1100962DDC00BA6
+    607F1210C700C15FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.84
+    I3_HVBAT_CT_MIN: 29.82
 - response: |-
     607F1100962DDC00BAC
     607F1210C740C18FFFF
@@ -56194,17 +59411,131 @@ test_cases:
     I3_HVBAT_CT_MAX: 31.98
     I3_HVBAT_CT_MIN: 29.89
 - response: |-
+    607F1100962DDC00BAF
+    607F1210C7B0C2FFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.95
+    I3_HVBAT_CT_MIN: 29.91
+- response: |-
     607F1100962DDC00BB2
     607F1210C7A0C2FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 31.94
     I3_HVBAT_CT_MIN: 29.94
 - response: |-
+    607F1100962DDC00BB3
+    607F1210C780C29FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.92
+    I3_HVBAT_CT_MIN: 29.95
+- response: |-
+    607F1100962DDC00BB6
+    607F1210C370C16FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.27
+    I3_HVBAT_CT_MIN: 29.98
+- response: |-
+    607F1100962DDC00BB6
+    607F1210C7E0C2EFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.98
+    I3_HVBAT_CT_MIN: 29.98
+- response: |-
+    607F1100962DDC00BB7
+    607F1210C7A0C28FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.94
+    I3_HVBAT_CT_MIN: 29.99
+- response: |-
+    607F1100962DDC00BB8
+    607F1210C7C0C35FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.96
+    I3_HVBAT_CT_MIN: 30
+- response: |-
+    607F1100962DDC00BBD
+    607F1210C860C21FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.06
+    I3_HVBAT_CT_MIN: 30.05
+- response: |-
+    607F1100962DDC00BC0
+    607F1210C890C39FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.09
+    I3_HVBAT_CT_MIN: 30.08
+- response: |-
+    607F1100962DDC00BF0
+    607F1210C6E0C3DFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.82
+    I3_HVBAT_CT_MIN: 30.56
+- response: |-
+    607F1100962DDC00C04
+    607F1210C8B0C61FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.11
+    I3_HVBAT_CT_MIN: 30.76
+- response: |-
+    607F1100962DDC00C10
+    607F1210C7C0C62FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.96
+    I3_HVBAT_CT_MIN: 30.88
+- response: |-
+    607F1100962DDC00C11
+    607F1210C7E0C4CFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 31.98
+    I3_HVBAT_CT_MIN: 30.89
+- response: |-
+    607F1100962DDC00C11
+    607F1210CA30C76FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.35
+    I3_HVBAT_CT_MIN: 30.89
+- response: |-
     607F1100962DDC00C1A
     607F1210CE40C9FFFFF
   expected_values:
     I3_HVBAT_CT_MAX: 33
     I3_HVBAT_CT_MIN: 30.98
+- response: |-
+    607F1100962DDC00C26
+    607F1210CDE0C9AFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 32.94
+    I3_HVBAT_CT_MIN: 31.1
+- response: |-
+    607F1100962DDC00C28
+    607F1210D1C0CB2FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 33.56
+    I3_HVBAT_CT_MIN: 31.12
+- response: |-
+    607F1100962DDC00C5F
+    607F1210CF90CBEFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 33.21
+    I3_HVBAT_CT_MIN: 31.67
+- response: |-
+    607F1100962DDC00C7C
+    607F1210D3F0CFDFFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 33.91
+    I3_HVBAT_CT_MIN: 31.96
+- response: |-
+    607F1100962DDC00CB3
+    607F1210DAD0D49FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 35.01
+    I3_HVBAT_CT_MIN: 32.51
+- response: |-
+    607F1100962DDC00CB7
+    607F1210DB00D46FFFF
+  expected_values:
+    I3_HVBAT_CT_MAX: 35.04
+    I3_HVBAT_CT_MIN: 32.55
 - response: |-
     607F1102962DFA0226F
     607F121230222AE8E8E
