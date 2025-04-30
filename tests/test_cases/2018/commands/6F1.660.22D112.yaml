@@ -120,9 +120,19 @@ test_cases:
     I3_AAT: 16.5
 - response: |-
     660F1037F2278
+    660F10562D1127273
+  expected_values:
+    I3_AAT: 17
+- response: |-
+    660F1037F2278
     660F10562D1127879
   expected_values:
     I3_AAT: 20
+- response: |-
+    660F1037F2278
+    660F10562D1127D7E
+  expected_values:
+    I3_AAT: 22.5
 - response: 660F10562D1125050
   expected_values:
     I3_AAT: 0
@@ -474,6 +484,9 @@ test_cases:
 - response: 660F10562D112686C
   expected_values:
     I3_AAT: 12
+- response: 660F10562D1126968
+  expected_values:
+    I3_AAT: 12.5
 - response: 660F10562D1126969
   expected_values:
     I3_AAT: 12.5
@@ -513,6 +526,9 @@ test_cases:
 - response: 660F10562D1126A6F
   expected_values:
     I3_AAT: 13
+- response: 660F10562D1126B6A
+  expected_values:
+    I3_AAT: 13.5
 - response: 660F10562D1126B6B
   expected_values:
     I3_AAT: 13.5
@@ -735,6 +751,9 @@ test_cases:
 - response: 660F10562D1127376
   expected_values:
     I3_AAT: 17.5
+- response: 660F10562D1127377
+  expected_values:
+    I3_AAT: 17.5
 - response: 660F10562D1127378
   expected_values:
     I3_AAT: 17.5
@@ -744,6 +763,9 @@ test_cases:
 - response: 660F10562D112737C
   expected_values:
     I3_AAT: 17.5
+- response: 660F10562D1127473
+  expected_values:
+    I3_AAT: 18
 - response: 660F10562D1127474
   expected_values:
     I3_AAT: 18
@@ -754,6 +776,9 @@ test_cases:
   expected_values:
     I3_AAT: 18
 - response: 660F10562D1127477
+  expected_values:
+    I3_AAT: 18
+- response: 660F10562D1127478
   expected_values:
     I3_AAT: 18
 - response: 660F10562D1127479
@@ -792,6 +817,9 @@ test_cases:
 - response: 660F10562D1127677
   expected_values:
     I3_AAT: 19
+- response: 660F10562D1127678
+  expected_values:
+    I3_AAT: 19
 - response: 660F10562D1127679
   expected_values:
     I3_AAT: 19
@@ -813,10 +841,19 @@ test_cases:
 - response: 660F10562D1127778
   expected_values:
     I3_AAT: 19.5
+- response: 660F10562D1127779
+  expected_values:
+    I3_AAT: 19.5
 - response: 660F10562D1127878
   expected_values:
     I3_AAT: 20
 - response: 660F10562D1127879
+  expected_values:
+    I3_AAT: 20
+- response: 660F10562D112787A
+  expected_values:
+    I3_AAT: 20
+- response: 660F10562D112787B
   expected_values:
     I3_AAT: 20
 - response: 660F10562D1127979
@@ -897,12 +934,45 @@ test_cases:
 - response: 660F10562D1127D7E
   expected_values:
     I3_AAT: 22.5
+- response: 660F10562D1127D7F
+  expected_values:
+    I3_AAT: 22.5
 - response: 660F10562D1127D81
   expected_values:
     I3_AAT: 22.5
 - response: 660F10562D1127D82
   expected_values:
     I3_AAT: 22.5
+- response: 660F10562D1127E7E
+  expected_values:
+    I3_AAT: 23
+- response: 660F10562D1127E7F
+  expected_values:
+    I3_AAT: 23
+- response: 660F10562D1127E80
+  expected_values:
+    I3_AAT: 23
+- response: 660F10562D1127E81
+  expected_values:
+    I3_AAT: 23
 - response: 660F10562D1127F7F
   expected_values:
     I3_AAT: 23.5
+- response: 660F10562D1127F80
+  expected_values:
+    I3_AAT: 23.5
+- response: 660F10562D1127F81
+  expected_values:
+    I3_AAT: 23.5
+- response: 660F10562D112807F
+  expected_values:
+    I3_AAT: 24
+- response: 660F10562D1128080
+  expected_values:
+    I3_AAT: 24
+- response: 660F10562D1128081
+  expected_values:
+    I3_AAT: 24
+- response: 660F10562D1128181
+  expected_values:
+    I3_AAT: 24.5
