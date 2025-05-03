@@ -454,6 +454,9 @@ test_cases:
 - response: 660F10562D1126669
   expected_values:
     I3_AAT: 11
+- response: 660F10562D112666D
+  expected_values:
+    I3_AAT: 11
 - response: 660F10562D1126767
   expected_values:
     I3_AAT: 11.5
@@ -973,6 +976,27 @@ test_cases:
 - response: 660F10562D1128081
   expected_values:
     I3_AAT: 24
+- response: 660F10562D1128082
+  expected_values:
+    I3_AAT: 24
+- response: 660F10562D1128083
+  expected_values:
+    I3_AAT: 24
 - response: 660F10562D1128181
   expected_values:
     I3_AAT: 24.5
+- response: 660F10562D1128182
+  expected_values:
+    I3_AAT: 24.5
+- response: 660F10562D1128183
+  expected_values:
+    I3_AAT: 24.5
+- response: 660F10562D1128282
+  expected_values:
+    I3_AAT: 25
+- response: 660F10562D1128283
+  expected_values:
+    I3_AAT: 25
+- response: 660F10562D1128484
+  expected_values:
+    I3_AAT: 26
