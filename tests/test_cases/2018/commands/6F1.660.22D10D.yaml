@@ -1,0 +1,1799 @@
+command_id: 6F1.660.22D10D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: true
+test_cases:
+- response: |-
+    660F1037F2278
+    660F1100B62D10D0003
+    660F12101FC000301FC
+  expected_values:
+    I3_ODO1: 197116
+    I3_ODO2: 197116
+- response: |-
+    660F1100B62D10D0003
+    660F12100BC000300BC
+  expected_values:
+    I3_ODO1: 196796
+    I3_ODO2: 196796
+- response: |-
+    660F1100B62D10D0003
+    660F12100BD000300BD
+  expected_values:
+    I3_ODO1: 196797
+    I3_ODO2: 196797
+- response: |-
+    660F1100B62D10D0003
+    660F12100BE000300BE
+  expected_values:
+    I3_ODO1: 196798
+    I3_ODO2: 196798
+- response: |-
+    660F1100B62D10D0003
+    660F12100BF000300BF
+  expected_values:
+    I3_ODO1: 196799
+    I3_ODO2: 196799
+- response: |-
+    660F1100B62D10D0003
+    660F12100C0000300C0
+  expected_values:
+    I3_ODO1: 196800
+    I3_ODO2: 196800
+- response: |-
+    660F1100B62D10D0003
+    660F12100C1000300C1
+  expected_values:
+    I3_ODO1: 196801
+    I3_ODO2: 196801
+- response: |-
+    660F1100B62D10D0003
+    660F12100C2000300C2
+  expected_values:
+    I3_ODO1: 196802
+    I3_ODO2: 196802
+- response: |-
+    660F1100B62D10D0003
+    660F12100C3000300C3
+  expected_values:
+    I3_ODO1: 196803
+    I3_ODO2: 196803
+- response: |-
+    660F1100B62D10D0003
+    660F12100C4000300C4
+  expected_values:
+    I3_ODO1: 196804
+    I3_ODO2: 196804
+- response: |-
+    660F1100B62D10D0003
+    660F12100C5000300C5
+  expected_values:
+    I3_ODO1: 196805
+    I3_ODO2: 196805
+- response: |-
+    660F1100B62D10D0003
+    660F12100C6000300C6
+  expected_values:
+    I3_ODO1: 196806
+    I3_ODO2: 196806
+- response: |-
+    660F1100B62D10D0003
+    660F12100C7000300C7
+  expected_values:
+    I3_ODO1: 196807
+    I3_ODO2: 196807
+- response: |-
+    660F1100B62D10D0003
+    660F12100C8000300C8
+  expected_values:
+    I3_ODO1: 196808
+    I3_ODO2: 196808
+- response: |-
+    660F1100B62D10D0003
+    660F12100C9000300C9
+  expected_values:
+    I3_ODO1: 196809
+    I3_ODO2: 196809
+- response: |-
+    660F1100B62D10D0003
+    660F12100CA000300CA
+  expected_values:
+    I3_ODO1: 196810
+    I3_ODO2: 196810
+- response: |-
+    660F1100B62D10D0003
+    660F12100CB000300CB
+  expected_values:
+    I3_ODO1: 196811
+    I3_ODO2: 196811
+- response: |-
+    660F1100B62D10D0003
+    660F12100CC000300CC
+  expected_values:
+    I3_ODO1: 196812
+    I3_ODO2: 196812
+- response: |-
+    660F1100B62D10D0003
+    660F12100CD000300CD
+  expected_values:
+    I3_ODO1: 196813
+    I3_ODO2: 196813
+- response: |-
+    660F1100B62D10D0003
+    660F12100CE000300CE
+  expected_values:
+    I3_ODO1: 196814
+    I3_ODO2: 196814
+- response: |-
+    660F1100B62D10D0003
+    660F12100CF000300CF
+  expected_values:
+    I3_ODO1: 196815
+    I3_ODO2: 196815
+- response: |-
+    660F1100B62D10D0003
+    660F12100D0000300D0
+  expected_values:
+    I3_ODO1: 196816
+    I3_ODO2: 196816
+- response: |-
+    660F1100B62D10D0003
+    660F12100D1000300D1
+  expected_values:
+    I3_ODO1: 196817
+    I3_ODO2: 196817
+- response: |-
+    660F1100B62D10D0003
+    660F12100D2000300D2
+  expected_values:
+    I3_ODO1: 196818
+    I3_ODO2: 196818
+- response: |-
+    660F1100B62D10D0003
+    660F12100D3000300D3
+  expected_values:
+    I3_ODO1: 196819
+    I3_ODO2: 196819
+- response: |-
+    660F1100B62D10D0003
+    660F12100D4000300D4
+  expected_values:
+    I3_ODO1: 196820
+    I3_ODO2: 196820
+- response: |-
+    660F1100B62D10D0003
+    660F12100D5000300D5
+  expected_values:
+    I3_ODO1: 196821
+    I3_ODO2: 196821
+- response: |-
+    660F1100B62D10D0003
+    660F12100D6000300D6
+  expected_values:
+    I3_ODO1: 196822
+    I3_ODO2: 196822
+- response: |-
+    660F1100B62D10D0003
+    660F12100D7000300D7
+  expected_values:
+    I3_ODO1: 196823
+    I3_ODO2: 196823
+- response: |-
+    660F1100B62D10D0003
+    660F12100D8000300D8
+  expected_values:
+    I3_ODO1: 196824
+    I3_ODO2: 196824
+- response: |-
+    660F1100B62D10D0003
+    660F12100D9000300D9
+  expected_values:
+    I3_ODO1: 196825
+    I3_ODO2: 196825
+- response: |-
+    660F1100B62D10D0003
+    660F12100DA000300DA
+  expected_values:
+    I3_ODO1: 196826
+    I3_ODO2: 196826
+- response: |-
+    660F1100B62D10D0003
+    660F12100DB000300DB
+  expected_values:
+    I3_ODO1: 196827
+    I3_ODO2: 196827
+- response: |-
+    660F1100B62D10D0003
+    660F12100DC000300DC
+  expected_values:
+    I3_ODO1: 196828
+    I3_ODO2: 196828
+- response: |-
+    660F1100B62D10D0003
+    660F12100DD000300DD
+  expected_values:
+    I3_ODO1: 196829
+    I3_ODO2: 196829
+- response: |-
+    660F1100B62D10D0003
+    660F12100DE000300DE
+  expected_values:
+    I3_ODO1: 196830
+    I3_ODO2: 196830
+- response: |-
+    660F1100B62D10D0003
+    660F12100DF000300DF
+  expected_values:
+    I3_ODO1: 196831
+    I3_ODO2: 196831
+- response: |-
+    660F1100B62D10D0003
+    660F12100E0000300E0
+  expected_values:
+    I3_ODO1: 196832
+    I3_ODO2: 196832
+- response: |-
+    660F1100B62D10D0003
+    660F12100E1000300E1
+  expected_values:
+    I3_ODO1: 196833
+    I3_ODO2: 196833
+- response: |-
+    660F1100B62D10D0003
+    660F12100E2000300E2
+  expected_values:
+    I3_ODO1: 196834
+    I3_ODO2: 196834
+- response: |-
+    660F1100B62D10D0003
+    660F12100E3000300E3
+  expected_values:
+    I3_ODO1: 196835
+    I3_ODO2: 196835
+- response: |-
+    660F1100B62D10D0003
+    660F12100E4000300E4
+  expected_values:
+    I3_ODO1: 196836
+    I3_ODO2: 196836
+- response: |-
+    660F1100B62D10D0003
+    660F12100E5000300E5
+  expected_values:
+    I3_ODO1: 196837
+    I3_ODO2: 196837
+- response: |-
+    660F1100B62D10D0003
+    660F12100E6000300E6
+  expected_values:
+    I3_ODO1: 196838
+    I3_ODO2: 196838
+- response: |-
+    660F1100B62D10D0003
+    660F12100E7000300E7
+  expected_values:
+    I3_ODO1: 196839
+    I3_ODO2: 196839
+- response: |-
+    660F1100B62D10D0003
+    660F12100E8000300E8
+  expected_values:
+    I3_ODO1: 196840
+    I3_ODO2: 196840
+- response: |-
+    660F1100B62D10D0003
+    660F12100E9000300E9
+  expected_values:
+    I3_ODO1: 196841
+    I3_ODO2: 196841
+- response: |-
+    660F1100B62D10D0003
+    660F12100EA000300EA
+  expected_values:
+    I3_ODO1: 196842
+    I3_ODO2: 196842
+- response: |-
+    660F1100B62D10D0003
+    660F12100EB000300EB
+  expected_values:
+    I3_ODO1: 196843
+    I3_ODO2: 196843
+- response: |-
+    660F1100B62D10D0003
+    660F12100EC000300EC
+  expected_values:
+    I3_ODO1: 196844
+    I3_ODO2: 196844
+- response: |-
+    660F1100B62D10D0003
+    660F12100ED000300ED
+  expected_values:
+    I3_ODO1: 196845
+    I3_ODO2: 196845
+- response: |-
+    660F1100B62D10D0003
+    660F12100EE000300EE
+  expected_values:
+    I3_ODO1: 196846
+    I3_ODO2: 196846
+- response: |-
+    660F1100B62D10D0003
+    660F12100EF000300EF
+  expected_values:
+    I3_ODO1: 196847
+    I3_ODO2: 196847
+- response: |-
+    660F1100B62D10D0003
+    660F12100F0000300F0
+  expected_values:
+    I3_ODO1: 196848
+    I3_ODO2: 196848
+- response: |-
+    660F1100B62D10D0003
+    660F12100F1000300F1
+  expected_values:
+    I3_ODO1: 196849
+    I3_ODO2: 196849
+- response: |-
+    660F1100B62D10D0003
+    660F12100F2000300F2
+  expected_values:
+    I3_ODO1: 196850
+    I3_ODO2: 196850
+- response: |-
+    660F1100B62D10D0003
+    660F12100F3000300F3
+  expected_values:
+    I3_ODO1: 196851
+    I3_ODO2: 196851
+- response: |-
+    660F1100B62D10D0003
+    660F12100F4000300F4
+  expected_values:
+    I3_ODO1: 196852
+    I3_ODO2: 196852
+- response: |-
+    660F1100B62D10D0003
+    660F12100F5000300F5
+  expected_values:
+    I3_ODO1: 196853
+    I3_ODO2: 196853
+- response: |-
+    660F1100B62D10D0003
+    660F12100F6000300F6
+  expected_values:
+    I3_ODO1: 196854
+    I3_ODO2: 196854
+- response: |-
+    660F1100B62D10D0003
+    660F12100F7000300F7
+  expected_values:
+    I3_ODO1: 196855
+    I3_ODO2: 196855
+- response: |-
+    660F1100B62D10D0003
+    660F12100F8000300F8
+  expected_values:
+    I3_ODO1: 196856
+    I3_ODO2: 196856
+- response: |-
+    660F1100B62D10D0003
+    660F12100F9000300F9
+  expected_values:
+    I3_ODO1: 196857
+    I3_ODO2: 196857
+- response: |-
+    660F1100B62D10D0003
+    660F12100FA000300FA
+  expected_values:
+    I3_ODO1: 196858
+    I3_ODO2: 196858
+- response: |-
+    660F1100B62D10D0003
+    660F12100FC000300FC
+  expected_values:
+    I3_ODO1: 196860
+    I3_ODO2: 196860
+- response: |-
+    660F1100B62D10D0003
+    660F12100FD000300FD
+  expected_values:
+    I3_ODO1: 196861
+    I3_ODO2: 196861
+- response: |-
+    660F1100B62D10D0003
+    660F12100FE000300FE
+  expected_values:
+    I3_ODO1: 196862
+    I3_ODO2: 196862
+- response: |-
+    660F1100B62D10D0003
+    660F12100FF000300FF
+  expected_values:
+    I3_ODO1: 196863
+    I3_ODO2: 196863
+- response: |-
+    660F1100B62D10D0003
+    660F121010000030100
+  expected_values:
+    I3_ODO1: 196864
+    I3_ODO2: 196864
+- response: |-
+    660F1100B62D10D0003
+    660F121010100030101
+  expected_values:
+    I3_ODO1: 196865
+    I3_ODO2: 196865
+- response: |-
+    660F1100B62D10D0003
+    660F121010200030102
+  expected_values:
+    I3_ODO1: 196866
+    I3_ODO2: 196866
+- response: |-
+    660F1100B62D10D0003
+    660F121010300030103
+  expected_values:
+    I3_ODO1: 196867
+    I3_ODO2: 196867
+- response: |-
+    660F1100B62D10D0003
+    660F121010400030104
+  expected_values:
+    I3_ODO1: 196868
+    I3_ODO2: 196868
+- response: |-
+    660F1100B62D10D0003
+    660F121010500030105
+  expected_values:
+    I3_ODO1: 196869
+    I3_ODO2: 196869
+- response: |-
+    660F1100B62D10D0003
+    660F121010600030106
+  expected_values:
+    I3_ODO1: 196870
+    I3_ODO2: 196870
+- response: |-
+    660F1100B62D10D0003
+    660F121010700030107
+  expected_values:
+    I3_ODO1: 196871
+    I3_ODO2: 196871
+- response: |-
+    660F1100B62D10D0003
+    660F121010800030108
+  expected_values:
+    I3_ODO1: 196872
+    I3_ODO2: 196872
+- response: |-
+    660F1100B62D10D0003
+    660F121010900030109
+  expected_values:
+    I3_ODO1: 196873
+    I3_ODO2: 196873
+- response: |-
+    660F1100B62D10D0003
+    660F121010A0003010A
+  expected_values:
+    I3_ODO1: 196874
+    I3_ODO2: 196874
+- response: |-
+    660F1100B62D10D0003
+    660F121010B0003010B
+  expected_values:
+    I3_ODO1: 196875
+    I3_ODO2: 196875
+- response: |-
+    660F1100B62D10D0003
+    660F121010C0003010C
+  expected_values:
+    I3_ODO1: 196876
+    I3_ODO2: 196876
+- response: |-
+    660F1100B62D10D0003
+    660F121010E0003010E
+  expected_values:
+    I3_ODO1: 196878
+    I3_ODO2: 196878
+- response: |-
+    660F1100B62D10D0003
+    660F121010F0003010F
+  expected_values:
+    I3_ODO1: 196879
+    I3_ODO2: 196879
+- response: |-
+    660F1100B62D10D0003
+    660F121011000030110
+  expected_values:
+    I3_ODO1: 196880
+    I3_ODO2: 196880
+- response: |-
+    660F1100B62D10D0003
+    660F121011100030111
+  expected_values:
+    I3_ODO1: 196881
+    I3_ODO2: 196881
+- response: |-
+    660F1100B62D10D0003
+    660F121011200030112
+  expected_values:
+    I3_ODO1: 196882
+    I3_ODO2: 196882
+- response: |-
+    660F1100B62D10D0003
+    660F121011300030113
+  expected_values:
+    I3_ODO1: 196883
+    I3_ODO2: 196883
+- response: |-
+    660F1100B62D10D0003
+    660F121011400030114
+  expected_values:
+    I3_ODO1: 196884
+    I3_ODO2: 196884
+- response: |-
+    660F1100B62D10D0003
+    660F121011500030115
+  expected_values:
+    I3_ODO1: 196885
+    I3_ODO2: 196885
+- response: |-
+    660F1100B62D10D0003
+    660F121011600030116
+  expected_values:
+    I3_ODO1: 196886
+    I3_ODO2: 196886
+- response: |-
+    660F1100B62D10D0003
+    660F121011700030117
+  expected_values:
+    I3_ODO1: 196887
+    I3_ODO2: 196887
+- response: |-
+    660F1100B62D10D0003
+    660F121011800030118
+  expected_values:
+    I3_ODO1: 196888
+    I3_ODO2: 196888
+- response: |-
+    660F1100B62D10D0003
+    660F121011900030119
+  expected_values:
+    I3_ODO1: 196889
+    I3_ODO2: 196889
+- response: |-
+    660F1100B62D10D0003
+    660F121011A0003011A
+  expected_values:
+    I3_ODO1: 196890
+    I3_ODO2: 196890
+- response: |-
+    660F1100B62D10D0003
+    660F121011C0003011C
+  expected_values:
+    I3_ODO1: 196892
+    I3_ODO2: 196892
+- response: |-
+    660F1100B62D10D0003
+    660F121011D0003011D
+  expected_values:
+    I3_ODO1: 196893
+    I3_ODO2: 196893
+- response: |-
+    660F1100B62D10D0003
+    660F121011E0003011E
+  expected_values:
+    I3_ODO1: 196894
+    I3_ODO2: 196894
+- response: |-
+    660F1100B62D10D0003
+    660F121011F0003011F
+  expected_values:
+    I3_ODO1: 196895
+    I3_ODO2: 196895
+- response: |-
+    660F1100B62D10D0003
+    660F121012000030120
+  expected_values:
+    I3_ODO1: 196896
+    I3_ODO2: 196896
+- response: |-
+    660F1100B62D10D0003
+    660F121012100030121
+  expected_values:
+    I3_ODO1: 196897
+    I3_ODO2: 196897
+- response: |-
+    660F1100B62D10D0003
+    660F121012200030122
+  expected_values:
+    I3_ODO1: 196898
+    I3_ODO2: 196898
+- response: |-
+    660F1100B62D10D0003
+    660F121012300030123
+  expected_values:
+    I3_ODO1: 196899
+    I3_ODO2: 196899
+- response: |-
+    660F1100B62D10D0003
+    660F121012400030124
+  expected_values:
+    I3_ODO1: 196900
+    I3_ODO2: 196900
+- response: |-
+    660F1100B62D10D0003
+    660F121012500030125
+  expected_values:
+    I3_ODO1: 196901
+    I3_ODO2: 196901
+- response: |-
+    660F1100B62D10D0003
+    660F121012600030126
+  expected_values:
+    I3_ODO1: 196902
+    I3_ODO2: 196902
+- response: |-
+    660F1100B62D10D0003
+    660F121012700030127
+  expected_values:
+    I3_ODO1: 196903
+    I3_ODO2: 196903
+- response: |-
+    660F1100B62D10D0003
+    660F121012800030128
+  expected_values:
+    I3_ODO1: 196904
+    I3_ODO2: 196904
+- response: |-
+    660F1100B62D10D0003
+    660F121012900030129
+  expected_values:
+    I3_ODO1: 196905
+    I3_ODO2: 196905
+- response: |-
+    660F1100B62D10D0003
+    660F121012A0003012A
+  expected_values:
+    I3_ODO1: 196906
+    I3_ODO2: 196906
+- response: |-
+    660F1100B62D10D0003
+    660F121012B0003012B
+  expected_values:
+    I3_ODO1: 196907
+    I3_ODO2: 196907
+- response: |-
+    660F1100B62D10D0003
+    660F121012C0003012C
+  expected_values:
+    I3_ODO1: 196908
+    I3_ODO2: 196908
+- response: |-
+    660F1100B62D10D0003
+    660F121012D0003012D
+  expected_values:
+    I3_ODO1: 196909
+    I3_ODO2: 196909
+- response: |-
+    660F1100B62D10D0003
+    660F121012E0003012E
+  expected_values:
+    I3_ODO1: 196910
+    I3_ODO2: 196910
+- response: |-
+    660F1100B62D10D0003
+    660F121012F0003012F
+  expected_values:
+    I3_ODO1: 196911
+    I3_ODO2: 196911
+- response: |-
+    660F1100B62D10D0003
+    660F121013000030130
+  expected_values:
+    I3_ODO1: 196912
+    I3_ODO2: 196912
+- response: |-
+    660F1100B62D10D0003
+    660F121013100030131
+  expected_values:
+    I3_ODO1: 196913
+    I3_ODO2: 196913
+- response: |-
+    660F1100B62D10D0003
+    660F121013200030132
+  expected_values:
+    I3_ODO1: 196914
+    I3_ODO2: 196914
+- response: |-
+    660F1100B62D10D0003
+    660F121013300030133
+  expected_values:
+    I3_ODO1: 196915
+    I3_ODO2: 196915
+- response: |-
+    660F1100B62D10D0003
+    660F121013400030134
+  expected_values:
+    I3_ODO1: 196916
+    I3_ODO2: 196916
+- response: |-
+    660F1100B62D10D0003
+    660F121013500030135
+  expected_values:
+    I3_ODO1: 196917
+    I3_ODO2: 196917
+- response: |-
+    660F1100B62D10D0003
+    660F121013600030136
+  expected_values:
+    I3_ODO1: 196918
+    I3_ODO2: 196918
+- response: |-
+    660F1100B62D10D0003
+    660F121013700030137
+  expected_values:
+    I3_ODO1: 196919
+    I3_ODO2: 196919
+- response: |-
+    660F1100B62D10D0003
+    660F121013800030138
+  expected_values:
+    I3_ODO1: 196920
+    I3_ODO2: 196920
+- response: |-
+    660F1100B62D10D0003
+    660F121013900030139
+  expected_values:
+    I3_ODO1: 196921
+    I3_ODO2: 196921
+- response: |-
+    660F1100B62D10D0003
+    660F121013A0003013A
+  expected_values:
+    I3_ODO1: 196922
+    I3_ODO2: 196922
+- response: |-
+    660F1100B62D10D0003
+    660F121013B0003013B
+  expected_values:
+    I3_ODO1: 196923
+    I3_ODO2: 196923
+- response: |-
+    660F1100B62D10D0003
+    660F121013C0003013C
+  expected_values:
+    I3_ODO1: 196924
+    I3_ODO2: 196924
+- response: |-
+    660F1100B62D10D0003
+    660F121013D0003013D
+  expected_values:
+    I3_ODO1: 196925
+    I3_ODO2: 196925
+- response: |-
+    660F1100B62D10D0003
+    660F121013E0003013E
+  expected_values:
+    I3_ODO1: 196926
+    I3_ODO2: 196926
+- response: |-
+    660F1100B62D10D0003
+    660F121013F0003013F
+  expected_values:
+    I3_ODO1: 196927
+    I3_ODO2: 196927
+- response: |-
+    660F1100B62D10D0003
+    660F121014000030140
+  expected_values:
+    I3_ODO1: 196928
+    I3_ODO2: 196928
+- response: |-
+    660F1100B62D10D0003
+    660F121014100030141
+  expected_values:
+    I3_ODO1: 196929
+    I3_ODO2: 196929
+- response: |-
+    660F1100B62D10D0003
+    660F121014200030142
+  expected_values:
+    I3_ODO1: 196930
+    I3_ODO2: 196930
+- response: |-
+    660F1100B62D10D0003
+    660F121014300030143
+  expected_values:
+    I3_ODO1: 196931
+    I3_ODO2: 196931
+- response: |-
+    660F1100B62D10D0003
+    660F121014400030144
+  expected_values:
+    I3_ODO1: 196932
+    I3_ODO2: 196932
+- response: |-
+    660F1100B62D10D0003
+    660F121014500030145
+  expected_values:
+    I3_ODO1: 196933
+    I3_ODO2: 196933
+- response: |-
+    660F1100B62D10D0003
+    660F121014600030146
+  expected_values:
+    I3_ODO1: 196934
+    I3_ODO2: 196934
+- response: |-
+    660F1100B62D10D0003
+    660F121014700030147
+  expected_values:
+    I3_ODO1: 196935
+    I3_ODO2: 196935
+- response: |-
+    660F1100B62D10D0003
+    660F121014800030148
+  expected_values:
+    I3_ODO1: 196936
+    I3_ODO2: 196936
+- response: |-
+    660F1100B62D10D0003
+    660F121014900030149
+  expected_values:
+    I3_ODO1: 196937
+    I3_ODO2: 196937
+- response: |-
+    660F1100B62D10D0003
+    660F121014A0003014A
+  expected_values:
+    I3_ODO1: 196938
+    I3_ODO2: 196938
+- response: |-
+    660F1100B62D10D0003
+    660F121014B0003014B
+  expected_values:
+    I3_ODO1: 196939
+    I3_ODO2: 196939
+- response: |-
+    660F1100B62D10D0003
+    660F121014C0003014C
+  expected_values:
+    I3_ODO1: 196940
+    I3_ODO2: 196940
+- response: |-
+    660F1100B62D10D0003
+    660F121014D0003014D
+  expected_values:
+    I3_ODO1: 196941
+    I3_ODO2: 196941
+- response: |-
+    660F1100B62D10D0003
+    660F121014E0003014E
+  expected_values:
+    I3_ODO1: 196942
+    I3_ODO2: 196942
+- response: |-
+    660F1100B62D10D0003
+    660F121014F0003014F
+  expected_values:
+    I3_ODO1: 196943
+    I3_ODO2: 196943
+- response: |-
+    660F1100B62D10D0003
+    660F121015000030150
+  expected_values:
+    I3_ODO1: 196944
+    I3_ODO2: 196944
+- response: |-
+    660F1100B62D10D0003
+    660F121015100030151
+  expected_values:
+    I3_ODO1: 196945
+    I3_ODO2: 196945
+- response: |-
+    660F1100B62D10D0003
+    660F121015200030152
+  expected_values:
+    I3_ODO1: 196946
+    I3_ODO2: 196946
+- response: |-
+    660F1100B62D10D0003
+    660F121015300030153
+  expected_values:
+    I3_ODO1: 196947
+    I3_ODO2: 196947
+- response: |-
+    660F1100B62D10D0003
+    660F121015400030154
+  expected_values:
+    I3_ODO1: 196948
+    I3_ODO2: 196948
+- response: |-
+    660F1100B62D10D0003
+    660F121015500030155
+  expected_values:
+    I3_ODO1: 196949
+    I3_ODO2: 196949
+- response: |-
+    660F1100B62D10D0003
+    660F121015600030156
+  expected_values:
+    I3_ODO1: 196950
+    I3_ODO2: 196950
+- response: |-
+    660F1100B62D10D0003
+    660F121015700030157
+  expected_values:
+    I3_ODO1: 196951
+    I3_ODO2: 196951
+- response: |-
+    660F1100B62D10D0003
+    660F121015800030158
+  expected_values:
+    I3_ODO1: 196952
+    I3_ODO2: 196952
+- response: |-
+    660F1100B62D10D0003
+    660F121015900030159
+  expected_values:
+    I3_ODO1: 196953
+    I3_ODO2: 196953
+- response: |-
+    660F1100B62D10D0003
+    660F121015A0003015A
+  expected_values:
+    I3_ODO1: 196954
+    I3_ODO2: 196954
+- response: |-
+    660F1100B62D10D0003
+    660F121015B0003015B
+  expected_values:
+    I3_ODO1: 196955
+    I3_ODO2: 196955
+- response: |-
+    660F1100B62D10D0003
+    660F121015C0003015C
+  expected_values:
+    I3_ODO1: 196956
+    I3_ODO2: 196956
+- response: |-
+    660F1100B62D10D0003
+    660F121015D0003015D
+  expected_values:
+    I3_ODO1: 196957
+    I3_ODO2: 196957
+- response: |-
+    660F1100B62D10D0003
+    660F121015E0003015E
+  expected_values:
+    I3_ODO1: 196958
+    I3_ODO2: 196958
+- response: |-
+    660F1100B62D10D0003
+    660F121015F0003015F
+  expected_values:
+    I3_ODO1: 196959
+    I3_ODO2: 196959
+- response: |-
+    660F1100B62D10D0003
+    660F121016000030160
+  expected_values:
+    I3_ODO1: 196960
+    I3_ODO2: 196960
+- response: |-
+    660F1100B62D10D0003
+    660F121016100030161
+  expected_values:
+    I3_ODO1: 196961
+    I3_ODO2: 196961
+- response: |-
+    660F1100B62D10D0003
+    660F121016200030162
+  expected_values:
+    I3_ODO1: 196962
+    I3_ODO2: 196962
+- response: |-
+    660F1100B62D10D0003
+    660F121016300030163
+  expected_values:
+    I3_ODO1: 196963
+    I3_ODO2: 196963
+- response: |-
+    660F1100B62D10D0003
+    660F121016400030164
+  expected_values:
+    I3_ODO1: 196964
+    I3_ODO2: 196964
+- response: |-
+    660F1100B62D10D0003
+    660F121016500030165
+  expected_values:
+    I3_ODO1: 196965
+    I3_ODO2: 196965
+- response: |-
+    660F1100B62D10D0003
+    660F121016600030166
+  expected_values:
+    I3_ODO1: 196966
+    I3_ODO2: 196966
+- response: |-
+    660F1100B62D10D0003
+    660F121016700030167
+  expected_values:
+    I3_ODO1: 196967
+    I3_ODO2: 196967
+- response: |-
+    660F1100B62D10D0003
+    660F121016800030168
+  expected_values:
+    I3_ODO1: 196968
+    I3_ODO2: 196968
+- response: |-
+    660F1100B62D10D0003
+    660F121016900030169
+  expected_values:
+    I3_ODO1: 196969
+    I3_ODO2: 196969
+- response: |-
+    660F1100B62D10D0003
+    660F121016A0003016A
+  expected_values:
+    I3_ODO1: 196970
+    I3_ODO2: 196970
+- response: |-
+    660F1100B62D10D0003
+    660F121016B0003016B
+  expected_values:
+    I3_ODO1: 196971
+    I3_ODO2: 196971
+- response: |-
+    660F1100B62D10D0003
+    660F121016C0003016C
+  expected_values:
+    I3_ODO1: 196972
+    I3_ODO2: 196972
+- response: |-
+    660F1100B62D10D0003
+    660F121016D0003016D
+  expected_values:
+    I3_ODO1: 196973
+    I3_ODO2: 196973
+- response: |-
+    660F1100B62D10D0003
+    660F121016E0003016E
+  expected_values:
+    I3_ODO1: 196974
+    I3_ODO2: 196974
+- response: |-
+    660F1100B62D10D0003
+    660F121016F0003016F
+  expected_values:
+    I3_ODO1: 196975
+    I3_ODO2: 196975
+- response: |-
+    660F1100B62D10D0003
+    660F121017000030170
+  expected_values:
+    I3_ODO1: 196976
+    I3_ODO2: 196976
+- response: |-
+    660F1100B62D10D0003
+    660F121017100030171
+  expected_values:
+    I3_ODO1: 196977
+    I3_ODO2: 196977
+- response: |-
+    660F1100B62D10D0003
+    660F121017300030173
+  expected_values:
+    I3_ODO1: 196979
+    I3_ODO2: 196979
+- response: |-
+    660F1100B62D10D0003
+    660F121017400030174
+  expected_values:
+    I3_ODO1: 196980
+    I3_ODO2: 196980
+- response: |-
+    660F1100B62D10D0003
+    660F121017500030175
+  expected_values:
+    I3_ODO1: 196981
+    I3_ODO2: 196981
+- response: |-
+    660F1100B62D10D0003
+    660F121017600030176
+  expected_values:
+    I3_ODO1: 196982
+    I3_ODO2: 196982
+- response: |-
+    660F1100B62D10D0003
+    660F121017700030177
+  expected_values:
+    I3_ODO1: 196983
+    I3_ODO2: 196983
+- response: |-
+    660F1100B62D10D0003
+    660F121017800030178
+  expected_values:
+    I3_ODO1: 196984
+    I3_ODO2: 196984
+- response: |-
+    660F1100B62D10D0003
+    660F121017900030179
+  expected_values:
+    I3_ODO1: 196985
+    I3_ODO2: 196985
+- response: |-
+    660F1100B62D10D0003
+    660F121017A0003017A
+  expected_values:
+    I3_ODO1: 196986
+    I3_ODO2: 196986
+- response: |-
+    660F1100B62D10D0003
+    660F121017B0003017B
+  expected_values:
+    I3_ODO1: 196987
+    I3_ODO2: 196987
+- response: |-
+    660F1100B62D10D0003
+    660F121017C0003017C
+  expected_values:
+    I3_ODO1: 196988
+    I3_ODO2: 196988
+- response: |-
+    660F1100B62D10D0003
+    660F121017D0003017D
+  expected_values:
+    I3_ODO1: 196989
+    I3_ODO2: 196989
+- response: |-
+    660F1100B62D10D0003
+    660F121017E0003017E
+  expected_values:
+    I3_ODO1: 196990
+    I3_ODO2: 196990
+- response: |-
+    660F1100B62D10D0003
+    660F121017F0003017F
+  expected_values:
+    I3_ODO1: 196991
+    I3_ODO2: 196991
+- response: |-
+    660F1100B62D10D0003
+    660F121018000030180
+  expected_values:
+    I3_ODO1: 196992
+    I3_ODO2: 196992
+- response: |-
+    660F1100B62D10D0003
+    660F121018100030181
+  expected_values:
+    I3_ODO1: 196993
+    I3_ODO2: 196993
+- response: |-
+    660F1100B62D10D0003
+    660F121018200030182
+  expected_values:
+    I3_ODO1: 196994
+    I3_ODO2: 196994
+- response: |-
+    660F1100B62D10D0003
+    660F121018300030183
+  expected_values:
+    I3_ODO1: 196995
+    I3_ODO2: 196995
+- response: |-
+    660F1100B62D10D0003
+    660F121018400030184
+  expected_values:
+    I3_ODO1: 196996
+    I3_ODO2: 196996
+- response: |-
+    660F1100B62D10D0003
+    660F121018500030185
+  expected_values:
+    I3_ODO1: 196997
+    I3_ODO2: 196997
+- response: |-
+    660F1100B62D10D0003
+    660F121018600030186
+  expected_values:
+    I3_ODO1: 196998
+    I3_ODO2: 196998
+- response: |-
+    660F1100B62D10D0003
+    660F121018700030187
+  expected_values:
+    I3_ODO1: 196999
+    I3_ODO2: 196999
+- response: |-
+    660F1100B62D10D0003
+    660F121018800030188
+  expected_values:
+    I3_ODO1: 197000
+    I3_ODO2: 197000
+- response: |-
+    660F1100B62D10D0003
+    660F121018900030189
+  expected_values:
+    I3_ODO1: 197001
+    I3_ODO2: 197001
+- response: |-
+    660F1100B62D10D0003
+    660F121018A0003018A
+  expected_values:
+    I3_ODO1: 197002
+    I3_ODO2: 197002
+- response: |-
+    660F1100B62D10D0003
+    660F121018B0003018B
+  expected_values:
+    I3_ODO1: 197003
+    I3_ODO2: 197003
+- response: |-
+    660F1100B62D10D0003
+    660F121018C0003018C
+  expected_values:
+    I3_ODO1: 197004
+    I3_ODO2: 197004
+- response: |-
+    660F1100B62D10D0003
+    660F121018D0003018D
+  expected_values:
+    I3_ODO1: 197005
+    I3_ODO2: 197005
+- response: |-
+    660F1100B62D10D0003
+    660F121018E0003018E
+  expected_values:
+    I3_ODO1: 197006
+    I3_ODO2: 197006
+- response: |-
+    660F1100B62D10D0003
+    660F121018F0003018F
+  expected_values:
+    I3_ODO1: 197007
+    I3_ODO2: 197007
+- response: |-
+    660F1100B62D10D0003
+    660F121019000030190
+  expected_values:
+    I3_ODO1: 197008
+    I3_ODO2: 197008
+- response: |-
+    660F1100B62D10D0003
+    660F121019100030191
+  expected_values:
+    I3_ODO1: 197009
+    I3_ODO2: 197009
+- response: |-
+    660F1100B62D10D0003
+    660F121019200030192
+  expected_values:
+    I3_ODO1: 197010
+    I3_ODO2: 197010
+- response: |-
+    660F1100B62D10D0003
+    660F121019300030193
+  expected_values:
+    I3_ODO1: 197011
+    I3_ODO2: 197011
+- response: |-
+    660F1100B62D10D0003
+    660F121019400030194
+  expected_values:
+    I3_ODO1: 197012
+    I3_ODO2: 197012
+- response: |-
+    660F1100B62D10D0003
+    660F121019500030195
+  expected_values:
+    I3_ODO1: 197013
+    I3_ODO2: 197013
+- response: |-
+    660F1100B62D10D0003
+    660F121019600030196
+  expected_values:
+    I3_ODO1: 197014
+    I3_ODO2: 197014
+- response: |-
+    660F1100B62D10D0003
+    660F121019700030197
+  expected_values:
+    I3_ODO1: 197015
+    I3_ODO2: 197015
+- response: |-
+    660F1100B62D10D0003
+    660F121019800030198
+  expected_values:
+    I3_ODO1: 197016
+    I3_ODO2: 197016
+- response: |-
+    660F1100B62D10D0003
+    660F121019900030199
+  expected_values:
+    I3_ODO1: 197017
+    I3_ODO2: 197017
+- response: |-
+    660F1100B62D10D0003
+    660F121019A0003019A
+  expected_values:
+    I3_ODO1: 197018
+    I3_ODO2: 197018
+- response: |-
+    660F1100B62D10D0003
+    660F121019B0003019B
+  expected_values:
+    I3_ODO1: 197019
+    I3_ODO2: 197019
+- response: |-
+    660F1100B62D10D0003
+    660F121019C0003019C
+  expected_values:
+    I3_ODO1: 197020
+    I3_ODO2: 197020
+- response: |-
+    660F1100B62D10D0003
+    660F121019D0003019D
+  expected_values:
+    I3_ODO1: 197021
+    I3_ODO2: 197021
+- response: |-
+    660F1100B62D10D0003
+    660F121019E0003019E
+  expected_values:
+    I3_ODO1: 197022
+    I3_ODO2: 197022
+- response: |-
+    660F1100B62D10D0003
+    660F121019F0003019F
+  expected_values:
+    I3_ODO1: 197023
+    I3_ODO2: 197023
+- response: |-
+    660F1100B62D10D0003
+    660F12101A0000301A0
+  expected_values:
+    I3_ODO1: 197024
+    I3_ODO2: 197024
+- response: |-
+    660F1100B62D10D0003
+    660F12101A2000301A2
+  expected_values:
+    I3_ODO1: 197026
+    I3_ODO2: 197026
+- response: |-
+    660F1100B62D10D0003
+    660F12101A3000301A3
+  expected_values:
+    I3_ODO1: 197027
+    I3_ODO2: 197027
+- response: |-
+    660F1100B62D10D0003
+    660F12101A4000301A4
+  expected_values:
+    I3_ODO1: 197028
+    I3_ODO2: 197028
+- response: |-
+    660F1100B62D10D0003
+    660F12101A5000301A5
+  expected_values:
+    I3_ODO1: 197029
+    I3_ODO2: 197029
+- response: |-
+    660F1100B62D10D0003
+    660F12101A6000301A6
+  expected_values:
+    I3_ODO1: 197030
+    I3_ODO2: 197030
+- response: |-
+    660F1100B62D10D0003
+    660F12101A7000301A7
+  expected_values:
+    I3_ODO1: 197031
+    I3_ODO2: 197031
+- response: |-
+    660F1100B62D10D0003
+    660F12101A8000301A8
+  expected_values:
+    I3_ODO1: 197032
+    I3_ODO2: 197032
+- response: |-
+    660F1100B62D10D0003
+    660F12101A9000301A9
+  expected_values:
+    I3_ODO1: 197033
+    I3_ODO2: 197033
+- response: |-
+    660F1100B62D10D0003
+    660F12101AA000301AA
+  expected_values:
+    I3_ODO1: 197034
+    I3_ODO2: 197034
+- response: |-
+    660F1100B62D10D0003
+    660F12101AB000301AB
+  expected_values:
+    I3_ODO1: 197035
+    I3_ODO2: 197035
+- response: |-
+    660F1100B62D10D0003
+    660F12101AC000301AC
+  expected_values:
+    I3_ODO1: 197036
+    I3_ODO2: 197036
+- response: |-
+    660F1100B62D10D0003
+    660F12101AD000301AD
+  expected_values:
+    I3_ODO1: 197037
+    I3_ODO2: 197037
+- response: |-
+    660F1100B62D10D0003
+    660F12101AE000301AE
+  expected_values:
+    I3_ODO1: 197038
+    I3_ODO2: 197038
+- response: |-
+    660F1100B62D10D0003
+    660F12101AF000301AF
+  expected_values:
+    I3_ODO1: 197039
+    I3_ODO2: 197039
+- response: |-
+    660F1100B62D10D0003
+    660F12101B6000301B6
+  expected_values:
+    I3_ODO1: 197046
+    I3_ODO2: 197046
+- response: |-
+    660F1100B62D10D0003
+    660F12101B7000301B7
+  expected_values:
+    I3_ODO1: 197047
+    I3_ODO2: 197047
+- response: |-
+    660F1100B62D10D0003
+    660F12101B8000301B8
+  expected_values:
+    I3_ODO1: 197048
+    I3_ODO2: 197048
+- response: |-
+    660F1100B62D10D0003
+    660F12101B9000301B9
+  expected_values:
+    I3_ODO1: 197049
+    I3_ODO2: 197049
+- response: |-
+    660F1100B62D10D0003
+    660F12101BA000301BA
+  expected_values:
+    I3_ODO1: 197050
+    I3_ODO2: 197050
+- response: |-
+    660F1100B62D10D0003
+    660F12101BB000301BB
+  expected_values:
+    I3_ODO1: 197051
+    I3_ODO2: 197051
+- response: |-
+    660F1100B62D10D0003
+    660F12101BC000301BC
+  expected_values:
+    I3_ODO1: 197052
+    I3_ODO2: 197052
+- response: |-
+    660F1100B62D10D0003
+    660F12101BD000301BD
+  expected_values:
+    I3_ODO1: 197053
+    I3_ODO2: 197053
+- response: |-
+    660F1100B62D10D0003
+    660F12101BE000301BE
+  expected_values:
+    I3_ODO1: 197054
+    I3_ODO2: 197054
+- response: |-
+    660F1100B62D10D0003
+    660F12101BF000301BF
+  expected_values:
+    I3_ODO1: 197055
+    I3_ODO2: 197055
+- response: |-
+    660F1100B62D10D0003
+    660F12101CB000301CB
+  expected_values:
+    I3_ODO1: 197067
+    I3_ODO2: 197067
+- response: |-
+    660F1100B62D10D0003
+    660F12101CC000301CC
+  expected_values:
+    I3_ODO1: 197068
+    I3_ODO2: 197068
+- response: |-
+    660F1100B62D10D0003
+    660F12101CD000301CD
+  expected_values:
+    I3_ODO1: 197069
+    I3_ODO2: 197069
+- response: |-
+    660F1100B62D10D0003
+    660F12101CE000301CE
+  expected_values:
+    I3_ODO1: 197070
+    I3_ODO2: 197070
+- response: |-
+    660F1100B62D10D0003
+    660F12101CF000301CF
+  expected_values:
+    I3_ODO1: 197071
+    I3_ODO2: 197071
+- response: |-
+    660F1100B62D10D0003
+    660F12101D0000301D0
+  expected_values:
+    I3_ODO1: 197072
+    I3_ODO2: 197072
+- response: |-
+    660F1100B62D10D0003
+    660F12101D1000301D1
+  expected_values:
+    I3_ODO1: 197073
+    I3_ODO2: 197073
+- response: |-
+    660F1100B62D10D0003
+    660F12101D2000301D2
+  expected_values:
+    I3_ODO1: 197074
+    I3_ODO2: 197074
+- response: |-
+    660F1100B62D10D0003
+    660F12101D3000301D3
+  expected_values:
+    I3_ODO1: 197075
+    I3_ODO2: 197075
+- response: |-
+    660F1100B62D10D0003
+    660F12101D4000301D4
+  expected_values:
+    I3_ODO1: 197076
+    I3_ODO2: 197076
+- response: |-
+    660F1100B62D10D0003
+    660F12101D5000301D5
+  expected_values:
+    I3_ODO1: 197077
+    I3_ODO2: 197077
+- response: |-
+    660F1100B62D10D0003
+    660F12101D6000301D6
+  expected_values:
+    I3_ODO1: 197078
+    I3_ODO2: 197078
+- response: |-
+    660F1100B62D10D0003
+    660F12101D7000301D7
+  expected_values:
+    I3_ODO1: 197079
+    I3_ODO2: 197079
+- response: |-
+    660F1100B62D10D0003
+    660F12101D8000301D8
+  expected_values:
+    I3_ODO1: 197080
+    I3_ODO2: 197080
+- response: |-
+    660F1100B62D10D0003
+    660F12101D9000301D9
+  expected_values:
+    I3_ODO1: 197081
+    I3_ODO2: 197081
+- response: |-
+    660F1100B62D10D0003
+    660F12101DA000301DA
+  expected_values:
+    I3_ODO1: 197082
+    I3_ODO2: 197082
+- response: |-
+    660F1100B62D10D0003
+    660F12101DB000301DB
+  expected_values:
+    I3_ODO1: 197083
+    I3_ODO2: 197083
+- response: |-
+    660F1100B62D10D0003
+    660F12101EE000301EE
+  expected_values:
+    I3_ODO1: 197102
+    I3_ODO2: 197102
+- response: |-
+    660F1100B62D10D0003
+    660F12101EF000301EF
+  expected_values:
+    I3_ODO1: 197103
+    I3_ODO2: 197103
+- response: |-
+    660F1100B62D10D0003
+    660F12101F0000301F0
+  expected_values:
+    I3_ODO1: 197104
+    I3_ODO2: 197104
+- response: |-
+    660F1100B62D10D0003
+    660F12101F1000301F1
+  expected_values:
+    I3_ODO1: 197105
+    I3_ODO2: 197105
+- response: |-
+    660F1100B62D10D0003
+    660F12101F2000301F2
+  expected_values:
+    I3_ODO1: 197106
+    I3_ODO2: 197106
+- response: |-
+    660F1100B62D10D0003
+    660F12101F3000301F3
+  expected_values:
+    I3_ODO1: 197107
+    I3_ODO2: 197107
+- response: |-
+    660F1100B62D10D0003
+    660F12101F4000301F4
+  expected_values:
+    I3_ODO1: 197108
+    I3_ODO2: 197108
+- response: |-
+    660F1100B62D10D0003
+    660F12101F5000301F5
+  expected_values:
+    I3_ODO1: 197109
+    I3_ODO2: 197109
+- response: |-
+    660F1100B62D10D0003
+    660F12101F6000301F6
+  expected_values:
+    I3_ODO1: 197110
+    I3_ODO2: 197110
+- response: |-
+    660F1100B62D10D0003
+    660F12101F7000301F7
+  expected_values:
+    I3_ODO1: 197111
+    I3_ODO2: 197111
+- response: |-
+    660F1100B62D10D0003
+    660F12101F8000301F8
+  expected_values:
+    I3_ODO1: 197112
+    I3_ODO2: 197112
+- response: |-
+    660F1100B62D10D0003
+    660F12101F9000301F9
+  expected_values:
+    I3_ODO1: 197113
+    I3_ODO2: 197113
+- response: |-
+    660F1100B62D10D0003
+    660F12101FA000301FA
+  expected_values:
+    I3_ODO1: 197114
+    I3_ODO2: 197114
+- response: |-
+    660F1100B62D10D0003
+    660F12101FB000301FB
+  expected_values:
+    I3_ODO1: 197115
+    I3_ODO2: 197115
+- response: |-
+    660F1100B62D10D0003
+    660F12101FC000301FC
+  expected_values:
+    I3_ODO1: 197116
+    I3_ODO2: 197116
+- response: |-
+    660F1100B62D10D0003
+    660F12101FD000301FD
+  expected_values:
+    I3_ODO1: 197117
+    I3_ODO2: 197117
+- response: |-
+    660F1100B62D10D0003
+    660F12101FE000301FE
+  expected_values:
+    I3_ODO1: 197118
+    I3_ODO2: 197118
+- response: |-
+    660F1100B62D10D0003
+    660F12101FF000301FF
+  expected_values:
+    I3_ODO1: 197119
+    I3_ODO2: 197119
+- response: |-
+    660F1100B62D10D0003
+    660F121020000030200
+  expected_values:
+    I3_ODO1: 197120
+    I3_ODO2: 197120
+- response: |-
+    660F1100B62D10D0003
+    660F121020100030201
+  expected_values:
+    I3_ODO1: 197121
+    I3_ODO2: 197121
+- response: |-
+    660F1100B62D10D0003
+    660F121020200030202
+  expected_values:
+    I3_ODO1: 197122
+    I3_ODO2: 197122
+- response: |-
+    660F1100B62D10D0003
+    660F121020300030203
+  expected_values:
+    I3_ODO1: 197123
+    I3_ODO2: 197123
+- response: |-
+    660F1100B62D10D0003
+    660F121020400030204
+  expected_values:
+    I3_ODO1: 197124
+    I3_ODO2: 197124
+- response: |-
+    660F1100B62D10D0003
+    660F121020500030205
+  expected_values:
+    I3_ODO1: 197125
+    I3_ODO2: 197125
+- response: |-
+    660F1100B62D10D0003
+    660F121020600030206
+  expected_values:
+    I3_ODO1: 197126
+    I3_ODO2: 197126
+- response: |-
+    660F1100B62D10D0003
+    660F121020700030207
+  expected_values:
+    I3_ODO1: 197127
+    I3_ODO2: 197127
+- response: |-
+    660F1100B62D10D0003
+    660F121020800030208
+  expected_values:
+    I3_ODO1: 197128
+    I3_ODO2: 197128
+- response: |-
+    660F1100B62D10D0003
+    660F121020900030209
+  expected_values:
+    I3_ODO1: 197129
+    I3_ODO2: 197129
+- response: |-
+    660F1100B62D10D0003
+    660F121020A0003020A
+  expected_values:
+    I3_ODO1: 197130
+    I3_ODO2: 197130
+- response: |-
+    660F1100B62D10D0003
+    660F121020B0003020B
+  expected_values:
+    I3_ODO1: 197131
+    I3_ODO2: 197131
+- response: |-
+    660F1100B62D10D0003
+    660F121020C0003020C
+  expected_values:
+    I3_ODO1: 197132
+    I3_ODO2: 197132
+- response: |-
+    660F1100B62D10D0003
+    660F121020D0003020D
+  expected_values:
+    I3_ODO1: 197133
+    I3_ODO2: 197133
