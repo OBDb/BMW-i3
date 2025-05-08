@@ -10,12 +10,6 @@ test_cases:
     I3_ODO2: 196796
 - response: |-
     660F1100B62D10D0003
-    660F12100BF000300BF
-  expected_values:
-    I3_ODO1: 196799
-    I3_ODO2: 196799
-- response: |-
-    660F1100B62D10D0003
     660F12101FC000301FC
   expected_values:
     I3_ODO1: 197116
@@ -28,7 +22,13 @@ test_cases:
     I3_ODO2: 197536
 - response: |-
     660F1100B62D10D0003
-    660F12104C8000304C8
+    660F121053F0003053F
   expected_values:
-    I3_ODO1: 197832
-    I3_ODO2: 197832
+    I3_ODO1: 197951
+    I3_ODO2: 197951
+- response: |-
+    660F1100B62D10D0003
+    660F121054000030540
+  expected_values:
+    I3_ODO1: 197952
+    I3_ODO2: 197952
