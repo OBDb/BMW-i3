@@ -28,7 +28,7 @@ test_cases:
     I3_ODO2: 197951
 - response: |-
     660F1100B62D10D0003
-    660F1210B5000030B50
+    660F1210C2000030C20
   expected_values:
-    I3_ODO1: 199504
-    I3_ODO2: 199504
+    I3_ODO1: 199712
+    I3_ODO2: 199712
