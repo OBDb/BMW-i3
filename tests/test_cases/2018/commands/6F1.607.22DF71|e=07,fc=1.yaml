@@ -1,8 +1,6 @@
-command_id: 6F1.607.22DF71
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.607.22DF71|e=07,fc=1
 test_cases:
-- response: "607 F1 10 08 62 DF 71 00 60 \n607 F1 21 0C 08 04 FF FF FF"
+- response: "607 F1 10 08 62 DF 71 00 60 \n607 F1 21 0C 08 04 FF FF FF "
   expected_values:
     I3_HVBAT_C_CNT: 96
     I3_HVBAT_C_CNT_MOD: 12

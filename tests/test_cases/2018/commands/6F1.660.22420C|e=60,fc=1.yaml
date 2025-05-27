@@ -1,6 +1,4 @@
-command_id: 6F1.660.22420C
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.660.22420C|e=60,fc=1
 test_cases:
 - response: |-
     660F1100B62420C000C

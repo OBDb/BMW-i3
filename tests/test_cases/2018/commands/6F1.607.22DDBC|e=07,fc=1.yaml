@@ -1,6 +1,4 @@
-command_id: 6F1.607.22DDBC
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.607.22DDBC|e=07,fc=1
 test_cases:
 - response: |-
     607F1100962DDBC0000

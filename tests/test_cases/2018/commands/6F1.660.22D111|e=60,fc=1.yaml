@@ -1,81 +1,95 @@
-command_id: 6F1.660.22D111
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.660.22D111|e=60,fc=1
 test_cases:
 - response: "660 F1 10 0F 62 D1 11 00 6E \n660 F1 21 07 08 00 00 FF FF \n660 F1 22
-    39 9C 00 22 FF FF"
+    39 9C 00 22 FF FF "
   expected_values:
     I3_AUX_PWR: 0.34
     I3_RANGE_E_CUR: 11
     I3_RANGE_E_MAX: 180
     I3_RANGE_E_USE: 14.748
     I3_RANGE_F_CUR: 0
-- response: "660 F1 10 0F 62 D1 11 00 6E \n660 F1 21 07 26 00 00 FF FF \n660 F1 22
-    39 9C 00 14 FF FF"
+- response: "660 F1 10 0F 62 D1 11 00 6E \n660 F1 21 07 12 00 00 FF FF \n660 F1 22
+    39 9C 00 1F FF FF "
   expected_values:
-    I3_AUX_PWR: 0.2
+    I3_AUX_PWR: 0.31
     I3_RANGE_E_CUR: 11
-    I3_RANGE_E_MAX: 183
+    I3_RANGE_E_MAX: 181
     I3_RANGE_E_USE: 14.748
     I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 00 78 \n660 F1 21 06 FE 00 00 FF FF \n660 F1 22
-    39 59 00 33 FF FF"
+    39 59 00 33 FF FF "
   expected_values:
     I3_AUX_PWR: 0.51
     I3_RANGE_E_CUR: 12
     I3_RANGE_E_MAX: 179
     I3_RANGE_E_USE: 14.681
     I3_RANGE_F_CUR: 0
+- response: "660 F1 10 0F 62 D1 11 00 8C \n660 F1 21 07 44 00 00 FF FF \n660 F1 22
+    38 0E 00 1E FF FF "
+  expected_values:
+    I3_AUX_PWR: 0.3
+    I3_RANGE_E_CUR: 14
+    I3_RANGE_E_MAX: 186
+    I3_RANGE_E_USE: 14.35
+    I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 00 A0 \n660 F1 21 07 62 00 00 FF FF \n660 F1 22
-    37 48 00 1C FF FF"
+    37 48 00 1C FF FF "
   expected_values:
     I3_AUX_PWR: 0.28
     I3_RANGE_E_CUR: 16
     I3_RANGE_E_MAX: 189
     I3_RANGE_E_USE: 14.152
     I3_RANGE_F_CUR: 0
-- response: "660 F1 10 0F 62 D1 11 00 D2 \n660 F1 21 06 7C 00 00 FF FF \n660 F1 22
-    3F 06 00 1D FF FF"
+- response: "660 F1 10 0F 62 D1 11 00 B4 \n660 F1 21 06 FE 00 00 FF FF \n660 F1 22
+    3A 5C 00 20 FF FF "
+  expected_values:
+    I3_AUX_PWR: 0.32
+    I3_RANGE_E_CUR: 18
+    I3_RANGE_E_MAX: 179
+    I3_RANGE_E_USE: 14.94
+    I3_RANGE_F_CUR: 0
+- response: "660 F1 10 0F 62 D1 11 00 BE \n660 F1 21 06 F4 00 00 FF FF \n660 F1 22
+    3A F4 00 1D FF FF "
   expected_values:
     I3_AUX_PWR: 0.29
-    I3_RANGE_E_CUR: 21
-    I3_RANGE_E_MAX: 166
-    I3_RANGE_E_USE: 16.134
+    I3_RANGE_E_CUR: 19
+    I3_RANGE_E_MAX: 178
+    I3_RANGE_E_USE: 15.092
     I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 00 F0 \n660 F1 21 06 86 00 00 FF FF \n660 F1 22
-    3E 93 00 20 FF FF"
+    3E 93 00 20 FF FF "
   expected_values:
     I3_AUX_PWR: 0.32
     I3_RANGE_E_CUR: 24
     I3_RANGE_E_MAX: 167
     I3_RANGE_E_USE: 16.019
     I3_RANGE_F_CUR: 0
+- response: "660 F1 10 0F 62 D1 11 00 FA \n660 F1 21 06 7C 00 00 FF FF \n660 F1 22
+    3F 3F 00 1E FF FF "
+  expected_values:
+    I3_AUX_PWR: 0.3
+    I3_RANGE_E_CUR: 25
+    I3_RANGE_E_MAX: 166
+    I3_RANGE_E_USE: 16.191
+    I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 01 04 \n660 F1 21 06 68 00 00 FF FF \n660 F1 22
-    3F BA 00 1E FF FF"
+    3F BA 00 1E FF FF "
   expected_values:
     I3_AUX_PWR: 0.3
     I3_RANGE_E_CUR: 26
     I3_RANGE_E_MAX: 164
     I3_RANGE_E_USE: 16.314
     I3_RANGE_F_CUR: 0
-- response: "660 F1 10 0F 62 D1 11 01 0E \n660 F1 21 06 54 00 00 FF FF \n660 F1 22
-    40 B3 00 1E FF FF"
+- response: "660 F1 10 0F 62 D1 11 01 A4 \n660 F1 21 06 A4 00 00 FF FF \n660 F1 22
+    3D A0 00 1E FF FF "
   expected_values:
     I3_AUX_PWR: 0.3
-    I3_RANGE_E_CUR: 27
-    I3_RANGE_E_MAX: 162
-    I3_RANGE_E_USE: 16.563
-    I3_RANGE_F_CUR: 0
-- response: "660 F1 10 0F 62 D1 11 01 40 \n660 F1 21 06 9A 00 00 FF FF \n660 F1 22
-    3E 03 00 1E FF FF"
-  expected_values:
-    I3_AUX_PWR: 0.3
-    I3_RANGE_E_CUR: 32
-    I3_RANGE_E_MAX: 169
-    I3_RANGE_E_USE: 15.875
+    I3_RANGE_E_CUR: 42
+    I3_RANGE_E_MAX: 170
+    I3_RANGE_E_USE: 15.776
     I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 01 B8 \n660 F1 21 05 A0 00 00 FF FF \n660 F1 22
-    43 9B 00 82 FF FF"
+    43 9B 00 82 FF FF "
   expected_values:
     I3_AUX_PWR: 1.3
     I3_RANGE_E_CUR: 44
@@ -83,23 +97,23 @@ test_cases:
     I3_RANGE_E_USE: 17.307
     I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 01 B8 \n660 F1 21 06 04 00 00 FF FF \n660 F1 22
-    43 42 00 23 FF FF"
+    43 42 00 23 FF FF "
   expected_values:
     I3_AUX_PWR: 0.35
     I3_RANGE_E_CUR: 44
     I3_RANGE_E_MAX: 154
     I3_RANGE_E_USE: 17.218
     I3_RANGE_F_CUR: 0
-- response: "660 F1 10 0F 62 D1 11 01 CC \n660 F1 21 06 2C 00 00 FF FF \n660 F1 22
-    41 FF 00 21 FF FF"
+- response: "660 F1 10 0F 62 D1 11 02 62 \n660 F1 21 05 8C 00 00 FF FF \n660 F1 22
+    45 36 00 73 FF FF "
   expected_values:
-    I3_AUX_PWR: 0.33
-    I3_RANGE_E_CUR: 46
-    I3_RANGE_E_MAX: 158
-    I3_RANGE_E_USE: 16.895
+    I3_AUX_PWR: 1.15
+    I3_RANGE_E_CUR: 61
+    I3_RANGE_E_MAX: 142
+    I3_RANGE_E_USE: 17.718
     I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 03 8E \n660 F1 21 06 68 00 00 FF FF \n660 F1 22
-    35 A2 00 E2 FF FF"
+    35 A2 00 E2 FF FF "
   expected_values:
     I3_AUX_PWR: 2.26
     I3_RANGE_E_CUR: 91
@@ -107,12 +121,23 @@ test_cases:
     I3_RANGE_E_USE: 13.73
     I3_RANGE_F_CUR: 0
 - response: "660 F1 10 0F 62 D1 11 04 06 \n660 F1 21 06 E0 00 00 FF FF \n660 F1 22
-    36 45 00 7D FF FF"
+    36 45 00 7D FF FF "
   expected_values:
     I3_AUX_PWR: 1.25
     I3_RANGE_E_CUR: 103
     I3_RANGE_E_MAX: 176
     I3_RANGE_E_USE: 13.893
+    I3_RANGE_F_CUR: 0
+- response: |-
+    660F10562D1126162
+    660F1100F62D11102A8
+    660F121071C0000FFFF
+    660F12237D8004EFFFF
+  expected_values:
+    I3_AUX_PWR: 0.78
+    I3_RANGE_E_CUR: 68
+    I3_RANGE_E_MAX: 182
+    I3_RANGE_E_USE: 14.296
     I3_RANGE_F_CUR: 0
 - response: |-
     660F1100F62D1110064
@@ -236,13 +261,13 @@ test_cases:
     I3_RANGE_F_CUR: 0
 - response: |-
     660F1100F62D1110500
-    660F12105AA0000FFFF
-    660F122448E005AFFFF
+    660F121071C0000FFFF
+    660F12233320037FFFF
   expected_values:
-    I3_AUX_PWR: 0.9
+    I3_AUX_PWR: 0.55
     I3_RANGE_E_CUR: 128
-    I3_RANGE_E_MAX: 145
-    I3_RANGE_E_USE: 17.55
+    I3_RANGE_E_MAX: 182
+    I3_RANGE_E_USE: 13.106
     I3_RANGE_F_CUR: 0
 - response: |-
     660F1100F62D111050A

@@ -1,25 +1,26 @@
-command_id: 6F1.607.22DD68
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.607.22DD68|e=07,fc=1
 test_cases:
-- response: 607 F1 05 62 DD 68 7B 23
+- response: '607 F1 05 62 DD 68 7B 23 '
   expected_values:
     I3_HVBAT_V: 315.23
-- response: 607 F1 05 62 DD 68 7E 81
-  expected_values:
-    I3_HVBAT_V: 323.85
-- response: 607 F1 05 62 DD 68 80 66
+- response: '607 F1 05 62 DD 68 80 66 '
   expected_values:
     I3_HVBAT_V: 328.7
-- response: 607 F1 05 62 DD 68 83 FD
+- response: '607 F1 05 62 DD 68 82 FB '
   expected_values:
-    I3_HVBAT_V: 337.89
-- response: 607 F1 05 62 DD 68 88 01
+    I3_HVBAT_V: 335.31
+- response: '607 F1 05 62 DD 68 83 09 '
   expected_values:
-    I3_HVBAT_V: 348.17
-- response: 607 F1 05 62 DD 68 93 EB
+    I3_HVBAT_V: 335.45
+- response: '607 F1 05 62 DD 68 86 2F '
   expected_values:
-    I3_HVBAT_V: 378.67
+    I3_HVBAT_V: 343.51
+- response: '607 F1 05 62 DD 68 86 70 '
+  expected_values:
+    I3_HVBAT_V: 344.16
+- response: '607 F1 05 62 DD 68 94 5C '
+  expected_values:
+    I3_HVBAT_V: 379.8
 - response: 607F10562DD680000
   expected_values:
     I3_HVBAT_V: 0
