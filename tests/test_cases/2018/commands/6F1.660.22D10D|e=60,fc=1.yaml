@@ -1,13 +1,5 @@
-command_id: 6F1.660.22D10D
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: true
+command_id: 6F1.660.22D10D|e=60,fc=1
 test_cases:
-- response: |-
-    660F1100B62D10D0003
-    660F12100BC000300BC
-  expected_values:
-    I3_ODO1: 196796
-    I3_ODO2: 196796
 - response: |-
     660F1100B62D10D0003
     660F12101FC000301FC
@@ -28,7 +20,13 @@ test_cases:
     I3_ODO2: 197951
 - response: |-
     660F1100B62D10D0003
-    660F1210C2000030C20
+    660F1210FC200030FC2
   expected_values:
-    I3_ODO1: 199712
-    I3_ODO2: 199712
+    I3_ODO1: 200642
+    I3_ODO2: 200642
+- response: |-
+    660F1100B62D10D0003
+    660F121100700031007
+  expected_values:
+    I3_ODO1: 200711
+    I3_ODO2: 200711
