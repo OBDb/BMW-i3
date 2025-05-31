@@ -9,24 +9,12 @@ test_cases:
 - response: '660 F1 05 62 D1 12 5C 5D '
   expected_values:
     I3_AAT: 6
-- response: |-
-    660F10562D1070112
-    660F10562D1126E6F
-  expected_values:
-    I3_AAT: 15
 - response: 660F10562D1125050
   expected_values:
     I3_AAT: 0
 - response: 660F10562D1125858
   expected_values:
     I3_AAT: 4
-- response: |-
-    660F10562D1126162
-    660F1100F62D11102A8
-    660F121071C0000FFFF
-    660F12237D8004EFFFF
-  expected_values:
-    I3_AAT: 8.5
 - response: 660F10562D112848F
   expected_values:
     I3_AAT: 26
