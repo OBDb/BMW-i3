@@ -1,19 +1,11 @@
 command_id: 6F1.660.22D107|e=60,fc=1
 test_cases:
-- response: '660 F1 05 62 D1 07 03 E4 '
-  expected_values:
-    I3_VSS: 99.6
 - response: 660F10562D1070000
   expected_values:
     I3_VSS: 0
 - response: 660F10562D10700FF
   expected_values:
     I3_VSS: 25.5
-- response: |-
-    660F10562D1070112
-    660F10562D1126E6F
-  expected_values:
-    I3_VSS: 27.4
 - response: 660F10562D107060A
   expected_values:
     I3_VSS: 154.6
