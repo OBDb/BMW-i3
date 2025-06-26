@@ -1,27 +1,27 @@
 command_id: 6F1.607.22DD69|e=07,fc=1
 test_cases:
-- response: |-
+- expected_values:
+    I3_HVBAT_C: 0
+  response: |-
     607F1100762DD690000
     607F1210000FFFFFFFF
-  expected_values:
-    I3_HVBAT_C: 0
-- response: |-
+- expected_values:
+    I3_HVBAT_C: 0.79
+  response: |-
     607F1100762DD690000
     607F121004FFFFFFFFF
-  expected_values:
-    I3_HVBAT_C: 0.79
-- response: |-
+- expected_values:
+    I3_HVBAT_C: -409.11
+  response: |-
     607F1100762DD69FFFF
     607F1216031FFFFFFFF
-  expected_values:
-    I3_HVBAT_C: -409.11
-- response: |-
+- expected_values:
+    I3_HVBAT_C: -82.07
+  response: |-
     607F1100762DD69FFFF
     607F121DFF1FFFFFFFF
-  expected_values:
-    I3_HVBAT_C: -82.07
-- response: |-
+- expected_values:
+    I3_HVBAT_C: -40.75
+  response: |-
     607F1100762DD69FFFF
     607F121F015FFFFFFFF
-  expected_values:
-    I3_HVBAT_C: -40.75

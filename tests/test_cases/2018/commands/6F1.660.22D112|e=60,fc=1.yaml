@@ -1,23 +1,23 @@
 command_id: 6F1.660.22D112|e=60,fc=1
 test_cases:
-- response: '660 F1 05 62 D1 12 56 56 '
-  expected_values:
+- expected_values:
     I3_AAT: 3
-- response: '660 F1 05 62 D1 12 5C 5C '
-  expected_values:
+  response: '660 F1 05 62 D1 12 56 56 '
+- expected_values:
     I3_AAT: 6
-- response: '660 F1 05 62 D1 12 5C 5D '
-  expected_values:
+  response: '660 F1 05 62 D1 12 5C 5C '
+- expected_values:
     I3_AAT: 6
-- response: 660F10562D1125050
-  expected_values:
+  response: '660 F1 05 62 D1 12 5C 5D '
+- expected_values:
     I3_AAT: 0
-- response: 660F10562D1125858
-  expected_values:
+  response: 660F10562D1125050
+- expected_values:
     I3_AAT: 4
-- response: 660F10562D112848F
-  expected_values:
+  response: 660F10562D1125858
+- expected_values:
     I3_AAT: 26
-- response: 660F10562D1128989
-  expected_values:
+  response: 660F10562D112848F
+- expected_values:
     I3_AAT: 28.5
+  response: 660F10562D1128989
