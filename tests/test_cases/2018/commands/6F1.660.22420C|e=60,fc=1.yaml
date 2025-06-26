@@ -1,86 +1,86 @@
 command_id: 6F1.660.22420C|e=60,fc=1
 test_cases:
-- response: |-
+- expected_values:
+    I3_RANGE: 12
+    I3_RANGE_COMF: 10
+    I3_RANGE_ECO: 12
+  response: |-
     660F1100B62420C000C
     660F121000A000C000E
-  expected_values:
+- expected_values:
     I3_RANGE: 12
     I3_RANGE_COMF: 10
     I3_RANGE_ECO: 12
-- response: |-
+  response: |-
     660F1100B62420C000C
     660F121000A000C000F
-  expected_values:
-    I3_RANGE: 12
-    I3_RANGE_COMF: 10
-    I3_RANGE_ECO: 12
-- response: |-
-    660F1100B62420C000D
-    660F121000B000D0010
-  expected_values:
+- expected_values:
     I3_RANGE: 13
     I3_RANGE_COMF: 11
     I3_RANGE_ECO: 13
-- response: |-
-    660F1100B62420C0013
-    660F121001000110016
-  expected_values:
+  response: |-
+    660F1100B62420C000D
+    660F121000B000D0010
+- expected_values:
     I3_RANGE: 17
     I3_RANGE_COMF: 16
     I3_RANGE_ECO: 19
-- response: |-
-    660F1100B62420C001F
-    660F121001F001F0027
-  expected_values:
+  response: |-
+    660F1100B62420C0013
+    660F121001000110016
+- expected_values:
     I3_RANGE: 31
     I3_RANGE_COMF: 31
     I3_RANGE_ECO: 31
-- response: |-
-    660F1100B62420C0020
-    660F121001F00200027
-  expected_values:
+  response: |-
+    660F1100B62420C001F
+    660F121001F001F0027
+- expected_values:
     I3_RANGE: 32
     I3_RANGE_COMF: 31
     I3_RANGE_ECO: 32
-- response: |-
-    660F1100B62420C0073
-    660F121006100650081
-  expected_values:
+  response: |-
+    660F1100B62420C0020
+    660F121001F00200027
+- expected_values:
     I3_RANGE: 101
     I3_RANGE_COMF: 97
     I3_RANGE_ECO: 115
-- response: |-
-    660F1100B62420C00AD
-    660F12100AE00AF00C5
-  expected_values:
+  response: |-
+    660F1100B62420C0073
+    660F121006100650081
+- expected_values:
     I3_RANGE: 175
     I3_RANGE_COMF: 174
     I3_RANGE_ECO: 173
-- response: |-
-    660F1100B62420C00C1
-    660F12100B900B90100
-  expected_values:
+  response: |-
+    660F1100B62420C00AD
+    660F12100AE00AF00C5
+- expected_values:
     I3_RANGE: 185
     I3_RANGE_COMF: 185
     I3_RANGE_ECO: 193
-- response: |-
-    660F1100B62420C00CC
-    660F12100C700E100DF
-  expected_values:
+  response: |-
+    660F1100B62420C00C1
+    660F12100B900B90100
+- expected_values:
     I3_RANGE: 225
     I3_RANGE_COMF: 199
     I3_RANGE_ECO: 204
-- response: |-
-    660F1100B62420C00D2
-    660F12100D000D200F9
-  expected_values:
+  response: |-
+    660F1100B62420C00CC
+    660F12100C700E100DF
+- expected_values:
     I3_RANGE: 210
     I3_RANGE_COMF: 208
     I3_RANGE_ECO: 210
-- response: |-
-    660F1100B62420C00EF
-    660F12100D200EF0109
-  expected_values:
+  response: |-
+    660F1100B62420C00D2
+    660F12100D000D200F9
+- expected_values:
     I3_RANGE: 239
     I3_RANGE_COMF: 210
     I3_RANGE_ECO: 239
+  response: |-
+    660F1100B62420C00EF
+    660F12100D200EF0109

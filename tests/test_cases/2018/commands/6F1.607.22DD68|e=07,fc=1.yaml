@@ -1,32 +1,32 @@
 command_id: 6F1.607.22DD68|e=07,fc=1
 test_cases:
-- response: '607 F1 05 62 DD 68 7B 23 '
-  expected_values:
+- expected_values:
     I3_HVBAT_V: 315.23
-- response: '607 F1 05 62 DD 68 80 66 '
-  expected_values:
+  response: '607 F1 05 62 DD 68 7B 23 '
+- expected_values:
     I3_HVBAT_V: 328.7
-- response: '607 F1 05 62 DD 68 82 FB '
-  expected_values:
+  response: '607 F1 05 62 DD 68 80 66 '
+- expected_values:
     I3_HVBAT_V: 335.31
-- response: '607 F1 05 62 DD 68 83 09 '
-  expected_values:
+  response: '607 F1 05 62 DD 68 82 FB '
+- expected_values:
     I3_HVBAT_V: 335.45
-- response: '607 F1 05 62 DD 68 86 2F '
-  expected_values:
+  response: '607 F1 05 62 DD 68 83 09 '
+- expected_values:
     I3_HVBAT_V: 343.51
-- response: '607 F1 05 62 DD 68 86 70 '
-  expected_values:
+  response: '607 F1 05 62 DD 68 86 2F '
+- expected_values:
     I3_HVBAT_V: 344.16
-- response: '607 F1 05 62 DD 68 94 5C '
-  expected_values:
+  response: '607 F1 05 62 DD 68 86 70 '
+- expected_values:
     I3_HVBAT_V: 379.8
-- response: 607F10562DD680000
-  expected_values:
+  response: '607 F1 05 62 DD 68 94 5C '
+- expected_values:
     I3_HVBAT_V: 0
-- response: 607F10562DD6883FF
-  expected_values:
+  response: 607F10562DD680000
+- expected_values:
     I3_HVBAT_V: 337.91
-- response: 607F10562DD68FFFF
-  expected_values:
+  response: 607F10562DD6883FF
+- expected_values:
     I3_HVBAT_V: 655.35
+  response: 607F10562DD68FFFF

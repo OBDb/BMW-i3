@@ -1,223 +1,223 @@
 command_id: 6F1.629.22DBE4|e=29,fc=1
 test_cases:
-- response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 00 00 00 00 00 \n629 F1 22
+- expected_values:
+    I3_FL_SPD: 0
+    I3_FR_SPD: 0
+    I3_RL_SPD: 0
+    I3_RR_SPD: 0
+  response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 00 00 00 00 00 \n629 F1 22
     00 00 00 00 00 00 \n629 F1 23 00 64 64 64 64 FF "
-  expected_values:
+- expected_values:
     I3_FL_SPD: 0
     I3_FR_SPD: 0
     I3_RL_SPD: 0
     I3_RR_SPD: 0
-- response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 00 00 00 00 00 \n629 F1 22
+  response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 00 00 00 00 00 \n629 F1 22
     00 00 03 03 03 03 \n629 F1 23 00 64 64 64 64 FF "
-  expected_values:
-    I3_FL_SPD: 0
-    I3_FR_SPD: 0
-    I3_RL_SPD: 0
-    I3_RR_SPD: 0
-- response: "629 F1 10 16 62 DB E4 01 20 \n629 F1 21 01 00 01 21 00 FD \n629 F1 22
-    00 C8 02 02 02 02 \n629 F1 23 02 64 64 64 64 FF "
-  expected_values:
+- expected_values:
     I3_FL_SPD: 2.88
     I3_FR_SPD: 2.56
     I3_RL_SPD: 2.89
     I3_RR_SPD: 2.53
-- response: "629 F1 10 16 62 DB E4 0D F7 \n629 F1 21 0D F6 0E 18 0E 36 \n629 F1 22
-    0D AC 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 01 20 \n629 F1 21 01 00 01 21 00 FD \n629 F1 22
+    00 C8 02 02 02 02 \n629 F1 23 02 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 35.75
     I3_FR_SPD: 35.74
     I3_RL_SPD: 36.08
     I3_RR_SPD: 36.38
-- response: "629 F1 10 16 62 DB E4 0E 3F \n629 F1 21 0D F5 0E 68 0E 20 \n629 F1 22
-    0E 10 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 0D F7 \n629 F1 21 0D F6 0E 18 0E 36 \n629 F1 22
+    0D AC 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 36.47
     I3_FR_SPD: 35.73
     I3_RL_SPD: 36.88
     I3_RR_SPD: 36.16
-- response: "629 F1 10 16 62 DB E4 1E F9 \n629 F1 21 1E F6 1F 7F 1F 75 \n629 F1 22
-    1E DC 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 0E 3F \n629 F1 21 0D F5 0E 68 0E 20 \n629 F1 22
+    0E 10 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 79.29
     I3_FR_SPD: 79.26
     I3_RL_SPD: 80.63
     I3_RR_SPD: 80.53
-- response: "629 F1 10 16 62 DB E4 1F 72 \n629 F1 21 1F 8F 1F E8 20 09 \n629 F1 22
-    1F 40 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 1E F9 \n629 F1 21 1E F6 1F 7F 1F 75 \n629 F1 22
+    1E DC 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 80.5
     I3_FR_SPD: 80.79
     I3_RL_SPD: 81.68
     I3_RR_SPD: 82.01
-- response: "629 F1 10 16 62 DB E4 20 46 \n629 F1 21 20 39 20 B1 20 B0 \n629 F1 22
-    20 08 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 1F 72 \n629 F1 21 1F 8F 1F E8 20 09 \n629 F1 22
+    1F 40 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 82.62
     I3_FR_SPD: 82.49
     I3_RL_SPD: 83.69
     I3_RR_SPD: 83.68
-- response: "629 F1 10 16 62 DB E4 20 F7 \n629 F1 21 20 FE 21 34 21 34 \n629 F1 22
-    20 D0 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 20 46 \n629 F1 21 20 39 20 B1 20 B0 \n629 F1 22
+    20 08 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 84.39
     I3_FR_SPD: 84.46
     I3_RL_SPD: 85
     I3_RR_SPD: 85
-- response: "629 F1 10 16 62 DB E4 23 F9 \n629 F1 21 23 F2 24 52 24 68 \n629 F1 22
-    23 F0 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 20 F7 \n629 F1 21 20 FE 21 34 21 34 \n629 F1 22
+    20 D0 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 92.09
     I3_FR_SPD: 92.02
     I3_RL_SPD: 92.98
     I3_RR_SPD: 93.2
-- response: "629 F1 10 16 62 DB E4 28 A6 \n629 F1 21 28 8F 28 FC 29 17 \n629 F1 22
-    29 04 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 23 F9 \n629 F1 21 23 F2 24 52 24 68 \n629 F1 22
+    23 F0 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 104.06
     I3_FR_SPD: 103.83
     I3_RL_SPD: 104.92
     I3_RR_SPD: 105.19
-- response: "629 F1 10 16 62 DB E4 2B 31 \n629 F1 21 2A DF 2B 4C 2B 0F \n629 F1 22
-    2A F8 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 28 A6 \n629 F1 21 28 8F 28 FC 29 17 \n629 F1 22
+    29 04 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 110.57
     I3_FR_SPD: 109.75
     I3_RL_SPD: 110.84
     I3_RR_SPD: 110.23
-- response: "629 F1 10 16 62 DB E4 2B 96 \n629 F1 21 2B 73 2C 21 2C 21 \n629 F1 22
-    2B 5C 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
-  expected_values:
+  response: "629 F1 10 16 62 DB E4 2B 31 \n629 F1 21 2A DF 2B 4C 2B 0F \n629 F1 22
+    2A F8 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
     I3_FL_SPD: 111.58
     I3_FR_SPD: 111.23
     I3_RL_SPD: 112.97
     I3_RR_SPD: 112.97
-- response: |-
+  response: "629 F1 10 16 62 DB E4 2B 96 \n629 F1 21 2B 73 2C 21 2C 21 \n629 F1 22
+    2B 5C 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
+    I3_FL_SPD: 0
+    I3_FR_SPD: 0
+    I3_RL_SPD: 0
+    I3_RR_SPD: 0
+  response: |-
     629F1101662DBE40000
     629F121000000000000
     629F122000000000000
     629F1230064646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 0
     I3_FR_SPD: 0
     I3_RL_SPD: 0
     I3_RR_SPD: 0
-- response: |-
+  response: |-
     629F1101662DBE40000
     629F121000000000000
     629F122000003030303
     629F1230064646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 0
     I3_FR_SPD: 0
     I3_RL_SPD: 0
     I3_RR_SPD: 0
-- response: |-
+  response: |-
     629F1101662DBE40000
     629F121000000000000
     629F122000003030303
     629F1230364646464FF
-  expected_values:
-    I3_FL_SPD: 0
-    I3_FR_SPD: 0
-    I3_RL_SPD: 0
-    I3_RR_SPD: 0
-- response: |-
-    629F1101662DBE40000
-    629F12100000000000F
-    629F122000001010101
-    629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 0
     I3_FR_SPD: 0
     I3_RL_SPD: 0
     I3_RR_SPD: 0.15
-- response: |-
-    629F1101662DBE400FF
-    629F12100FE01030100
-    629F12200C801010101
+  response: |-
+    629F1101662DBE40000
+    629F12100000000000F
+    629F122000001010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 2.55
     I3_FR_SPD: 2.54
     I3_RL_SPD: 2.59
     I3_RR_SPD: 2.56
-- response: |-
-    629F1101662DBE4081A
-    629F121094B08080915
-    629F12208FC01010101
+  response: |-
+    629F1101662DBE400FF
+    629F12100FE01030100
+    629F12200C801010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 20.74
     I3_FR_SPD: 23.79
     I3_RL_SPD: 20.56
     I3_RR_SPD: 23.25
-- response: |-
-    629F1101662DBE40F1D
-    629F1210FE90F210FF8
-    629F1220FA001010101
+  response: |-
+    629F1101662DBE4081A
+    629F121094B08080915
+    629F12208FC01010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 38.69
     I3_FR_SPD: 40.73
     I3_RL_SPD: 38.73
     I3_RR_SPD: 40.88
-- response: |-
-    629F1101662DBE40FAF
-    629F1210FFF0FCE102B
-    629F122100401010101
+  response: |-
+    629F1101662DBE40F1D
+    629F1210FE90F210FF8
+    629F1220FA001010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 40.15
     I3_FR_SPD: 40.95
     I3_RL_SPD: 40.46
     I3_RR_SPD: 41.39
-- response: |-
-    629F1101662DBE40FB4
-    629F1210FC70FF31008
-    629F1220FA001010101
+  response: |-
+    629F1101662DBE40FAF
+    629F1210FFF0FCE102B
+    629F122100401010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 40.2
     I3_FR_SPD: 40.39
     I3_RL_SPD: 40.83
     I3_RR_SPD: 41.04
-- response: |-
-    629F1101662DBE42F5A
-    629F1212F7F30273022
-    629F122300C01010101
+  response: |-
+    629F1101662DBE40FB4
+    629F1210FC70FF31008
+    629F1220FA001010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 121.22
     I3_FR_SPD: 121.59
     I3_RL_SPD: 123.27
     I3_RR_SPD: 123.22
-- response: |-
-    629F1101662DBE42F6C
-    629F1212F7F300F3022
-    629F1222FA801010101
+  response: |-
+    629F1101662DBE42F5A
+    629F1212F7F30273022
+    629F122300C01010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 121.4
     I3_FR_SPD: 121.59
     I3_RL_SPD: 123.03
     I3_RR_SPD: 123.22
-- response: |-
-    629F1101662DBE42F9F
-    629F121300130013086
-    629F122307001010101
+  response: |-
+    629F1101662DBE42F6C
+    629F1212F7F300F3022
+    629F1222FA801010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 121.91
     I3_FR_SPD: 122.89
     I3_RL_SPD: 122.89
     I3_RR_SPD: 124.22
-- response: |-
-    629F1101662DBE43C78
-    629F1213C253D393D27
-    629F1223C2801010101
+  response: |-
+    629F1101662DBE42F9F
+    629F121300130013086
+    629F122307001010101
     629F1230164646464FF
-  expected_values:
+- expected_values:
     I3_FL_SPD: 154.8
     I3_FR_SPD: 153.97
     I3_RL_SPD: 156.73
     I3_RR_SPD: 156.55
+  response: |-
+    629F1101662DBE43C78
+    629F1213C253D393D27
+    629F1223C2801010101
+    629F1230164646464FF
