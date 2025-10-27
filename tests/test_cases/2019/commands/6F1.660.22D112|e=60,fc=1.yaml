@@ -10,5 +10,5 @@ test_cases:
     I3_AAT: 10.5
   response: 660F10562D1126567
 - expected_values:
-    I3_AAT: 11
-  response: 660F10562D1126665
+    I3_AAT: 11.5
+  response: 660F10562D1126767
