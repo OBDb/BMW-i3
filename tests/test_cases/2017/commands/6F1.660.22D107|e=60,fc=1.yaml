@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D107|e=60,fc=1
+test_cases:
+- expected_values:
+    I3_VSS: 0
+  response: 660F10562D1070000
+- expected_values:
+    I3_VSS: 25.5
+  response: 660F10562D10700FF
+- expected_values:
+    I3_VSS: 28.2
+  response: 660F10562D107011A
+- expected_values:
+    I3_VSS: 129
+  response: 660F10562D107050A
