@@ -42,3 +42,15 @@ test_cases:
   response: |-
     607F1100962DDC008FC
     607F1210A28098CFFFF
+- expected_values:
+    I3_HVBAT_CT_MAX: 28
+    I3_HVBAT_CT_MIN: 25
+  response: |-
+    607F1100962DDC009C4
+    607F1210AF00A60FFFF
+- expected_values:
+    I3_HVBAT_CT_MAX: 27.28
+    I3_HVBAT_CT_MIN: 25.7
+  response: |-
+    607F1100962DDC00A0A
+    607F1210AA80A57FFFF
