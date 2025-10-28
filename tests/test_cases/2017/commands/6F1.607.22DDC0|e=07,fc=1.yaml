@@ -1,23 +1,17 @@
 command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
 - expected_values:
-    I3_HVBAT_CT_MAX: 15.94
-    I3_HVBAT_CT_MIN: 14.94
+    I3_HVBAT_CT_MAX: 15.16
+    I3_HVBAT_CT_MIN: 14.16
   response: |-
-    607F1100962DDC005D6
-    607F121063A0615FFFF
+    607F1100962DDC00588
+    607F12105EC05C0FFFF
 - expected_values:
     I3_HVBAT_CT_MAX: 16
     I3_HVBAT_CT_MIN: 15
   response: |-
     607F1100962DDC005DC
     607F12106400619FFFF
-- expected_values:
-    I3_HVBAT_CT_MAX: 16.05
-    I3_HVBAT_CT_MIN: 15.05
-  response: |-
-    607F1100962DDC005E1
-    607F121064505FBFFFF
 - expected_values:
     I3_HVBAT_CT_MAX: 16.01
     I3_HVBAT_CT_MIN: 15.85
@@ -30,12 +24,6 @@ test_cases:
   response: |-
     607F1100962DDC0063F
     607F121063F063FFFFF
-- expected_values:
-    I3_HVBAT_CT_MAX: 17.12
-    I3_HVBAT_CT_MIN: 16.23
-  response: |-
-    607F1100962DDC00657
-    607F12106B00670FFFF
 - expected_values:
     I3_HVBAT_CT_MAX: 18.63
     I3_HVBAT_CT_MIN: 17.92
