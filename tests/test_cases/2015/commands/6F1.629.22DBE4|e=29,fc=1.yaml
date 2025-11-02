@@ -1,0 +1,22 @@
+command_id: 6F1.629.22DBE4|e=29,fc=1
+test_cases:
+- expected_values:
+    I3_FL_SPD: 0
+    I3_FR_SPD: 0
+    I3_RL_SPD: 0
+    I3_RR_SPD: 0
+  response: |-
+    629F1101662DBE40000
+    629F121000000000000
+    629F122000000000000
+    629F1230064646464FF
+- expected_values:
+    I3_FL_SPD: 0
+    I3_FR_SPD: 0
+    I3_RL_SPD: 0
+    I3_RR_SPD: 0
+  response: |-
+    629F1101662DBE40000
+    629F121000000000000
+    629F122000003030303
+    629F1230064646464FF
