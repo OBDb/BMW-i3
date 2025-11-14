@@ -49,3 +49,10 @@ test_cases:
   response: |-
     660F1100B62420C0040
     660F121003B003F0047
+- expected_values:
+    I3_RANGE: 87
+    I3_RANGE_COMF: 81
+    I3_RANGE_ECO: 85
+  response: |-
+    660F1100B62420C0055
+    660F121005100570062
