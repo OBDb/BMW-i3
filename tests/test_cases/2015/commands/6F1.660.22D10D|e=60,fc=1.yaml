@@ -12,3 +12,9 @@ test_cases:
   response: |-
     660F1100B62D10D0001
     660F121E8280001E828
+- expected_values:
+    I3_ODO1: 125043
+    I3_ODO2: 125043
+  response: |-
+    660F1100B62D10D0001
+    660F121E8730001E873

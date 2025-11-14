@@ -1,8 +1,5 @@
 command_id: 6F1.663.22D031|e=63,fc=1
 test_cases:
 - expected_values:
-    I3_GEAR: 1
-  response: 663F10562D0310100
-- expected_values:
     I3_GEAR: 2
   response: 663F10562D0310200

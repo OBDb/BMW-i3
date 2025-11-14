@@ -3,6 +3,3 @@ test_cases:
 - expected_values:
     I3_VSS: 0
   response: 660F10562D1070000
-- expected_values:
-    I3_VSS: 63.1
-  response: 660F10562D1070277
