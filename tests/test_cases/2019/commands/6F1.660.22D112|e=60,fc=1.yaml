@@ -6,8 +6,8 @@ test_cases:
     22D1121
     660F10562D1125658
 - expected_values:
-    I3_AAT: 3.5
-  response: 660F10562D1125758
+    I3_AAT: 2.5
+  response: 660F10562D1125555
 - expected_values:
     I3_AAT: 9.5
   response: 660F10562D1126364
