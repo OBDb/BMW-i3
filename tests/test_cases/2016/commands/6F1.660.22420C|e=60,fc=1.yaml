@@ -1,6 +1,20 @@
 command_id: 6F1.660.22420C|e=60,fc=1
 test_cases:
 - expected_values:
+    I3_RANGE: 26
+    I3_RANGE_COMF: 24
+    I3_RANGE_ECO: 26
+  response: |-
+    660F1100B62420C001A
+    660F1210018001A001C
+- expected_values:
+    I3_RANGE: 26
+    I3_RANGE_COMF: 25
+    I3_RANGE_ECO: 26
+  response: |-
+    660F1100B62420C001A
+    660F1210019001A001C
+- expected_values:
     I3_RANGE: 71
     I3_RANGE_COMF: 70
     I3_RANGE_ECO: 71
