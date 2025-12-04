@@ -1,6 +1,26 @@
 command_id: 6F1.660.22D111|e=60,fc=1
 test_cases:
 - expected_values:
+    I3_AUX_PWR: 0.74
+    I3_RANGE_E_CUR: 24
+    I3_RANGE_E_MAX: 105
+    I3_RANGE_E_USE: 14.947
+    I3_RANGE_F_CUR: 78
+  response: |-
+    660F1100F62D11100F0
+    660F121041A030CFFFF
+    660F1223A63004AFFFF
+- expected_values:
+    I3_AUX_PWR: 0.74
+    I3_RANGE_E_CUR: 25
+    I3_RANGE_E_MAX: 105
+    I3_RANGE_E_USE: 14.947
+    I3_RANGE_F_CUR: 80
+  response: |-
+    660F1100F62D11100FA
+    660F121041A0320FFFF
+    660F1223A63004AFFFF
+- expected_values:
     I3_AUX_PWR: 0.64
     I3_RANGE_E_CUR: 70
     I3_RANGE_E_MAX: 104
