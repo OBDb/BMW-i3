@@ -12,3 +12,45 @@ test_cases:
   response: |-
     660F1100B62D10D0001
     660F12191AB000191AB
+- expected_values:
+    I3_ODO1: 102828
+    I3_ODO2: 102828
+  response: |-
+    660F1100B62D10D0001
+    660F12191AC000191AC
+- expected_values:
+    I3_ODO1: 102903
+    I3_ODO2: 102903
+  response: |-
+    660F1100B62D10D0001
+    660F12191F7000191F7
+- expected_values:
+    I3_ODO1: 102904
+    I3_ODO2: 102904
+  response: |-
+    660F1100B62D10D0001
+    660F12191F8000191F8
+- expected_values:
+    I3_ODO1: 102905
+    I3_ODO2: 102905
+  response: |-
+    660F1100B62D10D0001
+    660F12191F9000191F9
+- expected_values:
+    I3_ODO1: 102906
+    I3_ODO2: 102906
+  response: |-
+    660F1100B62D10D0001
+    660F12191FA000191FA
+- expected_values:
+    I3_ODO1: 102907
+    I3_ODO2: 102907
+  response: |-
+    660F1100B62D10D0001
+    660F12191FB000191FB
+- expected_values:
+    I3_ODO1: 102908
+    I3_ODO2: 102908
+  response: |-
+    660F1100B62D10D0001
+    660F12191FC000191FC
