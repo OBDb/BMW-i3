@@ -5,6 +5,20 @@ test_cases:
     I3_FR_SPD: 0
     I3_RL_SPD: 0
     I3_RR_SPD: 0
+  response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 00 00 00 00 00 \n629 F1 22
+    00 00 00 00 00 00 \n629 F1 23 00 64 64 64 64 FF "
+- expected_values:
+    I3_FL_SPD: 0
+    I3_FR_SPD: 0
+    I3_RL_SPD: 0
+    I3_RR_SPD: 0
+  response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 00 00 00 00 00 \n629 F1 22
+    00 00 03 03 03 03 \n629 F1 23 00 64 64 64 64 FF "
+- expected_values:
+    I3_FL_SPD: 0
+    I3_FR_SPD: 0
+    I3_RL_SPD: 0
+    I3_RR_SPD: 0
   response: |-
     629F1101662DBE40000
     629F121000000000000

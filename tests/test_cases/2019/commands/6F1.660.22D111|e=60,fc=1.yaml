@@ -12,6 +12,30 @@ test_cases:
     660F121065E0000FFFF
     660F1223B51007AFFFF
 - expected_values:
+    I3_AUX_PWR: 1.13
+    I3_RANGE_E_CUR: 55
+    I3_RANGE_E_MAX: 157
+    I3_RANGE_E_USE: 14.887
+    I3_RANGE_F_CUR: 0
+  response: "660 F1 10 0F 62 D1 11 02 26 \n660 F1 21 06 22 00 00 FF FF \n660 F1 22
+    3A 27 00 71 FF FF "
+- expected_values:
+    I3_AUX_PWR: 1.14
+    I3_RANGE_E_CUR: 57
+    I3_RANGE_E_MAX: 156
+    I3_RANGE_E_USE: 14.887
+    I3_RANGE_F_CUR: 0
+  response: "660 F1 10 0F 62 D1 11 02 3A \n660 F1 21 06 18 00 00 FF FF \n660 F1 22
+    3A 27 00 72 FF FF "
+- expected_values:
+    I3_AUX_PWR: 1.1
+    I3_RANGE_E_CUR: 59
+    I3_RANGE_E_MAX: 157
+    I3_RANGE_E_USE: 14.887
+    I3_RANGE_F_CUR: 0
+  response: "660 F1 10 0F 62 D1 11 02 4E \n660 F1 21 06 22 00 00 FF FF \n660 F1 22
+    3A 27 00 6E FF FF "
+- expected_values:
     I3_AUX_PWR: 1.5
     I3_RANGE_E_CUR: 10
     I3_RANGE_E_MAX: 163
