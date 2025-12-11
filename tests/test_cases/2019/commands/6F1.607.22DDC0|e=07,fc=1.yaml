@@ -1,6 +1,18 @@
 command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
 - expected_values:
+    I3_HVBAT_CT_MAX: 18.13
+    I3_HVBAT_CT_MIN: 16.13
+  response: "607 F1 10 09 62 DD C0 06 4D \n607 F1 21 07 15 06 D8 FF FF "
+- expected_values:
+    I3_HVBAT_CT_MAX: 18.81
+    I3_HVBAT_CT_MIN: 16.47
+  response: "607 F1 10 09 62 DD C0 06 6F \n607 F1 21 07 59 06 FE FF FF "
+- expected_values:
+    I3_HVBAT_CT_MAX: 19.02
+    I3_HVBAT_CT_MIN: 16.94
+  response: "607 F1 10 09 62 DD C0 06 9E \n607 F1 21 07 6E 07 0F FF FF "
+- expected_values:
     I3_HVBAT_CT_MAX: 8.98
     I3_HVBAT_CT_MIN: 6.98
   response: |-

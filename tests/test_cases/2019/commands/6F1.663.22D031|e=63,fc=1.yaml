@@ -6,6 +6,9 @@ test_cases:
     22D031
     663F10562D0310200
 - expected_values:
+    I3_GEAR: 2
+  response: '663 F1 05 62 D0 31 02 00 '
+- expected_values:
     I3_GEAR: 0
   response: 663F10562D0310000
 - expected_values:
