@@ -1,6 +1,15 @@
 command_id: 6F1.607.22DD68|e=07,fc=1
 test_cases:
 - expected_values:
+    I3_HVBAT_V: 370.05
+  response: '607 F1 05 62 DD 68 90 8D '
+- expected_values:
+    I3_HVBAT_V: 371.78
+  response: '607 F1 05 62 DD 68 91 3A '
+- expected_values:
+    I3_HVBAT_V: 372.16
+  response: '607 F1 05 62 DD 68 91 60 '
+- expected_values:
     I3_HVBAT_V: 309.72
   response: 607F10562DD6878FC
 - expected_values:
