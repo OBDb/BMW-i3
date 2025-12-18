@@ -4,14 +4,17 @@ test_cases:
     I3_HVBAT_V: 370.05
   response: '607 F1 05 62 DD 68 90 8D '
 - expected_values:
-    I3_HVBAT_V: 371.78
-  response: '607 F1 05 62 DD 68 91 3A '
-- expected_values:
     I3_HVBAT_V: 372.16
   response: '607 F1 05 62 DD 68 91 60 '
 - expected_values:
-    I3_HVBAT_V: 377.15
-  response: '607 F1 05 62 DD 68 93 53 '
+    I3_HVBAT_V: 374.38
+  response: '607 F1 05 62 DD 68 92 3E '
+- expected_values:
+    I3_HVBAT_V: 391.23
+  response: '607 F1 05 62 DD 68 98 D3 '
+- expected_values:
+    I3_HVBAT_V: 392.07
+  response: '607 F1 05 62 DD 68 99 27 '
 - expected_values:
     I3_HVBAT_V: 309.72
   response: 607F10562DD6878FC
