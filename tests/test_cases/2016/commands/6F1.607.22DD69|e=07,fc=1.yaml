@@ -6,10 +6,10 @@ test_cases:
     607F1100762DD690000
     607F1210000FFFFFFFF
 - expected_values:
-    I3_HVBAT_C: 7.67
+    I3_HVBAT_C: 2.87
   response: |-
     607F1100762DD690000
-    607F12102FFFFFFFFFF
+    607F121011FFFFFFFFF
 - expected_values:
     I3_HVBAT_C: -31.69
   response: |-
