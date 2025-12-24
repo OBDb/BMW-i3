@@ -29,11 +29,17 @@ test_cases:
     I3_HVBAT_CT_MIN: 16.94
   response: "607 F1 10 09 62 DD C0 06 9E \n607 F1 21 07 6E 07 0F FF FF "
 - expected_values:
-    I3_HVBAT_CT_MAX: 7.97
-    I3_HVBAT_CT_MIN: 6.97
+    I3_HVBAT_CT_MAX: 7.96
+    I3_HVBAT_CT_MIN: 6.96
   response: |-
-    607F1100962DDC002B9
-    607F121031D02F5FFFF
+    607F1100962DDC002B8
+    607F121031C02D2FFFF
+- expected_values:
+    I3_HVBAT_CT_MAX: 7.99
+    I3_HVBAT_CT_MIN: 6.99
+  response: |-
+    607F1100962DDC002BB
+    607F121031F02D0FFFF
 - expected_values:
     I3_HVBAT_CT_MAX: 8.99
     I3_HVBAT_CT_MIN: 6.99
@@ -41,29 +47,17 @@ test_cases:
     607F1100962DDC002BB
     607F1210383033FFFFF
 - expected_values:
+    I3_HVBAT_CT_MAX: 7.51
+    I3_HVBAT_CT_MIN: 7
+  response: |-
+    607F1100962DDC002BC
+    607F12102EF02BFFFFF
+- expected_values:
     I3_HVBAT_CT_MAX: 8
     I3_HVBAT_CT_MIN: 7
   response: |-
     607F1100962DDC002BC
     607F121032002F4FFFF
-- expected_values:
-    I3_HVBAT_CT_MAX: 8.01
-    I3_HVBAT_CT_MIN: 7.01
-  response: |-
-    607F1100962DDC002BD
-    607F121032102EDFFFF
-- expected_values:
-    I3_HVBAT_CT_MAX: 9.05
-    I3_HVBAT_CT_MIN: 8.05
-  response: |-
-    607F1100962DDC00325
-    607F12103890340FFFF
-- expected_values:
-    I3_HVBAT_CT_MAX: 9.75
-    I3_HVBAT_CT_MIN: 8.52
-  response: |-
-    607F1100962DDC00354
-    607F12103CF03A6FFFF
 - expected_values:
     I3_HVBAT_CT_MAX: 13.03
     I3_HVBAT_CT_MIN: 12.8
