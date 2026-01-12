@@ -130,3 +130,8 @@ unsupported_commands_by_ecu:
   - 7E0.014C:TAC_PCT
   - 7E0.0151:FUEL_TYP
   - 7E0.015C:EOT
+  "7E5":
+  - 7E5.7ED.0104
+  - 7E5.7ED.0105
+  - 7E5.7ED.010D
+  - 7E5.7ED.0142
