@@ -4,5 +4,20 @@ references:
 generations:
   - name: "First Generation (I01)"
     start_year: 2013
+    end_year: 2016
+    description: "The original BMW i3 generation introduced a groundbreaking electric vehicle that pioneered BMW's dedicated 'i' sub-brand. Built around a purpose-designed architecture featuring a carbon fiber reinforced plastic (CFRP) passenger cell mounted on an aluminum chassis, the i3 prioritized lightweight construction to maximize efficiency and range. The distinctive design featured a tall, narrow body with coach doors, large windows, and a floating dashboard design with sustainable interior materials. Initially launched with a 22 kWh battery (60 Ah) providing approximately 80-100 miles of range, the i3 was available as a pure electric vehicle or with an optional small gasoline range extender engine (REx). Production began in September 2013."
+
+  - name: "First Generation (I01) 2017 Update"
+    start_year: 2017
+    end_year: 2017
+    description: "The 2017 model year BMW i3 introduced an enlarged 94 Ah / 33 kWh battery (27.2 kWh net usable), increasing range to approximately 114 miles. The electronics package was upgraded with new software mapping for the battery cooling system and the electric motor. Released in July 2016 for 2017 model year, this update maintained the same platform and exterior design but offered significantly improved range and efficiency."
+
+  - name: "First Generation (I01) 2018 Facelift"
+    start_year: 2018
+    end_year: 2018
+    description: "The exterior was refreshed for the 2018 model year with a new front bumper, horizontal turnsignal light openings, and standard LED headlights. The rear bumper was also revised and a horizontal silver bar was added to the rear hatch. BMW also introduced the i3s sport variant beginning with the 2018 model year, featuring increased power output from 170 to 181 hp, lowered sport suspension, and wider model-exclusive wheels. The i3 maintained the 94 Ah battery from 2017."
+
+  - name: "First Generation (I01) 2019 Update"
+    start_year: 2019
     end_year: 2022
-    description: "The BMW i3 was a groundbreaking electric vehicle that pioneered BMW's dedicated 'i' sub-brand. Built around a purpose-designed architecture featuring a carbon fiber reinforced plastic (CFRP) passenger cell mounted on an aluminum chassis, the i3 prioritized lightweight construction to maximize efficiency and range. The distinctive design featured a tall, narrow body with coach doors, large windows, and a floating dashboard design with sustainable interior materials. Initially launched with a 22 kWh battery providing approximately 80-100 miles of range, the i3 was available as a pure electric vehicle or with an optional small gasoline range extender engine (REx). Updates in 2017 (33 kWh battery) and 2019 (42.2 kWh battery) increased range to up to 153 miles. Throughout its lifecycle, motor power increased from 170 HP to 184 HP in later models. The i3 featured innovative technologies including a heat pump climate control system for efficiency and early iterations of BMW's driver assistance systems. Despite modest sales compared to mainstream BMW models, the i3 was significant in advancing electric vehicle technology and sustainable manufacturing processes. Its unique approach to design, materials, and engineering made it a distinctive product in BMW's lineup and the broader electric vehicle market before production ended in August 2022."
+    description: "In September 2018, BMW announced a larger 42.2 kWh (120 Ah) battery for the i3, increasing range to up to 153 miles. Minor alterations included new color options, adaptive headlights, and 429 wheels as standard. With the introduction of the bigger battery, BMW discontinued the Range Extender version in Europe. Production continued until August 2022, with total cumulative production reaching approximately 250,000 units. The i3s continued to be offered with the larger battery throughout this period. US models were discontinued in July 2021 after the 2021 model year, while Australian models ended at the end of 2021."
