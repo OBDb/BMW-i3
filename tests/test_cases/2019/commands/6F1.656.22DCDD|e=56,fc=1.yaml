@@ -26,7 +26,7 @@ test_cases:
   response: "656 F1 10 0F 62 DC DD 00 00 \n656 F1 21 00 00 00 00 02 01 \n656 F1 22
     00 00 00 00 FF FF "
 - expected_values:
-    I3_CENTRAL_LOCK: 2
+    I3_CENTRAL_LOCK: 4
     I3_DOOR_DRIVER: 0
     I3_DOOR_DRIVER_REAR: 0
     I3_DOOR_PASSENGER: 0
@@ -34,7 +34,7 @@ test_cases:
     I3_HOOD: 0
     I3_REAR_WINDOW: 2
     I3_TRUNK: 0
-  response: "656 F1 10 0F 62 DC DD 00 00 \n656 F1 21 00 00 00 00 02 02 \n656 F1 22
+  response: "656 F1 10 0F 62 DC DD 00 00 \n656 F1 21 00 00 00 00 02 04 \n656 F1 22
     00 00 00 00 FF FF "
 - expected_values:
     I3_CENTRAL_LOCK: 1
