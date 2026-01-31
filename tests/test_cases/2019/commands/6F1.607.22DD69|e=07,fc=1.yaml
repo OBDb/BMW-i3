@@ -1,6 +1,21 @@
 command_id: 6F1.607.22DD69|e=07,fc=1
 test_cases:
 - expected_values:
+    I3_HVBAT_C: 7.71
+  response: "607 F1 10 07 62 DD 69 00 00 \n607 F1 21 03 03 FF FF FF FF "
+- expected_values:
+    I3_HVBAT_C: 11.63
+  response: "607 F1 10 07 62 DD 69 00 00 \n607 F1 21 04 8B FF FF FF FF "
+- expected_values:
+    I3_HVBAT_C: 122.59
+  response: "607 F1 10 07 62 DD 69 00 00 \n607 F1 21 2F E3 FF FF FF FF "
+- expected_values:
+    I3_HVBAT_C: 123.35
+  response: "607 F1 10 07 62 DD 69 00 00 \n607 F1 21 30 2F FF FF FF FF "
+- expected_values:
+    I3_HVBAT_C: -18.58
+  response: "607 F1 10 07 62 DD 69 FF FF \n607 F1 21 F8 BE FF FF FF FF "
+- expected_values:
     I3_HVBAT_C: 0
   response: |-
     607F1100762DD690000
