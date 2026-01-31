@@ -1,6 +1,14 @@
 command_id: 6F1.607.226335|e=07,fc=1
 test_cases:
 - expected_values:
+    I3_HVBAT_SOH: 84
+  response: "607 F1 10 07 62 63 35 00 00 \n607 F1 21 00 54 FF FF FF FF "
+- expected_values:
+    I3_HVBAT_SOH: 84
+  response: |-
+    607F110076263350000
+    607F1210054FFFFFFFF
+- expected_values:
     I3_HVBAT_SOH: 85
   response: |-
     607F110076263350000

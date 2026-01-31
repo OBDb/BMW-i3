@@ -15,12 +15,19 @@ test_cases:
   response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 00 00 00 00 00 \n629 F1 22
     00 00 03 03 03 03 \n629 F1 23 00 64 64 64 64 FF "
 - expected_values:
-    I3_FL_SPD: 0.44
-    I3_FR_SPD: 0.46
-    I3_RL_SPD: 0.45
-    I3_RR_SPD: 0.45
-  response: "629 F1 10 16 62 DB E4 00 2C \n629 F1 21 00 2E 00 2D 00 2D \n629 F1 22
+    I3_FL_SPD: 0
+    I3_FR_SPD: 0.13
+    I3_RL_SPD: 0.15
+    I3_RR_SPD: 0.12
+  response: "629 F1 10 16 62 DB E4 00 00 \n629 F1 21 00 0D 00 0F 00 0C \n629 F1 22
     00 00 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
+- expected_values:
+    I3_FL_SPD: 15.51
+    I3_FR_SPD: 15.42
+    I3_RL_SPD: 15.59
+    I3_RR_SPD: 15.51
+  response: "629 F1 10 16 62 DB E4 06 0F \n629 F1 21 06 06 06 17 06 0F \n629 F1 22
+    05 DC 01 01 01 01 \n629 F1 23 01 64 64 64 64 FF "
 - expected_values:
     I3_FL_SPD: 36.21
     I3_FR_SPD: 36.12
@@ -90,14 +97,14 @@ test_cases:
     629F122000001010101
     629F1230164646464FF
 - expected_values:
-    I3_FL_SPD: 7.67
-    I3_FR_SPD: 7.73
-    I3_RL_SPD: 7.92
-    I3_RR_SPD: 7.87
+    I3_FL_SPD: 2.55
+    I3_FR_SPD: 2.54
+    I3_RL_SPD: 2.59
+    I3_RR_SPD: 2.51
   response: |-
-    629F1101662DBE402FF
-    629F121030503180313
-    629F12202BC01010101
+    629F1101662DBE400FF
+    629F12100FE010300FB
+    629F12200C801010101
     629F1230164646464FF
 - expected_values:
     I3_FL_SPD: 21.28

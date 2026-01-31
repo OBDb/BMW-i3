@@ -12,6 +12,9 @@ test_cases:
     I3_AAT: 7
   response: '660 F1 05 62 D1 12 5E 5E '
 - expected_values:
+    I3_AAT: 9
+  response: '660 F1 05 62 D1 12 62 63 '
+- expected_values:
     I3_AAT: -2
   response: 660F10562D1124C4D
 - expected_values:
