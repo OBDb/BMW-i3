@@ -1,6 +1,15 @@
 command_id: 6F1.660.22D112|e=60,fc=1
 test_cases:
 - expected_values:
+    I3_AAT: 6.5
+  response: 660F10562D1125D5E
+- expected_values:
+    I3_AAT: 6.5
+  response: 660F10562D1125D5F
+- expected_values:
+    I3_AAT: 7
+  response: 660F10562D1125E63
+- expected_values:
     I3_AAT: 7.5
   response: 660F10562D1125F5F
 - expected_values:
@@ -9,3 +18,6 @@ test_cases:
 - expected_values:
     I3_AAT: 7.5
   response: 660F10562D1125F61
+- expected_values:
+    I3_AAT: 8
+  response: 660F10562D1126064
