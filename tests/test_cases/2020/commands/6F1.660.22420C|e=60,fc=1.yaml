@@ -1,6 +1,48 @@
 command_id: 6F1.660.22420C|e=60,fc=1
 test_cases:
 - expected_values:
+    I3_RANGE: 255
+    I3_RANGE_COMF: 182
+    I3_RANGE_ECO: 210
+  response: |-
+    660F1100B62420C00D2
+    660F12100B600FF00FF
+- expected_values:
+    I3_RANGE: 256
+    I3_RANGE_COMF: 182
+    I3_RANGE_ECO: 210
+  response: |-
+    660F1100B62420C00D2
+    660F12100B601000100
+- expected_values:
+    I3_RANGE: 255
+    I3_RANGE_COMF: 213
+    I3_RANGE_ECO: 252
+  response: |-
+    660F1100B62420C00FC
+    660F12100D500FF00FC
+- expected_values:
+    I3_RANGE: 255
+    I3_RANGE_COMF: 213
+    I3_RANGE_ECO: 253
+  response: |-
+    660F1100B62420C00FD
+    660F12100D500FF00FD
+- expected_values:
+    I3_RANGE: 256
+    I3_RANGE_COMF: 214
+    I3_RANGE_ECO: 254
+  response: |-
+    660F1100B62420C00FE
+    660F12100D601000100
+- expected_values:
+    I3_RANGE: 255
+    I3_RANGE_COMF: 214
+    I3_RANGE_ECO: 255
+  response: |-
+    660F1100B62420C00FF
+    660F12100D600FF00FF
+- expected_values:
     I3_RANGE: 294
     I3_RANGE_COMF: 236
     I3_RANGE_ECO: 285

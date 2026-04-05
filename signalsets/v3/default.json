@@ -51,7 +51,7 @@
     {"id": "I3_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (avg)"},
     {"id": "I3_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
   ]},
-{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DE00"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2020 },
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DE00"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "I3_HVBAT_HVPM_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge (hvpm)",  "description": "Battery level reading from the high voltage power module"},
     {"id": "I3_HVBAT_HVPM_MIN_SOC", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 100, "div": 2,  "unit": "percent" }, "name": "Minimum state of charge"},
