@@ -1,11 +1,18 @@
 command_id: 6F1.607.22DDBC|e=07,fc=1
 test_cases:
 - expected_values:
-    I3_HVBAT_SOC: 88.9
+    I3_HVBAT_SOC: 86.9
     I3_HVBAT_SOC_MAX: 90.5
     I3_HVBAT_SOC_MIN: 10
   response: |-
-    607F1100962DDBC0379
+    607F1100962DDBC0365
+    607F12103890064FFFF
+- expected_values:
+    I3_HVBAT_SOC: 87
+    I3_HVBAT_SOC_MAX: 90.5
+    I3_HVBAT_SOC_MIN: 10
+  response: |-
+    607F1100962DDBC0366
     607F12103890064FFFF
 - expected_values:
     I3_HVBAT_SOC: 95.4
