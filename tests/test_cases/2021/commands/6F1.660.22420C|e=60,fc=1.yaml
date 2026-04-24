@@ -1,0 +1,9 @@
+command_id: 6F1.660.22420C|e=60,fc=1
+test_cases:
+- expected_values:
+    I3_RANGE: 230
+    I3_RANGE_COMF: 191
+    I3_RANGE_ECO: 230
+  response: |-
+    660F1100B62420C00E6
+    660F12100BF00E600F3
