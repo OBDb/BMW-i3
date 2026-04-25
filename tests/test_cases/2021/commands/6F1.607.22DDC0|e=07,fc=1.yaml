@@ -1,6 +1,18 @@
 command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
 - expected_values:
+    I3_HVBAT_CT_MAX: 15.99
+    I3_HVBAT_CT_MIN: 15
+  response: |-
+    607F1100962DDC005DC
+    607F121063F0639FFFF
+- expected_values:
+    I3_HVBAT_CT_MAX: 15.97
+    I3_HVBAT_CT_MIN: 15.31
+  response: |-
+    607F1100962DDC005FB
+    607F121063D0639FFFF
+- expected_values:
     I3_HVBAT_CT_MAX: 21.85
     I3_HVBAT_CT_MIN: 21.04
   response: |-
