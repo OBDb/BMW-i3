@@ -1,6 +1,34 @@
 command_id: 6F1.660.22420C|e=60,fc=1
 test_cases:
 - expected_values:
+    I3_RANGE: 217
+    I3_RANGE_COMF: 177
+    I3_RANGE_ECO: 213
+  response: |-
+    660F1100B62420C00D5
+    660F12100B100D900EF
+- expected_values:
+    I3_RANGE: 217
+    I3_RANGE_COMF: 180
+    I3_RANGE_ECO: 216
+  response: |-
+    660F1100B62420C00D8
+    660F12100B400D900F1
+- expected_values:
+    I3_RANGE: 218
+    I3_RANGE_COMF: 180
+    I3_RANGE_ECO: 217
+  response: |-
+    660F1100B62420C00D9
+    660F12100B400DA00F3
+- expected_values:
+    I3_RANGE: 218
+    I3_RANGE_COMF: 181
+    I3_RANGE_ECO: 218
+  response: |-
+    660F1100B62420C00DA
+    660F12100B500DA00F3
+- expected_values:
     I3_RANGE: 230
     I3_RANGE_COMF: 191
     I3_RANGE_ECO: 230
