@@ -35,3 +35,10 @@ test_cases:
   response: |-
     660F1100B62420C00E6
     660F12100BF00E600F3
+- expected_values:
+    I3_RANGE: 232
+    I3_RANGE_COMF: 232
+    I3_RANGE_ECO: 234
+  response: |-
+    660F1100B62420C00EA
+    660F12100E800E800EA

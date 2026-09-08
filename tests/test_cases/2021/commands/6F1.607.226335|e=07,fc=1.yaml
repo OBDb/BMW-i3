@@ -5,3 +5,8 @@ test_cases:
   response: |-
     607F110076263350000
     607F121005EFFFFFFFF
+- expected_values:
+    I3_HVBAT_SOH: 96
+  response: |-
+    607F110076263350000
+    607F1210060FFFFFFFF
