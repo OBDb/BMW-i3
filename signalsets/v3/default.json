@@ -17,6 +17,11 @@
     {"id": "I3_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (maximum)"},
     {"id": "I3_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (minimum)"}
   ]},
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DDBF"}, "freq": 5,
+  "signals": [
+    {"id": "I3_HVBAT_CELL_V_MIN", "path": "Engine", "fmt": {           "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Lowest cell voltage"},
+    {"id": "I3_HVBAT_CELL_V_MAX", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Highest cell voltage"}
+  ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
     {"id": "I3_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (min)"},
@@ -51,6 +56,52 @@
     {"id": "I3_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (avg)"},
     {"id": "I3_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
   ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "DE9C"}, "freq": 1,
+  "signals": [
+    {"id": "I3_APP", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Accelerator pedal position"}
+  ]},
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "dbg": true, "cmd": {"22": "DEF5"}, "freq": 5,
+  "signals": [
+    {"id": "I3_CHG_PLUG_ST", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Charging plug state"},
+    {"id": "I3_CHG_CABLE_I", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "amps"   }, "name": "Charging cable current rating"}
+  ]},
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "dbg": true, "cmd": {"22": "DEF6"}, "freq": 5,
+  "signals": [
+    {"id": "I3_CHG_PILOT_ACT",  "path": "Engine", "fmt": {           "len": 8, "max": 1,   "unit": "offon"   }, "name": "Charging pilot signal active"},
+    {"id": "I3_CHG_PILOT_DUTY", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "percent" }, "name": "Charging pilot duty cycle"},
+    {"id": "I3_CHG_PILOT_I",    "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "amps"    }, "name": "Charging current the pilot signal allows"},
+    {"id": "I3_CHG_READY",      "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 1,   "unit": "offon"   }, "name": "Ready to charge"}
+  ]},
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "dbg": true, "cmd": {"22": "DEFA"}, "freq": 30,
+  "signals": [
+    {"id": "I3_DC_PIN_COVER", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "DC charging pin cover open"}
+  ]},
+{ "hdr": "6F1", "rax": "615", "eax": "15", "fcm1": true, "dbg": true, "cmd": {"22": "DE84"}, "freq": 5,
+  "signals": [
+    {"id": "I3_OBC_GRID_HZ",  "path": "Engine", "fmt": {           "len": 8, "max": 63.75, "div": 4, "unit": "hertz"   }, "name": "Charger grid frequency, phase 1"},
+    {"id": "I3_OBC_DERATING", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255,             "unit": "percent" }, "name": "Charger derating"}
+  ]},
+{ "hdr": "6F1", "rax": "615", "eax": "15", "fcm1": true, "dbg": true, "cmd": {"22": "DE85"}, "freq": 5,
+  "signals": [
+    {"id": "I3_OBC_EFF_CYCLE", "path": "Engine", "fmt": {           "len": 8,  "max": 255,   "unit": "percent" }, "name": "Charge cycle efficiency"},
+    {"id": "I3_OBC_EFF_DC",    "path": "Engine", "fmt": {"bix": 8,  "len": 8,  "max": 255,   "unit": "percent" }, "name": "Charger DC efficiency"},
+    {"id": "I3_OBC_PWR",       "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "watts"   }, "name": "Charger HV output power"}
+  ]},
+{ "hdr": "6F1", "rax": "615", "eax": "15", "fcm1": true, "dbg": true, "cmd": {"22": "DE86"}, "freq": 5,
+  "signals": [
+    {"id": "I3_OBC_AC_V_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535,            "unit": "volts" }, "name": "Charger AC voltage, phase 1"},
+    {"id": "I3_OBC_HV_V",   "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 6553,  "div": 10, "unit": "volts" }, "name": "Charger HV DC voltage"},
+    {"id": "I3_OBC_KL30_V", "path": "Engine", "fmt": {"bix": 48, "len": 8,  "max": 25.5,  "div": 10, "unit": "volts" }, "name": "Charger 12V supply voltage"},
+    {"id": "I3_OBC_AC_V_2", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 65535,            "unit": "volts" }, "name": "Charger AC voltage, phase 2"},
+    {"id": "I3_OBC_AC_V_3", "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 65535,            "unit": "volts" }, "name": "Charger AC voltage, phase 3"}
+  ]},
+{ "hdr": "6F1", "rax": "615", "eax": "15", "fcm1": true, "dbg": true, "cmd": {"22": "DE87"}, "freq": 5,
+  "signals": [
+    {"id": "I3_OBC_AC_I_1", "path": "Engine", "fmt": {           "len": 16, "max": 6553,              "div": 10,                "unit": "amps" }, "name": "Charger AC current, phase 1"},
+    {"id": "I3_OBC_HV_I",   "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 6348, "min": -204, "div": 10, "add": -204.7, "unit": "amps" }, "name": "Charger HV DC current"},
+    {"id": "I3_OBC_AC_I_2", "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 6553,              "div": 10,                "unit": "amps" }, "name": "Charger AC current, phase 2"},
+    {"id": "I3_OBC_AC_I_3", "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 6553,              "div": 10,                "unit": "amps" }, "name": "Charger AC current, phase 3"}
+  ]},
 { "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DE00"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
     {"id": "I3_HVBAT_HVPM_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge (hvpm)",  "description": "Battery level reading from the high voltage power module"},
@@ -59,12 +110,86 @@
     {"id": "I3_HVBAT_CHG_CON_EXT",  "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Is charging",             "suggestedMetric": "isCharging"},
     {"id": "I3_HVBAT_CHG_RDY",      "path": "Battery", "fmt": {"bix": 40, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Ready to drive"}
   ]},
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "dbg": true, "cmd": {"22": "DE8A"}, "freq": 1,
+  "signals": [
+    {"id": "I3_EM_I_W",      "path": "Engine", "fmt": {           "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "amps" }, "name": "Drive motor phase W current"},
+    {"id": "I3_EM_I_V",      "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "amps" }, "name": "Drive motor phase V current"},
+    {"id": "I3_EM_I_U",      "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "amps" }, "name": "Drive motor phase U current"},
+    {"id": "I3_EM_I_EXC",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "amps" }, "name": "Drive motor excitation current"},
+    {"id": "I3_EM_INV_I_DC", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "amps" }, "name": "Drive inverter HV DC current"}
+  ]},
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "dbg": true, "cmd": {"22": "DE8C"}, "freq": 5,
+  "signals": [
+    {"id": "I3_INV_T_U",      "path": "Engine",       "fmt": {            "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive inverter phase U temperature"},
+    {"id": "I3_INV_T_V",      "path": "Engine",       "fmt": {"bix": 16,  "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive inverter phase V temperature"},
+    {"id": "I3_INV_T_W",      "path": "Engine",       "fmt": {"bix": 32,  "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive inverter phase W temperature"},
+    {"id": "I3_INV_T_GATE",   "path": "Engine",       "fmt": {"bix": 48,  "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive inverter gate driver temperature"},
+    {"id": "I3_DCDC_T_BOARD", "path": "Transmission", "fmt": {"bix": 64,  "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "DC/DC converter board temperature"},
+    {"id": "I3_OBC_T_BOARD",  "path": "Engine",       "fmt": {"bix": 176, "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "On-board charger board temperature"},
+    {"id": "I3_EME_T_MC0",    "path": "Engine",       "fmt": {"bix": 208, "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive electronics processor 0 temperature"},
+    {"id": "I3_EME_T_MC2",    "path": "Engine",       "fmt": {"bix": 224, "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive electronics processor 2 temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "dbg": true, "cmd": {"22": "DEA6"}, "freq": 5,
+  "signals": [
+    {"id": "I3_EM_T_1", "path": "Engine", "fmt": {           "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive motor temperature 1"},
+    {"id": "I3_EM_T_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive motor temperature 2"}
+  ]},
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "dbg": true, "cmd": {"22": "DEA7"}, "freq": 0.25,
+  "signals": [
+    {"id": "I3_EM_RPM",    "path": "Engine", "fmt": {           "len": 16, "max": 27767, "min": -5000,  "div": 2, "add": -5000,               "unit": "rpm"          }, "name": "Drive motor speed"},
+    {"id": "I3_EM_TQ",     "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 16383, "min": -16384, "div": 2,               "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque, actual"},
+    {"id": "I3_EM_TQ_TGT", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 16383, "min": -16384, "div": 2,               "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque, requested"}
+  ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
     {"id": "I3_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "I3_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "I3_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "I3_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC98"}, "freq": 15,
+  "signals": [
+    {"id": "I3_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front left tire sensor position"},
+    {"id": "I3_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front left tire pressure",                    "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "I3_TT_FL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 127,   "min": -128,                              "sign": true,               "unit": "celsius" },               "name": "Front left tire temperature",      "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "I3_TP_SET_FL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front left tire pressure, set point"},
+    {"id": "I3_TPMS_RX_FL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Front left tire sensor reception"},
+    {"id": "I3_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                          "name": "Front left tire sensor battery life, months"}
+  ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC99"}, "freq": 15,
+  "signals": [
+    {"id": "I3_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front right tire sensor position"},
+    {"id": "I3_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                           "name": "Front right tire pressure",                    "suggestedMetric": "frontRightTirePressure"},
+    {"id": "I3_TT_FR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 127,   "min": -128,                              "sign": true,               "unit": "celsius" },               "name": "Front right tire temperature",      "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "I3_TP_SET_FR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                           "name": "Front right tire pressure, set point"},
+    {"id": "I3_TPMS_RX_FR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Front right tire sensor reception"},
+    {"id": "I3_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                           "name": "Front right tire sensor battery life, months"}
+  ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC9A"}, "freq": 15,
+  "signals": [
+    {"id": "I3_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear left tire sensor position"},
+    {"id": "I3_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear left tire pressure",                    "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "I3_TT_RL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 127,   "min": -128,                              "sign": true,               "unit": "celsius" },               "name": "Rear left tire temperature",      "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "I3_TP_SET_RL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear left tire pressure, set point"},
+    {"id": "I3_TPMS_RX_RL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Rear left tire sensor reception"},
+    {"id": "I3_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Rear left tire sensor battery life, months"}
+  ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC9B"}, "freq": 15,
+  "signals": [
+    {"id": "I3_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear right tire sensor position"},
+    {"id": "I3_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Rear right tire pressure",                    "suggestedMetric": "rearRightTirePressure"},
+    {"id": "I3_TT_RR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 127,   "min": -128,                              "sign": true,               "unit": "celsius" },               "name": "Rear right tire temperature",      "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "I3_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Rear right tire pressure, set point"},
+    {"id": "I3_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Rear right tire sensor reception"},
+    {"id": "I3_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                          "name": "Rear right tire sensor battery life, months"}
+  ]},
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "dbg": true, "cmd": {"22": "DB99"}, "freq": 1,
+  "signals": [
+    {"id": "I3_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
+  ]},
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "dbg": true, "cmd": {"22": "D130"}, "freq": 5,
+  "signals": [
+    {"id": "I3_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Parking brake applied"}
   ]},
 { "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
@@ -105,9 +230,49 @@
   "signals": [
     {"id": "I3_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D129"}, "freq": 30,
+  "signals": [
+    {"id": "I3_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
+    {"id": "I3_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
+    {"id": "I3_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,  "unit": "kilometers"                    }, "name": "Trip computer range"}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D12A"}, "freq": 30,
+  "signals": [
+    {"id": "I3_RBC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553,  "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip average consumption since reset"},
+    {"id": "I3_RBC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,   "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip average speed since reset"},
+    {"id": "I3_RBC_DIST",     "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 65535,             "unit": "kilometers"                    }, "name": "Trip distance since reset"}
+  ]},
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "dbg": true, "cmd": {"22": "D030"}, "freq": 1,
+  "signals": [
+    {"id": "I3_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
+    {"id": "I3_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},
+    {"id": "I3_NBT_WHL_SPD_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 3"},
+    {"id": "I3_NBT_WHL_SPD_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 4"},
+    {"id": "I3_GPS_SPD",       "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Speed from satellite positioning"}
+  ]},
 { "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
     {"id": "I3_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
+  ]},
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "dbg": true, "cmd": {"22": "D85C"}, "freq": 5,
+  "signals": [
+    {"id": "I3_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "dbg": true, "cmd": {"22": "D92C"}, "freq": 5,
+  "signals": [
+    {"id": "I3_HVAC_OFF", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Climate control off"}
+  ]},
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "dbg": true, "cmd": {"22": "D930"}, "freq": 5,
+  "signals": [
+    {"id": "I3_HVAC_AUC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Automatic air recirculation"}
+  ]},
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "dbg": true, "cmd": {"22": "D931"}, "freq": 5,
+  "signals": [
+    {"id": "I3_HVAC_RECIRC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Recirculation"}
+  ]},
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "dbg": true, "cmd": {"22": "D96B"}, "freq": 5,
+  "signals": [
+    {"id": "I3_IHX_AAT", "path": "Engine", "fmt": { "len": 16, "max": 16343, "min": -16424, "div": 2, "add": -40, "sign": true, "unit": "celsius" }, "name": "Outside temperature, climate control"}
   ]}
 ]
 }
