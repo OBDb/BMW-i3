@@ -1,0 +1,52 @@
+command_id: 6F1.615.22DE86|e=15,fc=1
+test_cases:
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 392.5
+    I3_OBC_KL30_V: 13.5
+  response: |-
+    615F1100F62DE860000
+    615F12110680F558786
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 394.8
+    I3_OBC_KL30_V: 12.6
+  response: |-
+    615F1100F62DE860000
+    615F12110680F6C7E7E
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 395.3
+    I3_OBC_KL30_V: 13.6
+  response: |-
+    615F1100F62DE860000
+    615F12110680F718887
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 396.7
+    I3_OBC_KL30_V: 13.6
+  response: |-
+    615F1100F62DE860000
+    615F12110680F7F8887
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 397.3
+    I3_OBC_KL30_V: 13.6
+  response: |-
+    615F1100F62DE860000
+    615F12110680F858887
+    615F12200000000FFFF
