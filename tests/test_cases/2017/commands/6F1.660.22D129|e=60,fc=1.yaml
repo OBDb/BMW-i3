@@ -17,17 +17,17 @@ test_cases:
 - expected_values:
     I3_BC_AVG_CONS: 15.9
     I3_BC_AVG_SPD: 34.5
-    I3_BC_RANGE: 138
-  response: |-
-    660F1100B62D129009F
-    660F1210D7A00000564
-- expected_values:
-    I3_BC_AVG_CONS: 15.9
-    I3_BC_AVG_SPD: 34.5
     I3_BC_RANGE: 121
   response: |-
     660F1100B62D129009F
     660F1210D7A000F04BA
+- expected_values:
+    I3_BC_AVG_CONS: 15.9
+    I3_BC_AVG_SPD: 34.5
+    I3_BC_RANGE: 170
+  response: |-
+    660F1100B62D129009F
+    660F1210D7A008706A4
 - expected_values:
     I3_BC_AVG_CONS: 15.9
     I3_BC_AVG_SPD: 34.5
