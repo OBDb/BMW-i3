@@ -1,0 +1,16 @@
+command_id: 6F1.678.22D930|e=78,fc=1
+test_cases:
+- expected_values:
+    I3_HVAC_AUC: 0
+  response: 678F10462D93000
+- expected_values:
+    I3_HVAC_AUC: 1
+  response: 678F10462D93001
+- expected_values:
+    I3_HVAC_AUC: 1
+  response: |-
+    678F10562D96B0080
+    678F10462D92C00
+    678F10462D85C1E
+    678F10462D93100
+    678F10462D93001
