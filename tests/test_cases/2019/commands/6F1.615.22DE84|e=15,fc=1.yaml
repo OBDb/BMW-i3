@@ -1,0 +1,10 @@
+command_id: 6F1.615.22DE84|e=15,fc=1
+test_cases:
+- expected_values:
+    I3_OBC_DERATING: 100
+    I3_OBC_GRID_HZ: 0
+  response: |-
+    615F1101362DE840000
+    615F121015E64000000
+    615F122000100000000
+    615F1230000FFFFFFFF
