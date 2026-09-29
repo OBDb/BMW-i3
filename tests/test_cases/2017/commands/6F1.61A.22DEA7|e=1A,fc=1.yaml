@@ -7,3 +7,17 @@ test_cases:
   response: |-
     61AF1100A62DEA7376A
     61AF121009E00A205FF
+- expected_values:
+    I3_EM_RPM: 4036.5
+    I3_EM_TQ: 18
+    I3_EM_TQ_TGT: 18.5
+  response: |-
+    61AF1100A62DEA74699
+    61AF1210024002505FF
+- expected_values:
+    I3_EM_RPM: 4305.5
+    I3_EM_TQ: 15
+    I3_EM_TQ_TGT: 15
+  response: |-
+    61AF1100A62DEA748B3
+    61AF121001E001E05FF

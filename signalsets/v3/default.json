@@ -118,7 +118,7 @@
     {"id": "I3_EM_I_EXC",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "amps" }, "name": "Drive motor excitation current"},
     {"id": "I3_EM_INV_I_DC", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "amps" }, "name": "Drive inverter HV DC current"}
   ]},
-{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DE8C"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DE8C"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "I3_INV_T_U",      "path": "Engine",       "fmt": {            "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive inverter phase U temperature"},
     {"id": "I3_INV_T_V",      "path": "Engine",       "fmt": {"bix": 16,  "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive inverter phase V temperature"},
@@ -129,7 +129,7 @@
     {"id": "I3_EME_T_MC0",    "path": "Engine",       "fmt": {"bix": 208, "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive electronics processor 0 temperature"},
     {"id": "I3_EME_T_MC2",    "path": "Engine",       "fmt": {"bix": 224, "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive electronics processor 2 temperature"}
   ]},
-{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DEA6"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "6F1", "rax": "61A", "eax": "1A", "fcm1": true, "cmd": {"22": "DEA6"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "I3_EM_T_1", "path": "Engine", "fmt": {           "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive motor temperature 1"},
     {"id": "I3_EM_T_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 511, "min": -511, "mul": 39, "div": 2500, "sign": true, "unit": "celsius" }, "name": "Drive motor temperature 2"}
