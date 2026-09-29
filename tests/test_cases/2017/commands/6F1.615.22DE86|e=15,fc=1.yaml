@@ -1,0 +1,92 @@
+command_id: 6F1.615.22DE86|e=15,fc=1
+test_cases:
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 355.3
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680DE18B8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 355.7
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680DE58B8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 355.8
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680DE68B8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 362.3
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680E278B8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 366.2
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680E4E8B8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 366.5
+    I3_OBC_KL30_V: 13.8
+  response: |-
+    615F1100F62DE860000
+    615F12110680E518A8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 370.9
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680E7D8B8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 370.9
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680E7D8B8B
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 372.1
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680E898B8A
+    615F12200000000FFFF

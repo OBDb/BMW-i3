@@ -1,0 +1,9 @@
+command_id: 6F1.61A.22DEA7|e=1A,fc=1
+test_cases:
+- expected_values:
+    I3_EM_RPM: 2093
+    I3_EM_TQ: 79
+    I3_EM_TQ_TGT: 81
+  response: |-
+    61AF1100A62DEA7376A
+    61AF121009E00A205FF

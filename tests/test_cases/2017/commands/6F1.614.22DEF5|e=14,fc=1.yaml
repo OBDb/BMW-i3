@@ -1,0 +1,10 @@
+command_id: 6F1.614.22DEF5|e=14,fc=1
+test_cases:
+- expected_values:
+    I3_CHG_CABLE_I: 255
+    I3_CHG_PLUG_ST: 0
+  response: 614F10562DEF500FF
+- expected_values:
+    I3_CHG_CABLE_I: 255
+    I3_CHG_PLUG_ST: 1
+  response: 614F10562DEF501FF
