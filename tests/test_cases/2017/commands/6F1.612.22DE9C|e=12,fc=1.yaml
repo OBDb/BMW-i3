@@ -31,6 +31,11 @@ test_cases:
     612F1100962DE9C01A1
     612F12100D20257FFFF
 - expected_values:
+    I3_APP: 44.4375
+  response: |-
+    612F1100962DE9C01CC
+    612F12100E702C7FFFF
+- expected_values:
     I3_APP: 62.4375
   response: |-
     612F1100962DE9C0241
