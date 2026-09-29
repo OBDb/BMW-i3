@@ -1,23 +1,8 @@
 command_id: 6F1.678.22D85C|e=78,fc=1
 test_cases:
 - expected_values:
-    I3_CABIN_T: 14
-  response: 678F10462D85C0E
+    I3_CABIN_T: 12
+  response: 678F10462D85C0C
 - expected_values:
-    I3_CABIN_T: 16
-  response: 678F10462D85C10
-- expected_values:
-    I3_CABIN_T: 19
-  response: 678F10462D85C13
-- expected_values:
-    I3_CABIN_T: 20
-  response: 678F10462D85C14
-- expected_values:
-    I3_CABIN_T: 21
-  response: 678F10462D85C15
-- expected_values:
-    I3_CABIN_T: 22
-  response: 678F10462D85C16
-- expected_values:
-    I3_CABIN_T: 24
-  response: 678F10462D85C18
+    I3_CABIN_T: 32
+  response: 678F10462D85C20
