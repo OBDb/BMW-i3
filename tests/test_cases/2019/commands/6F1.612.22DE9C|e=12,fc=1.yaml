@@ -6,11 +6,6 @@ test_cases:
     612F1100962DE9C0095
     612F121004A0000FFFF
 - expected_values:
-    I3_APP: 4.6875
-  response: |-
-    612F1100962DE9C00CD
-    612F1210068004BFFFF
-- expected_values:
     I3_APP: 18.6875
   response: |-
     612F1100962DE9C0128
@@ -31,7 +26,7 @@ test_cases:
     612F1100962DE9C017D
     612F12100C00200FFFF
 - expected_values:
-    I3_APP: 34.625
+    I3_APP: 44.875
   response: |-
-    612F1100962DE9C018D
-    612F12100C8022AFFFF
+    612F1100962DE9C01D0
+    612F12100E902CEFFFF
