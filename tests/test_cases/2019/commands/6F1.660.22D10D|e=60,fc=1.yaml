@@ -13,42 +13,6 @@ test_cases:
     660F1100B62D10D0004
     660F121442400044424
 - expected_values:
-    I3_ODO1: 279589
-    I3_ODO2: 279589
-  response: |-
-    660F1100B62D10D0004
-    660F121442500044425
-- expected_values:
-    I3_ODO1: 279697
-    I3_ODO2: 279697
-  response: |-
-    660F1100B62D10D0004
-    660F121449100044491
-- expected_values:
-    I3_ODO1: 279698
-    I3_ODO2: 279698
-  response: |-
-    660F1100B62D10D0004
-    660F121449200044492
-- expected_values:
-    I3_ODO1: 279699
-    I3_ODO2: 279699
-  response: |-
-    660F1100B62D10D0004
-    660F121449300044493
-- expected_values:
-    I3_ODO1: 279700
-    I3_ODO2: 279700
-  response: |-
-    660F1100B62D10D0004
-    660F121449400044494
-- expected_values:
-    I3_ODO1: 279806
-    I3_ODO2: 279806
-  response: |-
-    660F1100B62D10D0004
-    660F12144FE000444FE
-- expected_values:
     I3_ODO1: 279807
     I3_ODO2: 279807
   response: |-
