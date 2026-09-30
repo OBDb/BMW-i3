@@ -8,9 +8,9 @@ test_cases:
     607F1210FF9FFFFFFFF
 - expected_values:
     I3_HVBAT_CELL_V_MAX: 4.104
-    I3_HVBAT_CELL_V_MIN: 4.1
+    I3_HVBAT_CELL_V_MIN: 4.097
   response: |-
-    607F1100762DDBF1004
+    607F1100762DDBF1001
     607F1211008FFFFFFFF
 - expected_values:
     I3_HVBAT_CELL_V_MAX: 4.111
