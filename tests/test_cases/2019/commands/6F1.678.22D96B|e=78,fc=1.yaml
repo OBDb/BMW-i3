@@ -1,6 +1,12 @@
 command_id: 6F1.678.22D96B|e=78,fc=1
 test_cases:
 - expected_values:
+    I3_IHX_AAT: 19.5
+  response: 678F10562D96B0077
+- expected_values:
+    I3_IHX_AAT: 20
+  response: 678F10562D96B0078
+- expected_values:
     I3_IHX_AAT: 23
   response: 678F10562D96B007E
 - expected_values:

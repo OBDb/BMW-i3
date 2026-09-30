@@ -15,6 +15,13 @@ test_cases:
     61AF1100A62DEA72710
     61AF1210000000005FF
 - expected_values:
+    I3_EM_RPM: 40
+    I3_EM_TQ: -5
+    I3_EM_TQ_TGT: -4
+  response: |-
+    61AF1100A62DEA72760
+    61AF121FFF6FFF805FF
+- expected_values:
     I3_EM_RPM: 720.5
     I3_EM_TQ: 127.5
     I3_EM_TQ_TGT: 138
@@ -22,30 +29,16 @@ test_cases:
     61AF1100A62DEA72CB1
     61AF12100FF011405FF
 - expected_values:
-    I3_EM_RPM: 820
-    I3_EM_TQ: 15
-    I3_EM_TQ_TGT: 15
+    I3_EM_RPM: 4844
+    I3_EM_TQ: 101.5
+    I3_EM_TQ_TGT: 102
   response: |-
-    61AF1100A62DEA72D78
-    61AF121001E001E05FF
+    61AF1100A62DEA74CE8
+    61AF12100CB00CC05FF
 - expected_values:
-    I3_EM_RPM: 1882
-    I3_EM_TQ: 77.5
-    I3_EM_TQ_TGT: 79
+    I3_EM_RPM: 7707
+    I3_EM_TQ: 7
+    I3_EM_TQ_TGT: 7.5
   response: |-
-    61AF1100A62DEA735C4
-    61AF121009B009E05FF
-- expected_values:
-    I3_EM_RPM: 2638.5
-    I3_EM_TQ: -11.5
-    I3_EM_TQ_TGT: -11.5
-  response: |-
-    61AF1100A62DEA73BAD
-    61AF121FFE9FFE905FF
-- expected_values:
-    I3_EM_RPM: 4014
-    I3_EM_TQ: 9
-    I3_EM_TQ_TGT: 9.5
-  response: |-
-    61AF1100A62DEA7466C
-    61AF1210012001305FF
+    61AF1100A62DEA76346
+    61AF121000E000F05FF
