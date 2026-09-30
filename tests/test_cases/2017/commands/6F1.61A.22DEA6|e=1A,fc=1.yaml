@@ -12,3 +12,9 @@ test_cases:
   response: |-
     61AF1100762DEA6087D
     61AF121086AFFFFFFFF
+- expected_values:
+    I3_EM_T_1: 44.5536
+    I3_EM_T_2: 44.6004
+  response: |-
+    61AF1100762DEA60B28
+    61AF1210B2BFFFFFFFF
