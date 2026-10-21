@@ -22,6 +22,13 @@ test_cases:
     660F1100B62420C0062
     660F121005B00650070
 - expected_values:
+    I3_RANGE: 175
+    I3_RANGE_COMF: 131
+    I3_RANGE_ECO: 170
+  response: |-
+    660F1100B62420C00AA
+    660F121008300AF00B4
+- expected_values:
     I3_RANGE: 184
     I3_RANGE_COMF: 131
     I3_RANGE_ECO: 179
