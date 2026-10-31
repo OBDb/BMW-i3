@@ -19,6 +19,12 @@ test_cases:
     607F1100762DDBF0EEA
     607F1210EEFFFFFFFFF
 - expected_values:
+    I3_HVBAT_CELL_V_MAX: 3.854
+    I3_HVBAT_CELL_V_MIN: 3.841
+  response: |-
+    607F1100762DDBF0F01
+    607F1210F0EFFFFFFFF
+- expected_values:
     I3_HVBAT_CELL_V_MAX: 4.083
     I3_HVBAT_CELL_V_MIN: 4.076
   response: |-

@@ -14,6 +14,16 @@ test_cases:
     I3_OBC_AC_V_1: 0
     I3_OBC_AC_V_2: 0
     I3_OBC_AC_V_3: 0
+    I3_OBC_HV_V: 369.6
+    I3_OBC_KL30_V: 13.9
+  response: |-
+    615F1100F62DE860000
+    615F12110680E708B8A
+    615F12200000000FFFF
+- expected_values:
+    I3_OBC_AC_V_1: 0
+    I3_OBC_AC_V_2: 0
+    I3_OBC_AC_V_3: 0
     I3_OBC_HV_V: 370.9
     I3_OBC_KL30_V: 13.9
   response: |-

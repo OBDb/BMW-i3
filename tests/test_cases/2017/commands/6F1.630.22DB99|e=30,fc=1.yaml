@@ -7,5 +7,5 @@ test_cases:
     I3_STEER_TQ: -1.28906
   response: 630F10662DB99FF5B00
 - expected_values:
-    I3_STEER_TQ: -0.07031
-  response: 630F10662DB99FFF700
+    I3_STEER_TQ: -0.03125
+  response: 630F10662DB99FFFC00
