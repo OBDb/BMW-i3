@@ -10,6 +10,9 @@ test_cases:
     I3_IHX_AAT: 17.5
   response: 678F10562D96B0073
 - expected_values:
+    I3_IHX_AAT: 22.5
+  response: 678F10562D96B007D
+- expected_values:
     I3_IHX_AAT: 28.5
   response: 678F10562D96B0089
 - expected_values:

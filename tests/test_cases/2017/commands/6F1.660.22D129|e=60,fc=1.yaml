@@ -35,3 +35,10 @@ test_cases:
   response: |-
     660F1100B62D129009F
     660F1210D7AFFFD04B0
+- expected_values:
+    I3_BC_AVG_CONS: 17.8
+    I3_BC_AVG_SPD: 31.2
+    I3_BC_RANGE: 124
+  response: |-
+    660F1100B62D12900B2
+    660F1210C30FFFD04D8
