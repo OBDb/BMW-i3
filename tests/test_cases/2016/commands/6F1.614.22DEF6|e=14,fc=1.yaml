@@ -1,0 +1,10 @@
+command_id: 6F1.614.22DEF6|e=14,fc=1
+test_cases:
+- expected_values:
+    I3_CHG_PILOT_ACT: 0
+    I3_CHG_PILOT_DUTY: 0
+    I3_CHG_PILOT_I: 0
+    I3_CHG_READY: 0
+  response: |-
+    614F1100A62DEF60000
+    614F1210000000007FF

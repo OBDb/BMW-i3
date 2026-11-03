@@ -1,0 +1,7 @@
+command_id: 6F1.612.22DE9C|e=12,fc=1
+test_cases:
+- expected_values:
+    I3_APP: 0
+  response: |-
+    612F1100962DE9C0095
+    612F121004B0000FFFF
