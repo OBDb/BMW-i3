@@ -1,0 +1,10 @@
+command_id: 6F1.660.22D12A|e=60,fc=1
+test_cases:
+- expected_values:
+    I3_RBC_AVG_CONS: 6553
+    I3_RBC_AVG_SPD: 655
+    I3_RBC_DIST: 65533
+  response: |-
+    660F1100D62D12AFFFD
+    660F121FFFDFDFD0000
+    660F122FFFDFFFFFFFF
