@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     I3_CABIN_T: 16
   response: 678F10462D85C10
+- expected_values:
+    I3_CABIN_T: 17
+  response: 678F10462D85C11
