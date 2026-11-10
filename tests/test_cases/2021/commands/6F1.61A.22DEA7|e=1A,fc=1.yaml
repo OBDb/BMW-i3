@@ -1,0 +1,72 @@
+command_id: 6F1.61A.22DEA7|e=1A,fc=1
+test_cases:
+- expected_values:
+    I3_EM_RPM: 0
+    I3_EM_TQ: 0
+    I3_EM_TQ_TGT: 0
+  response: |-
+    61AF1100A62DEA72710
+    61AF1210000000005FF
+- expected_values:
+    I3_EM_RPM: 0
+    I3_EM_TQ: 0
+    I3_EM_TQ_TGT: 1
+  response: |-
+    61AF1100A62DEA72710
+    61AF1210000000205FF
+- expected_values:
+    I3_EM_RPM: 50.5
+    I3_EM_TQ: -11.5
+    I3_EM_TQ_TGT: -11
+  response: |-
+    61AF1100A62DEA72775
+    61AF121FFE9FFEA05FF
+- expected_values:
+    I3_EM_RPM: 668
+    I3_EM_TQ: 54
+    I3_EM_TQ_TGT: 53.5
+  response: |-
+    61AF1100A62DEA72C48
+    61AF121006C006B05FF
+- expected_values:
+    I3_EM_RPM: 888.5
+    I3_EM_TQ: 2.5
+    I3_EM_TQ_TGT: 5
+  response: |-
+    61AF1100A62DEA72E01
+    61AF1210005000A05FF
+- expected_values:
+    I3_EM_RPM: 971
+    I3_EM_TQ: 153
+    I3_EM_TQ_TGT: 162.5
+  response: |-
+    61AF1100A62DEA72EA6
+    61AF1210132014505FF
+- expected_values:
+    I3_EM_RPM: 2139
+    I3_EM_TQ: 3.5
+    I3_EM_TQ_TGT: 3.5
+  response: |-
+    61AF1100A62DEA737C6
+    61AF1210007000705FF
+- expected_values:
+    I3_EM_RPM: 2940
+    I3_EM_TQ: -19.5
+    I3_EM_TQ_TGT: -19.5
+  response: |-
+    61AF1100A62DEA73E08
+    61AF121FFD9FFD905FF
+- expected_values:
+    I3_EM_RPM: 3117.5
+    I3_EM_TQ: 4
+    I3_EM_TQ_TGT: 5
+  response: |-
+    61AF1100A62DEA73F6B
+    61AF1210008000A05FF
+- expected_values:
+    I3_EM_RPM: 3501.5
+    I3_EM_TQ: 0
+    I3_EM_TQ_TGT: 0
+  response: |-
+    61AF1100A62DEA7426B
+    61AF1210000000005FF
