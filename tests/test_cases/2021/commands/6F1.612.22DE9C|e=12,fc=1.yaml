@@ -1,0 +1,42 @@
+command_id: 6F1.612.22DE9C|e=12,fc=1
+test_cases:
+- expected_values:
+    I3_APP: 0
+  response: |-
+    612F1100962DE9C0092
+    612F12100490000FFFF
+- expected_values:
+    I3_APP: 6.125
+  response: |-
+    612F1100962DE9C00D8
+    612F121006B0062FFFF
+- expected_values:
+    I3_APP: 17.4375
+  response: |-
+    612F1100962DE9C011F
+    612F121008F0117FFFF
+- expected_values:
+    I3_APP: 20.5625
+  response: |-
+    612F1100962DE9C0133
+    612F121009A0149FFFF
+- expected_values:
+    I3_APP: 25.1875
+  response: |-
+    612F1100962DE9C0150
+    612F12100A80193FFFF
+- expected_values:
+    I3_APP: 28.75
+  response: |-
+    612F1100962DE9C0166
+    612F12100B201CCFFFF
+- expected_values:
+    I3_APP: 38.6875
+  response: |-
+    612F1100962DE9C01A5
+    612F12100D3026BFFFF
+- expected_values:
+    I3_APP: 38.8125
+  response: |-
+    612F1100962DE9C01A9
+    612F12100D6026DFFFF

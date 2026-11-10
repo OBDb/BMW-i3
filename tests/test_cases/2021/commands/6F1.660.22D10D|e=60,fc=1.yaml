@@ -13,12 +13,6 @@ test_cases:
     660F1100B62D10D0000
     660F121982000009820
 - expected_values:
-    I3_ODO1: 38980
-    I3_ODO2: 38980
-  response: |-
-    660F1100B62D10D0000
-    660F121984400009844
-- expected_values:
     I3_ODO1: 49179
     I3_ODO2: 49179
   response: |-
@@ -36,3 +30,9 @@ test_cases:
   response: |-
     660F1100B62D10D0000
     660F121F83C0000F83C
+- expected_values:
+    I3_ODO1: 64493
+    I3_ODO2: 64493
+  response: |-
+    660F1100B62D10D0000
+    660F121FBED0000FBED
