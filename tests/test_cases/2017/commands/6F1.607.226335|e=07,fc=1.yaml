@@ -15,3 +15,13 @@ test_cases:
   response: |-
     607F110076263350000
     607F121005AFFFFFFFF
+- expected_values:
+    I3_HVBAT_SOH: 90
+  response: |-
+    607F110076263358910
+    607F121005AFFFFFFFF
+- expected_values:
+    I3_HVBAT_SOH: 90
+  response: |-
+    607F110076263358CB6
+    607F121005AFFFFFFFF
