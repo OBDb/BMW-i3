@@ -232,9 +232,9 @@
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2022 },
   "signals": [
-    {"id": "I3_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
-    {"id": "I3_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
-    {"id": "I3_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,  "unit": "kilometers"                    }, "name": "Trip computer range"}
+    {"id": "I3_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "nullmax": 6553, "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
+    {"id": "I3_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "nullmax": 655,  "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
+    {"id": "I3_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,                   "unit": "kilometers"                    }, "name": "Trip computer range"}
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2022 },
   "signals": [
