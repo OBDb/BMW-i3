@@ -17,7 +17,7 @@
     {"id": "I3_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (maximum)"},
     {"id": "I3_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (minimum)"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBF"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBF"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2018, 2020], "from": 2022 },
   "signals": [
     {"id": "I3_HVBAT_CELL_V_MIN", "path": "Engine", "fmt": {           "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Lowest cell voltage"},
     {"id": "I3_HVBAT_CELL_V_MAX", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Highest cell voltage"}
@@ -56,7 +56,7 @@
     {"id": "I3_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,                                  "unit": "volts"       }, "name": "Cell OCV (avg)"},
     {"id": "I3_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,                                  "unit": "scalar"      }, "name": "Aging factor"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "DE9C"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "DE9C"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018, 2020], "from": 2022 },
   "signals": [
     {"id": "I3_APP", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
