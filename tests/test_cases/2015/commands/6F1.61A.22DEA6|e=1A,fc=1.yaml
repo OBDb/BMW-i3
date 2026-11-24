@@ -1,11 +1,23 @@
 command_id: 6F1.61A.22DEA6|e=1A,fc=1
 test_cases:
 - expected_values:
-    I3_EM_T_1: 23.1504
-    I3_EM_T_2: 23.868
+    I3_EM_T_1: 16.926
+    I3_EM_T_2: 17.2692
   response: |-
-    61AF1100762DEA605CC
-    61AF12105FAFFFFFFFF
+    61AF1100762DEA6043D
+    61AF1210453FFFFFFFF
+- expected_values:
+    I3_EM_T_1: 18.486
+    I3_EM_T_2: 18.7356
+  response: |-
+    61AF1100762DEA604A1
+    61AF12104B1FFFFFFFF
+- expected_values:
+    I3_EM_T_1: 20.4204
+    I3_EM_T_2: 20.7012
+  response: |-
+    61AF1100762DEA6051D
+    61AF121052FFFFFFFFF
 - expected_values:
     I3_EM_T_1: 23.4156
     I3_EM_T_2: 24.102
@@ -13,47 +25,11 @@ test_cases:
     61AF1100762DEA605DD
     61AF1210609FFFFFFFF
 - expected_values:
-    I3_EM_T_1: 23.4156
-    I3_EM_T_2: 24.1488
-  response: |-
-    61AF1100762DEA605DD
-    61AF121060CFFFFFFFF
-- expected_values:
     I3_EM_T_1: 24.024
     I3_EM_T_2: 24.5856
   response: |-
     61AF1100762DEA60604
     61AF1210628FFFFFFFF
-- expected_values:
-    I3_EM_T_1: 24.3672
-    I3_EM_T_2: 24.8664
-  response: |-
-    61AF1100762DEA6061A
-    61AF121063AFFFFFFFF
-- expected_values:
-    I3_EM_T_1: 24.6012
-    I3_EM_T_2: 25.1004
-  response: |-
-    61AF1100762DEA60629
-    61AF1210649FFFFFFFF
-- expected_values:
-    I3_EM_T_1: 24.9756
-    I3_EM_T_2: 25.5216
-  response: |-
-    61AF1100762DEA60641
-    61AF1210664FFFFFFFF
-- expected_values:
-    I3_EM_T_1: 25.038
-    I3_EM_T_2: 25.5216
-  response: |-
-    61AF1100762DEA60645
-    61AF1210664FFFFFFFF
-- expected_values:
-    I3_EM_T_1: 25.0536
-    I3_EM_T_2: 25.5996
-  response: |-
-    61AF1100762DEA60646
-    61AF1210669FFFFFFFF
 - expected_values:
     I3_EM_T_1: 25.194
     I3_EM_T_2: 25.8336

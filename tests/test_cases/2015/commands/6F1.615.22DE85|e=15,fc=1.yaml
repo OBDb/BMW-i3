@@ -10,6 +10,20 @@ test_cases:
 - expected_values:
     I3_OBC_EFF_CYCLE: 0
     I3_OBC_EFF_DC: 0
+    I3_OBC_PWR: 32
+  response: |-
+    615F1100762DE850000
+    615F1210020FFFFFFFF
+- expected_values:
+    I3_OBC_EFF_CYCLE: 0
+    I3_OBC_EFF_DC: 0
+    I3_OBC_PWR: 33
+  response: |-
+    615F1100762DE850000
+    615F1210021FFFFFFFF
+- expected_values:
+    I3_OBC_EFF_CYCLE: 0
+    I3_OBC_EFF_DC: 0
     I3_OBC_PWR: 37
   response: |-
     615F1100762DE850000

@@ -1,5 +1,17 @@
 command_id: 6F1.678.22D85C|e=78,fc=1
 test_cases:
 - expected_values:
+    I3_CABIN_T: 10
+  response: 678F10462D85C0A
+- expected_values:
+    I3_CABIN_T: 11
+  response: 678F10462D85C0B
+- expected_values:
+    I3_CABIN_T: 12
+  response: 678F10462D85C0C
+- expected_values:
+    I3_CABIN_T: 13
+  response: 678F10462D85C0D
+- expected_values:
     I3_CABIN_T: 17
   response: 678F10462D85C11
