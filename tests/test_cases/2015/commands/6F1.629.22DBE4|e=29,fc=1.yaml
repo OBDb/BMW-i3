@@ -21,6 +21,16 @@ test_cases:
     629F122000003030303
     629F1230064646464FF
 - expected_values:
+    I3_FL_SPD: 0.2
+    I3_FR_SPD: 0.17
+    I3_RL_SPD: 0.18
+    I3_RR_SPD: 0.19
+  response: |-
+    629F1101662DBE40014
+    629F121001100120013
+    629F122000001010101
+    629F1230164646464FF
+- expected_values:
     I3_FL_SPD: 65.18
     I3_FR_SPD: 65.24
     I3_RL_SPD: 65.26

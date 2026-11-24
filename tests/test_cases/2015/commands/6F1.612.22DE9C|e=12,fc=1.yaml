@@ -5,3 +5,28 @@ test_cases:
   response: |-
     612F1100962DE9C0094
     612F121004B0000FFFF
+- expected_values:
+    I3_APP: 22.0625
+  response: |-
+    612F1100962DE9C013D
+    612F12100A00161FFFF
+- expected_values:
+    I3_APP: 49.5625
+  response: |-
+    612F1100962DE9C01EE
+    612F12100F80319FFFF
+- expected_values:
+    I3_APP: 50.9375
+  response: |-
+    612F1100962DE9C01F7
+    612F12100FC032FFFFF
+- expected_values:
+    I3_APP: 51.375
+  response: |-
+    612F1100962DE9C01FA
+    612F12100FE0336FFFF
+- expected_values:
+    I3_APP: 51.6875
+  response: |-
+    612F1100962DE9C01FC
+    612F12100FF033BFFFF

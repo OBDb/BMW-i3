@@ -1,0 +1,16 @@
+command_id: 6F1.615.22DE87|e=15,fc=1
+test_cases:
+- expected_values:
+    I3_OBC_AC_I_1: 0
+    I3_OBC_HV_I: 0
+  response: |-
+    615F1100D62DE870000
+    615F121000007FF0000
+    615F1220000FFFFFFFF
+- expected_values:
+    I3_OBC_AC_I_1: 0
+    I3_OBC_HV_I: 0.1
+  response: |-
+    615F1100D62DE870000
+    615F121000008000000
+    615F1220000FFFFFFFF
