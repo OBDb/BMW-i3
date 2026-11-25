@@ -1,17 +1,11 @@
 command_id: 6F1.61A.22DEA6|e=1A,fc=1
 test_cases:
 - expected_values:
-    I3_EM_T_1: 16.926
-    I3_EM_T_2: 17.2692
+    I3_EM_T_1: 3.4164
+    I3_EM_T_2: 3.4944
   response: |-
-    61AF1100762DEA6043D
-    61AF1210453FFFFFFFF
-- expected_values:
-    I3_EM_T_1: 18.486
-    I3_EM_T_2: 18.7356
-  response: |-
-    61AF1100762DEA604A1
-    61AF12104B1FFFFFFFF
+    61AF1100762DEA600DB
+    61AF12100E0FFFFFFFF
 - expected_values:
     I3_EM_T_1: 20.4204
     I3_EM_T_2: 20.7012
