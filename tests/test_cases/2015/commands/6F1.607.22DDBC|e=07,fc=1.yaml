@@ -23,48 +23,6 @@ test_cases:
     607F1100962DDBC01FA
     607F12103340050FFFF
 - expected_values:
-    I3_HVBAT_SOC: 71.6
-    I3_HVBAT_SOC_MAX: 72.5
-    I3_HVBAT_SOC_MIN: 8
-  response: |-
-    607F1100962DDBC02CC
-    607F12102D50050FFFF
-- expected_values:
-    I3_HVBAT_SOC: 71.7
-    I3_HVBAT_SOC_MAX: 72.5
-    I3_HVBAT_SOC_MIN: 8
-  response: |-
-    607F1100962DDBC02CD
-    607F12102D50050FFFF
-- expected_values:
-    I3_HVBAT_SOC: 71.8
-    I3_HVBAT_SOC_MAX: 72.5
-    I3_HVBAT_SOC_MIN: 8
-  response: |-
-    607F1100962DDBC02CE
-    607F12102D50050FFFF
-- expected_values:
-    I3_HVBAT_SOC: 71.9
-    I3_HVBAT_SOC_MAX: 72.5
-    I3_HVBAT_SOC_MIN: 8
-  response: |-
-    607F1100962DDBC02CF
-    607F12102D50050FFFF
-- expected_values:
-    I3_HVBAT_SOC: 72
-    I3_HVBAT_SOC_MAX: 72.5
-    I3_HVBAT_SOC_MIN: 8
-  response: |-
-    607F1100962DDBC02D0
-    607F12102D50050FFFF
-- expected_values:
-    I3_HVBAT_SOC: 72.1
-    I3_HVBAT_SOC_MAX: 72.5
-    I3_HVBAT_SOC_MIN: 8
-  response: |-
-    607F1100962DDBC02D1
-    607F12102D50050FFFF
-- expected_values:
     I3_HVBAT_SOC: 92.8
     I3_HVBAT_SOC_MAX: 72.5
     I3_HVBAT_SOC_MIN: 8

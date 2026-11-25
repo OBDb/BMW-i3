@@ -1,6 +1,12 @@
 command_id: 6F1.607.22DDBF|e=07,fc=1
 test_cases:
 - expected_values:
+    I3_HVBAT_CELL_V_MAX: 3.702
+    I3_HVBAT_CELL_V_MIN: 3.672
+  response: |-
+    607F1100762DDBF0E58
+    607F1210E76FFFFFFFF
+- expected_values:
     I3_HVBAT_CELL_V_MAX: 3.724
     I3_HVBAT_CELL_V_MIN: 3.697
   response: |-

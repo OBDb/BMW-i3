@@ -37,11 +37,11 @@ test_cases:
     660F1211900FFFD0208
 - expected_values:
     I3_BC_AVG_CONS: 15.7
-    I3_BC_AVG_SPD: 63.9
-    I3_BC_RANGE: 52
+    I3_BC_AVG_SPD: 63.7
+    I3_BC_RANGE: 89
   response: |-
     660F1100B62D129009D
-    660F12118F600000208
+    660F12118E2006C037A
 - expected_values:
     I3_BC_AVG_CONS: 15.7
     I3_BC_AVG_SPD: 64
@@ -49,10 +49,3 @@ test_cases:
   response: |-
     660F1100B62D129009D
     660F121190000000208
-- expected_values:
-    I3_BC_AVG_CONS: 15.7
-    I3_BC_AVG_SPD: 64
-    I3_BC_RANGE: 55
-  response: |-
-    660F1100B62D129009D
-    660F1211900FFFD0226
