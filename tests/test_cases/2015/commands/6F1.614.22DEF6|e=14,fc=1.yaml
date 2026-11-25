@@ -8,3 +8,11 @@ test_cases:
   response: |-
     614F1100A62DEF60000
     614F1210000000007FF
+- expected_values:
+    I3_CHG_PILOT_ACT: 1
+    I3_CHG_PILOT_DUTY: 67
+    I3_CHG_PILOT_I: 40
+    I3_CHG_READY: 0
+  response: |-
+    614F1100A62DEF60143
+    614F121280003E857FF
