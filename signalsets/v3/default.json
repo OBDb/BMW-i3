@@ -242,7 +242,7 @@
     {"id": "I3_RBC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,   "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip average speed since reset"},
     {"id": "I3_RBC_DIST",     "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 65535,             "unit": "kilometers"                    }, "name": "Trip distance since reset"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018], "from": 2020 },
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2020], "from": 2022 },
   "signals": [
     {"id": "I3_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
     {"id": "I3_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},
