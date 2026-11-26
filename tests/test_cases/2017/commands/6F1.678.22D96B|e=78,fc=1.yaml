@@ -1,32 +1,8 @@
 command_id: 6F1.678.22D96B|e=78,fc=1
 test_cases:
 - expected_values:
-    I3_IHX_AAT: 16
-  response: 678F10562D96B0070
-- expected_values:
-    I3_IHX_AAT: 17
-  response: 678F10562D96B0072
-- expected_values:
-    I3_IHX_AAT: 17.5
-  response: 678F10562D96B0073
-- expected_values:
-    I3_IHX_AAT: 22.5
-  response: 678F10562D96B007D
-- expected_values:
-    I3_IHX_AAT: 28.5
-  response: 678F10562D96B0089
-- expected_values:
-    I3_IHX_AAT: 29
-  response: 678F10562D96B008A
-- expected_values:
-    I3_IHX_AAT: 29.5
-  response: 678F10562D96B008B
-- expected_values:
-    I3_IHX_AAT: 30
-  response: 678F10562D96B008C
-- expected_values:
-    I3_IHX_AAT: 30.5
-  response: 678F10562D96B008D
+    I3_IHX_AAT: 15
+  response: 678F10562D96B006E
 - expected_values:
     I3_IHX_AAT: 31
   response: 678F10562D96B008E
