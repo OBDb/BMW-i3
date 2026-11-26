@@ -1,6 +1,20 @@
 command_id: 6F1.629.22DC9A|e=29,fc=1
 test_cases:
 - expected_values:
+    I3_TPMS_BAT_RL: 59
+    I3_TPMS_POS_RL: 2
+    I3_TPMS_RX_RL: 0
+    I3_TP_RL: 6.3
+    I3_TP_SET_RL: 2.65
+    I3_TT_RL: 127
+  response: |-
+    629F1102062DC9ACFA9
+    629F121F036029C187F
+    629F1225A0AFFFF0000
+    629F123003B00030000
+    629F124FFFF1A03FFFF
+    629F125FF0000FFFFFF
+- expected_values:
     I3_TPMS_BAT_RL: 48
     I3_TPMS_POS_RL: 2
     I3_TPMS_RX_RL: 27
